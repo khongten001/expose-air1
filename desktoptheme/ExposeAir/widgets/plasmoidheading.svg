@@ -52,7 +52,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.2974711"
-     inkscape:cx="100.0575"
+     inkscape:cx="103.39217"
      inkscape:cy="50.401215"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -100,11 +100,11 @@
        height="32"
        width="32"
        id="header-center"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="header-bottom"
        width="6"
        height="32"
@@ -116,11 +116,11 @@
        height="32"
        width="6"
        id="header-top"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="header-left"
        width="32"
        height="6"
@@ -132,11 +132,11 @@
        height="6"
        width="32"
        id="header-right"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="header-bottomleft"
        width="6"
        height="6"
@@ -148,11 +148,11 @@
        height="6"
        width="6"
        id="header-topleft"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="header-topright"
        width="6"
        height="6"
@@ -164,7 +164,7 @@
        height="6"
        width="6"
        id="header-bottomright"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        y="162.72305"
@@ -172,11 +172,11 @@
        height="32"
        width="32"
        id="footer-center"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="footer-bottom"
        width="6"
        height="32"
@@ -188,11 +188,11 @@
        height="32"
        width="6"
        id="footer-top"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="footer-left"
        width="32"
        height="6"
@@ -204,11 +204,11 @@
        height="6"
        width="32"
        id="footer-right"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="footer-bottomleft"
        width="6"
        height="6"
@@ -220,11 +220,11 @@
        height="6"
        width="6"
        id="footer-topleft"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        transform="rotate(-90)"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="footer-topright"
        width="6"
        height="6"
@@ -236,7 +236,7 @@
        height="6"
        width="6"
        id="footer-bottomright"
-       style="opacity:1;fill:#faefce;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
   </g>
 </svg>

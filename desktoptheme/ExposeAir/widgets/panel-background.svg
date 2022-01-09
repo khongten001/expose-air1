@@ -28,20 +28,20 @@
          id="stop894" />
       <stop
          id="stop934"
-         offset="0.09114658"
-         style="stop-color:#868686;stop-opacity:0.42352942" />
+         offset="0.08182983"
+         style="stop-color:#0d0d0d;stop-opacity:0.1875" />
       <stop
-         style="stop-color:#717171;stop-opacity:0.42352942"
-         offset="0.20689112"
+         style="stop-color:#bdbdbd;stop-opacity:0.15625"
+         offset="0.17042586"
          id="stop936" />
       <stop
          id="stop930"
          offset="0.28791565"
-         style="stop-color:#6c6c6c;stop-opacity:0.42745098" />
+         style="stop-color:#b6b6b6;stop-opacity:0.1875" />
       <stop
          id="stop928"
          offset="0.3894563"
-         style="stop-color:#a0a0a0;stop-opacity:0.43137255" />
+         style="stop-color:#dbdbdb;stop-opacity:0.27232143" />
       <stop
          id="stop926"
          offset="0.40076771"
@@ -103,8 +103,8 @@
        inkscape:collect="always"
        xlink:href="#linearGradient898"
        id="linearGradient900"
-       x1="-988.09692"
-       y1="88.894104"
+       x1="-987.86914"
+       y1="88.818344"
        x2="-956.24188"
        y2="88.356331"
        gradientUnits="userSpaceOnUse"
@@ -117,9 +117,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="63.356768"
-     inkscape:cx="19.284959"
-     inkscape:cy="87.442089"
+     inkscape:zoom="31.678384"
+     inkscape:cx="190.5658"
+     inkscape:cy="45.931762"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -134,7 +134,7 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
-     inkscape:snap-global="false">
+     inkscape:snap-global="true">
     <inkscape:grid
        originy="-30.000008"
        originx="159.99999"
