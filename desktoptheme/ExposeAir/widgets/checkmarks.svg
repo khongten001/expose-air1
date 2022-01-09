@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   width="72"
+   version="1.0"
+   height="45"
+   sodipodi:docname="checkmarks.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs24" />
+  <style
+     id="current-color-scheme"
+     type="text/css">
+      .ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background{
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight{
+        color:#eff0f1;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground{
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground{
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+    </style>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1098"
+     inkscape:window-height="710"
+     id="namedview22"
+     showgrid="true"
+     inkscape:zoom="12.511862"
+     inkscape:cx="33.142586"
+     inkscape:cy="32.680591"
+     inkscape:window-x="181"
+     inkscape:window-y="177"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10">
+    <inkscape:grid
+       originy="18.999999"
+       originx="10"
+       id="grid3428"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="radiobutton"
+     transform="matrix(1.5,0,0,1.5,10,10)"
+     style="stroke-width:0.66666669">
+    <path
+       style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke-width:0.66666669"
+       class="ColorScheme-Text"
+       inkscape:connector-curvature="0"
+       d="M 7.9981,11 A 3,3 0 0 1 5,7.999 3,3 0 0 1 8.0009,5 3,3 0 0 1 11,8 3,3 0 0 1 8,11 V 8 Z"
+       id="qqb" />
+    <rect
+       style="fill:#008080;fill-opacity:0;stroke-width:0.66666669"
+       x="0"
+       ry="1"
+       width="16"
+       height="16"
+       y="0"
+       id="rect4180" />
+  </g>
+  <g
+     id="checkbox">
+    <rect
+       y="12"
+       x="40"
+       height="24"
+       width="24"
+       id="rect882"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#1358dd;fill-opacity:1;stroke:none;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1531"
+       width="10.000001"
+       height="10.000001"
+       x="47"
+       y="19" />
+    <rect
+       style="opacity:1;fill:#114fc7;fill-opacity:1;stroke:none;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2353"
+       width="1.0000001"
+       height="11.999998"
+       x="46"
+       y="18.000002" />
+    <rect
+       y="18.000002"
+       x="47"
+       height="0.99999911"
+       width="11.000001"
+       id="rect2355"
+       style="opacity:1;fill:#114fc7;fill-opacity:1;stroke:none;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#6192f1;fill-opacity:1;stroke:none;stroke-width:1.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2373"
+       width="11.000001"
+       height="0.99999911"
+       x="47"
+       y="29.000002" />
+    <rect
+       y="19.000002"
+       x="57"
+       height="10"
+       width="1.0000001"
+       id="rect2375"
+       style="opacity:1;fill:#6192f1;fill-opacity:1;stroke:none;stroke-width:1.99999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
