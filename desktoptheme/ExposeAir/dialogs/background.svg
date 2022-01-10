@@ -20,6 +20,34 @@
   <defs
      id="defs2">
     <linearGradient
+       inkscape:collect="always"
+       id="linearGradient942">
+      <stop
+         style="stop-color:#72b9df;stop-opacity:1"
+         offset="0"
+         id="stop930" />
+      <stop
+         id="stop932"
+         offset="0.07561384"
+         style="stop-color:#4c83a5;stop-opacity:1" />
+      <stop
+         id="stop934"
+         offset="0.32003349"
+         style="stop-color:#152a3d;stop-opacity:0.79215688" />
+      <stop
+         style="stop-color:#132436;stop-opacity:0.79215688"
+         offset="0.54520088"
+         id="stop936" />
+      <stop
+         id="stop938"
+         offset="0.75041276"
+         style="stop-color:#1d2c3e;stop-opacity:0.79215688" />
+      <stop
+         style="stop-color:#6886a4;stop-opacity:0.79215688"
+         offset="1"
+         id="stop940" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient3334"
        inkscape:collect="always">
       <stop
@@ -34,10 +62,6 @@
          style="stop-color:#152a3d;stop-opacity:0.79215688"
          offset="0.32003349"
          id="stop3326" />
-      <stop
-         id="stop3328"
-         offset="0.52440828"
-         style="stop-color:#10212f;stop-opacity:0.79215688" />
       <stop
          id="stop3330"
          offset="0.6875"
@@ -77,7 +101,7 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3334"
+       xlink:href="#linearGradient942"
        id="linearGradient891"
        x1="-988.24042"
        y1="88.736702"
@@ -169,8 +193,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="44.126786"
-     inkscape:cy="74.223538"
+     inkscape:cx="33.885621"
+     inkscape:cy="82.190827"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -206,7 +230,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -249,7 +273,7 @@
        height="32"
        width="32"
        id="center"
-       style="opacity:1;fill:url(#linearGradient891);fill-opacity:1.0;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+       style="opacity:1;fill:url(#linearGradient891);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        transform="rotate(-90)" />
     <rect
        y="990.09216"

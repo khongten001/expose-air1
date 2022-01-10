@@ -117,9 +117,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="31.678384"
-     inkscape:cx="190.5658"
-     inkscape:cy="45.931762"
+     inkscape:zoom="22.4"
+     inkscape:cx="278.18678"
+     inkscape:cy="36.204306"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -175,17 +175,17 @@
     <rect
        style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.99999982;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="hint-left-margin"
-       width="2.0000076"
+       width="4.00001"
        height="1"
-       x="174.73669"
+       x="172.73671"
        y="955.24042" />
     <rect
        y="955.24042"
-       x="177.73669"
+       x="177.73671"
        height="1"
-       width="1.9999924"
+       width="3.9999979"
        id="hint-right-margin"
-       style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        y="878.24042"
        x="-77.263298"
@@ -237,15 +237,15 @@
        style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        y="955.24042"
-       x="184.73671"
+       x="182.73669"
        height="1"
-       width="2.0000076"
+       width="4.0000253"
        id="thick-hint-left-margin"
        style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.99999988;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="thick-hint-right-margin"
-       width="1.9999924"
+       width="3.9999824"
        height="1"
        x="187.73671"
        y="955.24042" />

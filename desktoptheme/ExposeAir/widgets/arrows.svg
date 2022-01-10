@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="18.102875"
-     inkscape:cy="24.107783"
+     inkscape:zoom="31.999999"
+     inkscape:cx="30.409408"
+     inkscape:cy="13.49708"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -49,6 +49,16 @@
     <inkscape:grid
        type="xygrid"
        id="grid4365" />
+    <sodipodi:guide
+       position="39,15.000001"
+       orientation="1,0"
+       id="guide822"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="34,13.000001"
+       orientation="0,1"
+       id="guide824"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata829">
@@ -79,8 +89,8 @@
          x="347.26254"
          y="-167.21507" />
       <path
-         transform="matrix(0.80952459,0,0,1,29.112277,0)"
-         inkscape:transform-center-x="-1.4166679"
+         transform="matrix(0.57142856,0,0,0.99487166,66.377898,1.8735093)"
+         inkscape:transform-center-x="-0.99999994"
          d="m 160.71507,359.26254 -5.25,3.03109 -5.25,3.03109 v -6.06218 -6.06218 l 5.25,3.03109 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
@@ -93,7 +103,7 @@
          sodipodi:cx="153.71507"
          sodipodi:sides="3"
          id="path845"
-         style="opacity:1;fill:#606060;fill-opacity:1;stroke:none;stroke-width:1.66715598;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.98942137;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <use
