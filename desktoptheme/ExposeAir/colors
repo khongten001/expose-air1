@@ -1,0 +1,7 @@
+[Colors:Window]
+BackgroundNormal=165,27,11
+ForegroundNormal=248,252,255
+ForegroundInactive=86,86,88
+
+[Colors:View]
+ForegroundNormal=4,10,14

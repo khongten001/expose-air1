@@ -51,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="31.678384"
-     inkscape:cx="0.82816565"
-     inkscape:cy="11.024842"
+     inkscape:zoom="44.8"
+     inkscape:cx="5.9571711"
+     inkscape:cy="9.3799516"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -78,7 +78,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -97,11 +97,11 @@
          height="32"
          width="1.0000006"
          id="rect3195"
-         style="opacity:1;fill:#000000;fill-opacity:0.83035715;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#000000;fill-opacity:0.52549022;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          transform="matrix(0,1,1,0,0,0)" />
       <rect
          transform="matrix(0,1,1,0,0,0)"
-         style="opacity:1;fill:#d0d0d0;fill-opacity:0.58252432;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#cccccc;fill-opacity:0.58431375;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          id="rect3197"
          width="1.0000006"
          height="32"
@@ -114,7 +114,7 @@
        id="vertical-line">
       <rect
          transform="matrix(0,1,1,0,0,0)"
-         style="opacity:1;fill:#000000;fill-opacity:0.31372549;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#000000;fill-opacity:0.52549022;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          id="rect846"
          width="1.0000006"
          height="32"
@@ -126,7 +126,7 @@
          height="32"
          width="1.0000006"
          id="rect848"
-         style="opacity:1;fill:#cccccc;fill-opacity:0.31372549;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#cccccc;fill-opacity:0.58431375;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          transform="matrix(0,1,1,0,0,0)" />
     </g>
   </g>
