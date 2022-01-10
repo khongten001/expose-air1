@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9757038"
-     inkscape:cx="-82.820933"
-     inkscape:cy="49.062914"
+     inkscape:zoom="44.705074"
+     inkscape:cx="18.723455"
+     inkscape:cy="58.533334"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -296,7 +296,7 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#87a5fa;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#93b0ff;fill-opacity:1;stroke-width:1"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
          id="path910" />
     </g>
@@ -313,7 +313,7 @@
       <path
          id="path916"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
-         style="opacity:1;fill:#648af9;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#7f9ffb;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
     </g>
@@ -329,7 +329,7 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#87a5fa;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#93b0ff;fill-opacity:1;stroke-width:1"
          d="m 54.671191,62.223719 v -1 h 1.999999 v 1 z"
          id="path1562" />
       <path
@@ -343,7 +343,7 @@
          sodipodi:cx="56.671192"
          sodipodi:type="arc"
          id="path1564"
-         style="opacity:1;fill:#87a5fa;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#93b0ff;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="groove-highlight-bottomright"
@@ -357,11 +357,11 @@
       <path
          id="path1570"
          d="m 54.671191,62.223719 v -1 h 1.999999 v 1 z"
-         style="opacity:1;fill:#648af9;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#7f9ffb;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
       <path
-         style="opacity:1;fill:#648af9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#7f9ffb;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path1572"
          sodipodi:type="arc"
          sodipodi:cx="56.671192"
@@ -385,11 +385,11 @@
       <path
          id="path1578"
          d="m 54.671191,62.223719 v -1 h 1.999999 v 1 z"
-         style="opacity:1;fill:#87a5fa;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#93b0ff;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
       <path
-         style="opacity:1;fill:#87a5fa;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#93b0ff;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path1580"
          sodipodi:type="arc"
          sodipodi:cx="56.671192"
@@ -413,7 +413,7 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#648af9;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#7f9ffb;fill-opacity:1;stroke-width:1"
          d="m 54.671191,62.223719 v -1 h 1.999999 v 1 z"
          id="path1586" />
       <path
@@ -427,7 +427,7 @@
          sodipodi:cx="56.671192"
          sodipodi:type="arc"
          id="path1588"
-         style="opacity:1;fill:#648af9;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#7f9ffb;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        transform="translate(2.0000056,12.999995)"
