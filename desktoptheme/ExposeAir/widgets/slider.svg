@@ -14,9 +14,9 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    id="svg2755"
    version="1.1"
-   viewBox="0 0 70.087693 92.246006"
-   height="92.246002"
-   width="70.087692">
+   viewBox="0 0 88.768891 58.44247"
+   height="58.442467"
+   width="88.76889">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.352537"
-     inkscape:cx="25.333859"
-     inkscape:cy="21.639121"
+     inkscape:zoom="5.5881343"
+     inkscape:cx="45.151424"
+     inkscape:cy="41.852012"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -43,12 +43,14 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-intersection-paths="true"
      inkscape:object-paths="true">
     <inkscape:grid
        type="xygrid"
-       id="grid5571" />
+       id="grid5571"
+       originx="-7.0000012"
+       originy="-6.1677805" />
   </sodipodi:namedview>
   <defs
      id="defs2749">
@@ -131,7 +133,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -139,14 +141,14 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1"
-     transform="translate(-29.671191,-53.977715)">
+     transform="translate(-36.671192,-81.613472)">
     <rect
        style="opacity:1;fill:#c1c1c1;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.62809921"
        id="hint-handle-size"
        width="20"
        height="20"
-       x="74.671188"
-       y="71.223717" />
+       x="100.44008"
+       y="86.613472" />
     <circle
        cy="125.05594"
        cx="77.988014"
@@ -201,20 +203,20 @@
     <path
        class="ColorScheme-Text"
        id="groove-center"
-       d="m 51.671197,80.223711 v 3 h 3 v -3 z"
+       d="m 75.829529,96.150315 v 3 h 3 v -3 z"
        style="opacity:1;fill:none;fill-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        class="ColorScheme-Text"
        inkscape:connector-curvature="0"
        style="opacity:1;fill:none;fill-opacity:1"
-       d="m 48.671197,80.223711 v 3 h 3 v -3 z"
+       d="m 72.829529,96.150315 v 3 h 3 v -3 z"
        id="groove-left" />
     <path
        class="ColorScheme-Text"
        inkscape:connector-curvature="0"
        style="opacity:1;fill:none;fill-opacity:1"
-       d="m 54.671197,80.223711 v 3 h 3 v -3 z"
+       d="m 78.829529,96.150315 v 3 h 3 v -3 z"
        id="groove-right" />
     <path
        inkscape:connector-curvature="0"
@@ -269,7 +271,7 @@
          class="ColorScheme-Text" />
     </g>
     <g
-       transform="translate(2.0000056,12.999995)"
+       transform="translate(26.158337,28.926599)"
        id="groove-bottom">
       <path
          class="ColorScheme-Text"
@@ -292,7 +294,7 @@
     </g>
     <g
        id="groove-top"
-       transform="matrix(1,0,0,-1,2.0000056,139.44743)">
+       transform="matrix(1,0,0,-1,26.158337,155.37403)">
       <path
          id="path953"
          d="m 49.671191,63.223717 v 3 h 3 v -3 z"
@@ -313,7 +315,7 @@
          class="ColorScheme-Text" />
     </g>
     <g
-       transform="translate(2.0000056,12.999995)"
+       transform="translate(26.158337,28.926599)"
        id="groove-topleft">
       <path
          id="path1544"
@@ -336,7 +338,7 @@
     </g>
     <g
        id="groove-bottomleft"
-       transform="matrix(1,0,0,-1,2.0000076,139.44743)">
+       transform="matrix(1,0,0,-1,26.158339,155.37403)">
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
@@ -358,7 +360,7 @@
     </g>
     <g
        id="groove-topright"
-       transform="matrix(-1,0,0,1,104.34238,12.999997)">
+       transform="matrix(-1,0,0,1,128.50071,28.926601)">
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
@@ -379,7 +381,7 @@
          class="ColorScheme-Text" />
     </g>
     <g
-       transform="rotate(-180,52.171191,69.723717)"
+       transform="rotate(-180,64.250357,77.687019)"
        id="groove-bottomright">
       <path
          id="path1054"
@@ -467,6 +469,22 @@
          style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
          id="path1007" />
+    </g>
+    <g
+       id="horizontal-slider-shadow"
+       transform="translate(-13.421295,22.547776)">
+      <rect
+         y="92.223099"
+         x="113.06217"
+         height="20"
+         width="20"
+         id="rect898"
+         style="opacity:0.9;fill:none;fill-opacity:0.08444447;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path904"
+         d="m 132.47685,100.33952 a 10.453663,11.909244 0 0 1 -10.39034,10.64854 10.453663,11.909244 0 0 1 -5.37589,-1.71195 9.4082969,10.71832 0 0 0 6.42124,2.90288 9.4082969,10.71832 0 0 0 9.40831,-10.71834 9.4082969,10.71832 0 0 0 -0.0634,-1.12113 z"
+         style="opacity:0.9;fill:#00004c;fill-opacity:0.71707315;stroke:none;stroke-width:0.49999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>
