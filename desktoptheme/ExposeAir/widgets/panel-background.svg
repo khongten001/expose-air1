@@ -37,15 +37,15 @@
          offset="0"
          style="stop-color:#1c4a7d;stop-opacity:1;opacity:1" />
       <stop
-         style="stop-color:#191919;stop-opacity:0.1875;opacity:1"
+         style="stop-color:#191928;stop-opacity:0.38536584;opacity:1"
          offset="0.08182983"
          id="stop941" />
       <stop
          id="stop943"
          offset="0.17042586"
-         style="stop-color:#b5b5b5;stop-opacity:0.47058824;opacity:1" />
+         style="stop-color:#cecece;stop-opacity:0.31862745;opacity:1" />
       <stop
-         style="stop-color:#8a8a8a;stop-opacity:0.51372552;opacity:1"
+         style="stop-color:#71718a;stop-opacity:0.51372552;opacity:1"
          offset="0.28791565"
          id="stop945" />
       <stop
@@ -53,11 +53,11 @@
          offset="0.38360044"
          id="stop947" />
       <stop
-         style="stop-color:#636363;stop-opacity:0.46666667;opacity:1"
+         style="stop-color:#484863;stop-opacity:0.46666667;opacity:1"
          offset="0.40076771"
          id="stop949" />
       <stop
-         style="stop-color:#797979;stop-opacity:0.43137255;opacity:1"
+         style="stop-color:#666679;stop-opacity:0.43137255;opacity:1"
          offset="0.43079427"
          id="stop951" />
       <stop
@@ -87,13 +87,13 @@
       <stop
          id="stop965"
          offset="0.655572"
-         style="stop-color:#dcdcdc;stop-opacity:0.43137255;opacity:1" />
+         style="stop-color:#dcdce2;stop-opacity:0.43137255;opacity:1" />
       <stop
          id="stop967"
          offset="0.69664341"
-         style="stop-color:#8c8c8c;stop-opacity:0.43137255;opacity:1" />
+         style="stop-color:#88888c;stop-opacity:0.43137255;opacity:1" />
       <stop
-         style="stop-color:#7b7b7b;stop-opacity:0.43137255;opacity:1"
+         style="stop-color:#6a6b7b;stop-opacity:0.43137255;opacity:1"
          offset="0.79195821"
          id="stop969" />
       <stop
@@ -117,9 +117,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="114.18851"
-     inkscape:cy="85.171544"
+     inkscape:zoom="3.959798"
+     inkscape:cx="489.0557"
+     inkscape:cy="40.242536"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -662,7 +662,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <rect
-       style="opacity:0.83600003;fill:#193e69;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#193e69;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect915"
        width="37.857143"
        height="30.357143"
