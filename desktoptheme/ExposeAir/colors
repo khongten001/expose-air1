@@ -5,3 +5,6 @@ ForegroundInactive=86,86,88
 
 [Colors:View]
 ForegroundNormal=4,10,14
+
+[Colors:Selection]
+BackgroundNormal=62,155,217
