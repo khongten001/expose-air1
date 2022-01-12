@@ -8,7 +8,8 @@ ForegroundLink=69,171,240
 ForegroundNormal=4,10,14
 
 [Colors:Selection]
-BackgroundNormal=62,155,217
+BackgroundNormal=78,164,201
+ForegroundNormal=255,255,255
 
 [Colors:Header]
 ForegroundNormal=255,255,255
