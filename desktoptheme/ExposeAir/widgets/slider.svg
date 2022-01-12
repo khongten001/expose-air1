@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.805631"
-     inkscape:cx="11.247566"
-     inkscape:cy="31.300773"
+     inkscape:zoom="44.705075"
+     inkscape:cx="11.948464"
+     inkscape:cy="46.823477"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -249,7 +249,7 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#85c2fa;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#a0d1ff;fill-opacity:1;stroke-width:1"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
          id="path910" />
     </g>
@@ -266,7 +266,7 @@
       <path
          id="path916"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
-         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#70baff;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
     </g>
@@ -415,7 +415,7 @@
       <path
          id="path989"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
-         style="opacity:1;fill:#85c2fa;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#a0d1ff;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
     </g>
@@ -432,7 +432,7 @@
       <path
          id="path995"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
-         style="opacity:1;fill:#85c2fa;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#a0d1ff;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
     </g>
@@ -449,7 +449,7 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#70baff;fill-opacity:1;stroke-width:1"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
          id="path1001" />
     </g>
@@ -466,7 +466,7 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
+         style="opacity:1;fill:#70baff;fill-opacity:1;stroke-width:1"
          d="m 48.847758,60.739738 v 1 h 3 v -1 z"
          id="path1007" />
     </g>
