@@ -21,6 +21,18 @@
      id="defs952">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient1049">
+      <stop
+         style="stop-color:#b8d0e9;stop-opacity:1"
+         offset="0"
+         id="stop1045" />
+      <stop
+         style="stop-color:#99b4d1;stop-opacity:1"
+         offset="1"
+         id="stop1047" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient1343">
       <stop
          style="stop-color:#000000;stop-opacity:0.32156864"
@@ -370,6 +382,16 @@
          offset="1"
          style="stop-color:#3d92e3;stop-opacity:0.42745098;opacity:1" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1049"
+       id="linearGradient1051"
+       x1="-961.17902"
+       y1="206.14278"
+       x2="-937.17902"
+       y2="206.14278"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-63.340644,-188.1428)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -378,9 +400,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.78637"
-     inkscape:cx="143.81677"
-     inkscape:cy="279.26109"
+     inkscape:zoom="2.8472224"
+     inkscape:cx="192.595"
+     inkscape:cy="200.76014"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1306,7 +1328,23 @@
        id="hint-stretch-borders"
        width="6"
        height="6"
-       x="-3.2596455"
+       x="88.408638"
        y="1023.9145" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient1051);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:17.0477314;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="decoration-maximized-center"
+       width="24"
+       height="119.99998"
+       x="-1024.5197"
+       y="-42.000008"
+       transform="rotate(-90)" />
+    <rect
+       transform="rotate(-90)"
+       y="-41.999989"
+       x="-1056.5197"
+       height="119.99998"
+       width="24"
+       id="decoration-maximized-inactive-center"
+       style="opacity:1;fill:#99b4d1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:17.0477314;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
   </g>
 </svg>
