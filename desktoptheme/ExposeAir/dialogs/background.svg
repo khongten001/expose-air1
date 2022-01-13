@@ -26,8 +26,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="34.516948"
-     inkscape:cy="60.560124"
+     inkscape:cx="18.133019"
+     inkscape:cy="60.202981"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -45,15 +45,15 @@
      showguides="true"
      inkscape:guide-bbox="true">
     <inkscape:grid
-       originy="33.843935"
-       originx="16"
+       type="xygrid"
        id="grid3150"
-       type="xygrid" />
+       originx="16"
+       originy="33.843935" />
     <sodipodi:guide
-       position="68.000002,95.843937"
-       orientation="0,1"
+       inkscape:locked="false"
        id="guide3274"
-       inkscape:locked="false" />
+       orientation="0,1"
+       position="68.000002,95.843937" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -451,13 +451,13 @@
          id="path3302" />
     </g>
     <rect
-       y="72.736717"
-       x="-1008.2404"
-       height="32"
-       width="32"
+       transform="rotate(-90)"
+       style="opacity:1;fill:#3d4752;fill-opacity:0.5511111;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
        id="center"
-       style="opacity:1;fill:#2c3540;fill-opacity:0.37647071;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
-       transform="rotate(-90)" />
+       width="32"
+       height="32"
+       x="-1008.2404"
+       y="72.736717" />
     <g
        id="topright"
        transform="translate(-10.999996,24.999996)">
