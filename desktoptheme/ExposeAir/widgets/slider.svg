@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.705075"
-     inkscape:cx="11.948464"
-     inkscape:cy="46.823477"
+     inkscape:zoom="126.44505"
+     inkscape:cx="19.242215"
+     inkscape:cy="48.493174"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -43,7 +43,7 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:snap-intersection-paths="true"
      inkscape:object-paths="true">
     <inkscape:grid
@@ -150,11 +150,11 @@
        x="100.44008"
        y="86.613472" />
     <circle
-       cy="125.05594"
-       cx="77.988014"
+       cy="122.22372"
+       cx="79.671188"
        id="horizontal-slider-hover"
        style="opacity:1;fill:#0c225b;fill-opacity:0.15686275;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       r="10" />
+       r="10.999999" />
     <g
        id="horizontal-slider-handle">
       <rect
@@ -271,7 +271,7 @@
          class="ColorScheme-Text" />
     </g>
     <g
-       transform="translate(26.158337,28.926599)"
+       transform="translate(26,29.000002)"
        id="groove-bottom">
       <path
          class="ColorScheme-Text"
@@ -282,7 +282,7 @@
       <path
          id="path940"
          d="m 49.671191,63.223717 v 1 h 3 v -1 z"
-         style="opacity:1;fill:#1c4ccf;fill-opacity:1;stroke-width:0.99999994"
+         style="opacity:1;fill:#3e6be5;fill-opacity:1;stroke-width:0.99999994"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
       <path
@@ -294,7 +294,7 @@
     </g>
     <g
        id="groove-top"
-       transform="matrix(1,0,0,-1,26.158337,155.37403)">
+       transform="matrix(1,0,0,-1,26,155.44744)">
       <path
          id="path953"
          d="m 49.671191,63.223717 v 3 h 3 v -3 z"
@@ -304,103 +304,102 @@
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#1c4ccf;fill-opacity:1;stroke-width:0.99999994"
+         style="opacity:1;fill:#3e6be5;fill-opacity:1;stroke-width:0.99999994"
          d="m 49.671191,63.223717 v 1 h 3 v -1 z"
          id="path955" />
       <path
          id="path957"
          d="m 49.671191,64.223719 v 1 h 3 v -1 z"
-         style="opacity:1;fill:#85c2fa;fill-opacity:1;stroke-width:0.99999994"
+         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:0.99999994"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
     </g>
     <g
-       transform="translate(26.158337,28.926599)"
        id="groove-topleft">
       <path
-         id="path1544"
-         d="m 49.671189,63.223717 v -3 h -3 v 3 z"
-         style="opacity:1;fill:none;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         class="ColorScheme-Text" />
-      <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#1c4ccf;fill-opacity:1;stroke-width:0.99999994"
-         d="m 49.671189,63.223717 v -1 H 46.67119 v 1 z"
-         id="path1546" />
-      <path
-         class="ColorScheme-Text"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:#85c2fa;fill-opacity:1;stroke-width:1"
-         d="m 49.671193,62.223719 v -1 h -3 v 1 z"
+         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:0.99999994"
+         d="m 75.671191,92.223716 v -1.999998 h -3 v 1.999998 z"
          id="path964" />
+      <path
+         id="path1544"
+         d="m 75.671187,92.223719 v -3 h -3 v 3 z"
+         style="opacity:1;fill:none;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         class="ColorScheme-Text" />
+      <path
+         class="ColorScheme-Text"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:#3e6be5;fill-opacity:1;stroke-width:0.99999994"
+         d="m 75.671187,92.223719 v -1 h -1.999996 v 1 z"
+         id="path1546" />
     </g>
     <g
-       id="groove-bottomleft"
-       transform="matrix(1,0,0,-1,26.158339,155.37403)">
+       id="groove-bottomleft">
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
          style="opacity:1;fill:none;fill-opacity:1"
-         d="m 49.671189,63.223717 v -3 h -3 v 3 z"
+         d="m 75.671187,92.223723 v 3 h -3 v -3 z"
          id="path1038" />
-      <path
-         id="path1040"
-         d="m 49.671189,63.223717 v -1 H 46.67119 v 1 z"
-         style="opacity:1;fill:#1c4ccf;fill-opacity:1;stroke-width:0.99999994"
-         inkscape:connector-curvature="0"
-         class="ColorScheme-Text" />
-      <path
-         id="path1042"
-         d="m 49.671193,62.223713 v -0.999994 h -3.000007 v 0.999994 z"
-         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
-         inkscape:connector-curvature="0"
-         class="ColorScheme-Text" />
+      <g
+         id="g922">
+        <path
+           class="ColorScheme-Text"
+           inkscape:connector-curvature="0"
+           style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
+           d="m 75.671191,92.223722 v 2.000002 h -3.000007 v -2.000002 z"
+           id="path1042" />
+        <path
+           class="ColorScheme-Text"
+           inkscape:connector-curvature="0"
+           style="opacity:1;fill:#3e6be5;fill-opacity:1;stroke-width:0.99999994"
+           d="m 75.671187,92.223723 v 1 h -1.999996 v -1 z"
+           id="path1040" />
+      </g>
     </g>
     <g
-       id="groove-topright"
-       transform="matrix(-1,0,0,1,128.50071,28.926601)">
+       id="groove-topright">
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
          style="opacity:1;fill:none;fill-opacity:1"
-         d="m 49.671189,63.223717 v -3 h -3 v 3 z"
+         d="m 78.671191,92.223719 v -3 h 3 v 3 z"
          id="path1046" />
       <path
-         id="path1048"
-         d="m 49.671189,63.223717 v -1 H 46.67119 v 1 z"
-         style="opacity:1;fill:#1c4ccf;fill-opacity:1;stroke-width:0.99999994"
+         id="path1050"
+         d="m 78.671187,92.223716 v -1.999998 h 3.000002 v 1.999998 z"
+         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:0.99999994"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
       <path
-         id="path1050"
-         d="m 49.671193,62.223719 v -1 h -3.000002 v 1 z"
-         style="opacity:1;fill:#85c2fa;fill-opacity:1;stroke-width:1"
+         id="path1048"
+         d="m 78.671191,92.223719 v -1 h 2 v 1 z"
+         style="opacity:1;fill:#3e6be5;fill-opacity:1;stroke-width:0.99999994"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
     </g>
     <g
-       transform="rotate(-180,64.250357,77.687019)"
        id="groove-bottomright">
       <path
          id="path1054"
-         d="m 49.671189,63.223717 v -3 h -3 v 3 z"
+         d="m 78.671195,92.223719 v 3 h 3 v -3 z"
          style="opacity:1;fill:none;fill-opacity:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#1c4ccf;fill-opacity:1;stroke-width:0.99999994"
-         d="m 49.671189,63.223717 v -1 H 46.67119 v 1 z"
-         id="path1056" />
+         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
+         d="m 78.671191,92.223723 v 1.999998 h 2.999999 v -1.999998 z"
+         id="path1058" />
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
-         style="opacity:1;fill:#4da6f8;fill-opacity:1;stroke-width:1"
-         d="m 49.671193,62.223717 v -0.999998 h -2.999999 v 0.999998 z"
-         id="path1058" />
+         style="opacity:1;fill:#3e6be5;fill-opacity:1;stroke-width:0.99999994"
+         d="m 78.671195,92.223719 v 1 h 1.999996 v -1 z"
+         id="path1056" />
     </g>
     <g
        id="groove-highlight-topleft"
@@ -414,7 +413,7 @@
          class="ColorScheme-Text" />
       <path
          id="path989"
-         d="m 48.847758,60.739738 v 1 h 3 v -1 z"
+         d="m 49.847758,60.739738 v 1 h 2 v -1 z"
          style="opacity:1;fill:#a0d1ff;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
@@ -431,7 +430,7 @@
          class="ColorScheme-Text" />
       <path
          id="path995"
-         d="m 48.847758,60.739738 v 1 h 3 v -1 z"
+         d="m 48.847758,60.739738 v 1 h 2 v -1 z"
          style="opacity:1;fill:#a0d1ff;fill-opacity:1;stroke-width:1"
          inkscape:connector-curvature="0"
          class="ColorScheme-Text" />
@@ -450,7 +449,7 @@
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
          style="opacity:1;fill:#70baff;fill-opacity:1;stroke-width:1"
-         d="m 48.847758,60.739738 v 1 h 3 v -1 z"
+         d="m 49.847758,60.739738 v 1 h 2 v -1 z"
          id="path1001" />
     </g>
     <g
@@ -467,7 +466,7 @@
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"
          style="opacity:1;fill:#70baff;fill-opacity:1;stroke-width:1"
-         d="m 48.847758,60.739738 v 1 h 3 v -1 z"
+         d="m 48.847758,60.739738 v 1 h 2 v -1 z"
          id="path1007" />
     </g>
     <g
