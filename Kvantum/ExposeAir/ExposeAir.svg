@@ -11,13 +11,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg8"
-   width="742.55"
-   height="746.53"
-   version="1.1"
-   viewBox="0 0 742.55 746.53"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="ExposeAir.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   viewBox="0 0 742.55 746.53"
+   version="1.1"
+   height="746.53"
+   width="742.55"
+   id="svg8">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -31,9 +31,9 @@
      inkscape:window-height="480"
      id="namedview3047"
      showgrid="true"
-     inkscape:zoom="4.1641911"
-     inkscape:cx="1225.6232"
-     inkscape:cy="622.10195"
+     inkscape:zoom="23.556222"
+     inkscape:cx="1342.4501"
+     inkscape:cy="632.30647"
      inkscape:current-layer="svg8"
      inkscape:pagecheckerboard="true"
      inkscape:showpageshadow="false"
@@ -48,9 +48,43 @@
     <inkscape:grid
        type="xygrid"
        id="grid3872" />
+    <sodipodi:guide
+       position="1125,619.99998"
+       orientation="0,1"
+       id="guide4061"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1227,635.99998"
+       orientation="0,1"
+       id="guide11037"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14361">
+      <stop
+         style="stop-color:#fbdbb5;stop-opacity:1"
+         offset="0"
+         id="stop14353" />
+      <stop
+         id="stop14355"
+         offset="0.40624991"
+         style="stop-color:#fec778;stop-opacity:1" />
+      <stop
+         style="stop-color:#feb456;stop-opacity:1"
+         offset="0.40624991"
+         id="stop14357" />
+      <stop
+         id="stop14363"
+         offset="0.71874982"
+         style="stop-color:#fdcb75;stop-opacity:1;" />
+      <stop
+         style="stop-color:#fdeb9f;stop-opacity:1"
+         offset="1"
+         id="stop14359" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient21161">
@@ -1843,10 +1877,64 @@
        gradientTransform="translate(400,50)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4123"
-       id="linearGradient10977"
+       xlink:href="#linearGradient21161"
+       id="linearGradient4079"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(518,57.999999)"
+       x1="665"
+       y1="79.030029"
+       x2="697"
+       y2="79.030029" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4123"
+       id="linearGradient4081"
+       gradientUnits="userSpaceOnUse"
+       x1="664"
+       y1="77.530029"
+       x2="698"
+       y2="77.530029" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient21161"
+       id="linearGradient4083"
+       gradientUnits="userSpaceOnUse"
+       x1="665"
+       y1="79.030029"
+       x2="697"
+       y2="79.030029" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4123"
+       id="linearGradient4086"
+       gradientUnits="userSpaceOnUse"
+       x1="664"
+       y1="78.529999"
+       x2="698"
+       y2="78.529999" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4123"
+       id="linearGradient4088"
+       gradientUnits="userSpaceOnUse"
+       x1="665"
+       y1="78.530029"
+       x2="665"
+       y2="43.530029" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4123"
+       id="linearGradient4090"
+       gradientUnits="userSpaceOnUse"
+       x1="665"
+       y1="44.530029"
+       x2="665"
+       y2="78.530029" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4123"
+       id="linearGradient4094"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(520,49.999992)"
        x1="665"
        y1="43.530029"
        x2="665"
@@ -1854,56 +1942,47 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4123"
-       id="linearGradient14336"
-       x1="665"
-       y1="78.530029"
-       x2="665"
-       y2="43.530029"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4123"
-       id="linearGradient14344"
+       id="linearGradient4279"
+       gradientUnits="userSpaceOnUse"
        x1="665"
        y1="44.530029"
        x2="665"
-       y2="78.530029"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4123"
-       id="linearGradient14352"
-       x1="664"
-       y1="77.530029"
-       x2="698"
-       y2="77.530029"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4123"
-       id="linearGradient14360"
-       x1="664"
-       y1="78.529999"
-       x2="698"
-       y2="78.529999"
-       gradientUnits="userSpaceOnUse" />
+       y2="78.530029" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient21161"
-       id="linearGradient21163"
+       id="linearGradient4283"
+       gradientUnits="userSpaceOnUse"
        x1="665"
        y1="79.030029"
        x2="697"
-       y2="79.030029"
+       y2="79.030029" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14361"
+       id="linearGradient11031"
+       x1="1320"
+       y1="94.530029"
+       x2="1320"
+       y2="126.53004"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient21161"
-       id="linearGradient21171"
+       xlink:href="#linearGradient14361"
+       id="linearGradient11045"
        x1="665"
-       y1="79.030029"
+       y1="78.030029"
        x2="697"
-       y2="79.030029"
+       y2="78.030029"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14361"
+       id="linearGradient11053"
+       x1="665"
+       y1="78.030029"
+       x2="697"
+       y2="78.030029"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
@@ -2233,13 +2312,6 @@
        transform="scale(-1)"
        id="rect6475" />
   </g>
-  <rect
-     style="fill:#ffcc00"
-     height="32"
-     width="32"
-     y="254.85997"
-     x="327.42999"
-     id="tbaritem-toggled" />
   <g
      transform="translate(587.77,210.15)"
      id="tbar-handle">
@@ -2411,118 +2483,6 @@
        x="864.06"
        transform="rotate(90)"
        id="rect1358" />
-  </g>
-  <g
-     transform="translate(73.73,-877.38)"
-     id="tbaritem-toggled-right">
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="32"
-       y="286.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect2912" />
-    <rect
-       style="fill:#f6f6f6"
-       height="1"
-       width="32"
-       y="285.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect2914" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="287.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect1313" />
-  </g>
-  <g
-     transform="rotate(90,745.26,746.36)"
-     id="tbaritem-toggled-bottom">
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="32"
-       y="286.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect1320" />
-    <rect
-       style="fill:#f6f6f6"
-       height="1"
-       width="32"
-       y="285.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect1322" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="287.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect1324" />
-  </g>
-  <g
-     transform="translate(82.55,-877.82)"
-     id="tbaritem-toggled-left">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="32"
-       y="243.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect2906" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="32"
-       y="242.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect2908" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="241.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect1330" />
-  </g>
-  <g
-     transform="rotate(90,741.07,751.06)"
-     id="tbaritem-toggled-top">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="32"
-       y="243.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect1337" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="32"
-       y="242.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect1339" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="241.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect1341" />
   </g>
   <rect
      style="fill:url(#linearGradient8320);fill-opacity:1"
@@ -3458,661 +3418,6 @@
        x="1076.2"
        transform="rotate(90)"
        id="rect5720" />
-  </g>
-  <g
-     transform="translate(80.77,-869.39)"
-     id="tbaritem-toggled-topright">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect2920" />
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect5831" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect5833" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect5835" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect5837" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect5839" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect5841" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect5843" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect5845" />
-  </g>
-  <g
-     transform="matrix(-1,0,0,1,606.07,-869.39)"
-     id="tbaritem-toggled-topleft">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect5858" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect5860" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect5862" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect5864" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect5866" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect5868" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect5870" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect5872" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect5874" />
-  </g>
-  <g
-     transform="matrix(1,0,0,-1,80.77,1411.05)"
-     id="tbaritem-toggled-bottomright">
-    <rect
-       style="fill:#f6f6f6"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect5878" />
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect5880" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect5882" />
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect5884" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect5886" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect5888" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect5890" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect5892" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect5894" />
-  </g>
-  <g
-     transform="rotate(180,303.045,705.545)"
-     id="tbaritem-toggled-bottomleft">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect5898" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect5900" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect5902" />
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect5904" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect5906" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect5908" />
-    <rect
-       style="fill:#96999a"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect5910" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect5912" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect5924" />
-  </g>
-  <rect
-     style="fill:#f6f6f6"
-     height="32"
-     width="32"
-     y="310.32001"
-     x="264.90002"
-     id="tbaritem-pressed" />
-  <g
-     transform="translate(11.19,-821.91)"
-     id="tbaritem-pressed-right">
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="32"
-       y="286.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect4854" />
-    <rect
-       style="fill:#f6f6f6"
-       height="1"
-       width="32"
-       y="285.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect4856" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="287.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect4858" />
-  </g>
-  <g
-     transform="rotate(90,686.26,742.86)"
-     id="tbaritem-pressed-bottom">
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="32"
-       y="286.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect4862" />
-    <rect
-       style="fill:#f6f6f6"
-       height="1"
-       width="32"
-       y="285.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect4864" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="287.70999"
-       x="-1164.2"
-       transform="rotate(-90)"
-       id="rect4866" />
-  </g>
-  <g
-     transform="translate(20.01,-822.36)"
-     id="tbaritem-pressed-left">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="32"
-       y="243.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect4870" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="32"
-       y="242.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect4872" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="241.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect4874" />
-  </g>
-  <g
-     transform="rotate(90,682.07,747.46)"
-     id="tbaritem-pressed-top">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="32"
-       y="243.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect4878" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="32"
-       y="242.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect4880" />
-    <rect
-       style="fill:#8d9192"
-       height="1"
-       width="32"
-       y="241.89"
-       x="-1164.7"
-       transform="rotate(-90)"
-       id="rect4882" />
-  </g>
-  <g
-     transform="translate(18.24,-813.92)"
-     id="tbaritem-pressed-topright">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect4886" />
-    <rect
-       style="fill:#f0f0f0"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect4888" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect4890" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect4892" />
-    <rect
-       style="fill:#a3a5a7"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect4894" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect4896" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect4898" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect4900" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect4902" />
-  </g>
-  <g
-     transform="matrix(-1,0,0,1,543.57,-813.92)"
-     id="tbaritem-pressed-topleft">
-    <rect
-       style="fill:#eeeeee"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect4906" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect4908" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect4910" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect4912" />
-    <rect
-       style="fill:#a3a5a7"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect4914" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect4916" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect4918" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect4920" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect4922" />
-  </g>
-  <g
-     transform="matrix(1,0,0,-1,18.24,1466.55)"
-     id="tbaritem-pressed-bottomright">
-    <rect
-       style="fill:#f6f6f6"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect4926" />
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect4928" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect4930" />
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect4932" />
-    <rect
-       style="fill:#a3a5a7"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect4934" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect4936" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect4938" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect4940" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect4942" />
-  </g>
-  <g
-     transform="rotate(180,271.785,733.285)"
-     id="tbaritem-pressed-bottomleft">
-    <rect
-       style="fill:#f6f6f6"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="278.66"
-       id="rect4946" />
-    <rect
-       style="fill:#e0e0e0"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="279.66"
-       id="rect4948" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1123.2"
-       x="280.66"
-       id="rect4950" />
-    <rect
-       style="fill:#ffffff"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="278.66"
-       id="rect4952" />
-    <rect
-       style="fill:#a3a5a7"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="279.66"
-       id="rect4954" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1122.2"
-       x="280.66"
-       id="rect4956" />
-    <rect
-       style="fill:#9fa2a3"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="278.66"
-       id="rect4958" />
-    <rect
-       style="fill:#8d9192;fill-opacity:0.28926003"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="279.66"
-       id="rect4960" />
-    <rect
-       style="fill:none"
-       height="1"
-       width="1"
-       y="1121.2"
-       x="280.66"
-       id="rect4962" />
   </g>
   <g
      transform="matrix(-1,0,0,1,336.393,-670.27002)"
@@ -22490,15 +21795,15 @@
        id="rect4243" />
   </g>
   <rect
-     style="fill:url(#linearGradient10977);fill-opacity:1.0"
+     style="fill:url(#linearGradient4094);fill-opacity:1"
      height="32"
      width="32"
-     y="102.53003"
-     x="1183"
+     y="94.530022"
+     x="1185"
      id="tbaritem-focused" />
   <g
      id="tbaritem-focused-bottom"
-     transform="translate(518,56.999999)">
+     transform="translate(520,48.999992)">
     <rect
        style="fill:#a0afc3;fill-opacity:1"
        height="1"
@@ -22519,10 +21824,10 @@
        y="77.530029"
        width="32"
        height="1"
-       style="fill:url(#linearGradient14344);fill-opacity:1" />
+       style="fill:url(#linearGradient4090);fill-opacity:1" />
   </g>
   <g
-     transform="matrix(1,0,0,-1,518,180.06006)"
+     transform="matrix(1,0,0,-1,520,172.06005)"
      id="tbaritem-focused-top">
     <rect
        id="rect10826"
@@ -22539,7 +21844,7 @@
        height="1"
        style="fill:#ffffff;fill-opacity:1" />
     <rect
-       style="fill:url(#linearGradient14336);fill-opacity:1"
+       style="fill:url(#linearGradient4088);fill-opacity:1"
        height="1"
        width="32"
        y="77.530029"
@@ -22548,7 +21853,7 @@
   </g>
   <g
      id="tbaritem-focused-right"
-     transform="matrix(0,1,1,0,1137.47,-562.46997)">
+     transform="matrix(0,1,1,0,1139.47,-570.46998)">
     <rect
        style="fill:#a0afc3;fill-opacity:1"
        height="1"
@@ -22557,7 +21862,7 @@
        x="665"
        id="rect10835" />
     <rect
-       style="fill:url(#linearGradient21171);fill-opacity:1.0"
+       style="fill:url(#linearGradient4083);fill-opacity:1"
        height="1"
        width="32"
        y="78.530029"
@@ -22569,10 +21874,10 @@
        y="77.530029"
        width="32"
        height="1"
-       style="fill:url(#linearGradient14360);fill-opacity:1" />
+       style="fill:url(#linearGradient4086);fill-opacity:1" />
   </g>
   <g
-     transform="rotate(90,911.5,349.03003)"
+     transform="rotate(90,916.5,346.03003)"
      id="tbaritem-focused-left">
     <rect
        id="rect10861"
@@ -22587,9 +21892,9 @@
        y="78.530029"
        width="32"
        height="1"
-       style="fill:url(#linearGradient21163);fill-opacity:1" />
+       style="fill:url(#linearGradient4079);fill-opacity:1" />
     <rect
-       style="fill:url(#linearGradient14352);fill-opacity:1"
+       style="fill:url(#linearGradient4081);fill-opacity:1"
        height="1"
        width="32"
        y="77.530029"
@@ -22598,7 +21903,7 @@
   </g>
   <g
      id="tbaritem-focused-bottomright"
-     transform="translate(518,57.999999)">
+     transform="translate(520,49.999992)">
     <rect
        transform="scale(1,-1)"
        style="fill:#e4effb;fill-opacity:1"
@@ -22625,7 +21930,7 @@
        transform="scale(1,-1)" />
     <rect
        transform="scale(1,-1)"
-       style="fill:#a0afc3;fill-opacity:0.86274511"
+       style="fill:#a0afc3;fill-opacity:0.8627451"
        height="1"
        width="1"
        y="-78.530029"
@@ -22649,7 +21954,7 @@
        id="rect10915" />
     <rect
        transform="scale(1,-1)"
-       style="fill:#a0afc3;fill-opacity:0.75294119"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
        height="1"
        width="1"
        y="-79.530029"
@@ -22661,12 +21966,12 @@
        y="-78.530029"
        width="1"
        height="1"
-       style="fill:#a0afc3;fill-opacity:0.75294119"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
        transform="scale(1,-1)" />
   </g>
   <g
      id="tbaritem-focused-bottomleft"
-     transform="matrix(-1,0,0,1,1880,57.999999)">
+     transform="matrix(-1,0,0,1,1882,49.999992)">
     <rect
        id="rect10923"
        x="697"
@@ -22697,7 +22002,7 @@
        y="-78.530029"
        width="1"
        height="1"
-       style="fill:#a0afc3;fill-opacity:0.86160713"
+       style="fill:#a0afc3;fill-opacity:0.86160715"
        transform="scale(1,-1)" />
     <rect
        transform="scale(1,-1)"
@@ -22721,11 +22026,11 @@
        y="-79.530029"
        width="1"
        height="1"
-       style="fill:#a0afc3;fill-opacity:0.75294119"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
        transform="scale(1,-1)" />
     <rect
        transform="scale(1,-1)"
-       style="fill:#a0afc3;fill-opacity:0.75294119"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
        height="1"
        width="1"
        y="-78.530029"
@@ -22734,7 +22039,7 @@
   </g>
   <g
      id="tbaritem-focused-topright"
-     transform="matrix(1,0,0,-1,518,179.06006)">
+     transform="matrix(1,0,0,-1,520,171.06005)">
     <rect
        id="rect10941"
        x="697"
@@ -22765,7 +22070,7 @@
        y="-78.530029"
        width="1"
        height="1"
-       style="fill:#a0afc3;fill-opacity:0.86274511"
+       style="fill:#a0afc3;fill-opacity:0.8627451"
        transform="scale(1,-1)" />
     <rect
        transform="scale(1,-1)"
@@ -22789,11 +22094,11 @@
        y="-79.530029"
        width="1"
        height="1"
-       style="fill:#a0afc3;fill-opacity:0.75294119"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
        transform="scale(1,-1)" />
     <rect
        transform="scale(1,-1)"
-       style="fill:#a0afc3;fill-opacity:0.75294119"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
        height="1"
        width="1"
        y="-78.530029"
@@ -22802,7 +22107,7 @@
   </g>
   <g
      id="tbaritem-focused-topleft"
-     transform="rotate(-180,940,89.530029)">
+     transform="rotate(-180,941,85.530026)">
     <rect
        id="rect10959"
        x="697"
@@ -22833,7 +22138,7 @@
        y="-78.530029"
        width="1"
        height="1"
-       style="fill:#a0afc3;fill-opacity:0.86274511"
+       style="fill:#a0afc3;fill-opacity:0.8627451"
        transform="scale(1,-1)" />
     <rect
        transform="scale(1,-1)"
@@ -22857,11 +22162,11 @@
        y="-79.530029"
        width="1"
        height="1"
-       style="fill:#a0afc3;fill-opacity:0.75446427"
+       style="fill:#a0afc3;fill-opacity:0.75446424"
        transform="scale(1,-1)" />
     <rect
        transform="scale(1,-1)"
-       style="fill:#a0afc3;fill-opacity:0.75446427"
+       style="fill:#a0afc3;fill-opacity:0.75446424"
        height="1"
        width="1"
        y="-78.530029"
@@ -22871,7 +22176,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(44.999999)"
      id="tbaritem-normal"
      xlink:href="#tbaritem-focused"
      y="0"
@@ -22879,7 +22184,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(44.999999)"
      id="tbaritem-normal-bottom"
      xlink:href="#tbaritem-focused-bottom"
      y="0"
@@ -22887,7 +22192,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(44.999999)"
      id="tbaritem-normal-top"
      xlink:href="#tbaritem-focused-top"
      y="0"
@@ -22895,7 +22200,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(44.999971,9.296875e-6)"
      id="tbaritem-normal-right"
      xlink:href="#tbaritem-focused-right"
      y="0"
@@ -22903,7 +22208,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(44.999999)"
      id="tbaritem-normal-left"
      xlink:href="#tbaritem-focused-left"
      y="0"
@@ -22911,7 +22216,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(45,2.0930534e-5)"
      id="tbaritem-normal-bottomright"
      xlink:href="#tbaritem-focused-bottomright"
      y="0"
@@ -22919,7 +22224,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(44.999999)"
      id="tbaritem-normal-bottomleft"
      xlink:href="#tbaritem-focused-bottomleft"
      y="0"
@@ -22927,7 +22232,7 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(45,8.59375e-6)"
      id="tbaritem-normal-topright"
      xlink:href="#tbaritem-focused-topright"
      y="0"
@@ -22935,9 +22240,767 @@
   <use
      height="100%"
      width="100%"
-     transform="translate(49)"
+     transform="translate(44.999999)"
      id="tbaritem-normal-topleft"
      xlink:href="#tbaritem-focused-topleft"
      y="0"
      x="0" />
+  <rect
+     style="fill:#dde9f7;fill-opacity:1"
+     height="32"
+     width="32"
+     y="94.530029"
+     x="1275"
+     id="tbaritem-pressed" />
+  <g
+     id="tbaritem-pressed-top"
+     transform="matrix(1,0,0,-1,610,172.06006)">
+    <rect
+       style="fill:#a0afc3;fill-opacity:1"
+       height="1"
+       width="32"
+       y="79.530029"
+       x="665"
+       id="rect4099" />
+    <rect
+       style="fill:#d5e5f7;fill-opacity:1"
+       height="1"
+       width="32"
+       y="78.530029"
+       x="665"
+       id="rect4101" />
+    <rect
+       id="rect4103"
+       x="665"
+       y="77.530029"
+       width="32"
+       height="1"
+       style="fill:url(#linearGradient4279);fill-opacity:1" />
+  </g>
+  <g
+     transform="translate(610,49.000011)"
+     id="tbaritem-pressed-bottom">
+    <rect
+       id="rect4107"
+       x="665"
+       y="79.530029"
+       width="32"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:1" />
+    <rect
+       id="rect4109"
+       x="665"
+       y="78.530029"
+       width="32"
+       height="1"
+       style="fill:#ffffff;fill-opacity:1" />
+    <rect
+       style="fill:#d5e5f7;fill-opacity:1"
+       height="1"
+       width="32"
+       y="77.530029"
+       x="665"
+       id="rect4111" />
+  </g>
+  <g
+     id="tbaritem-pressed-right"
+     transform="matrix(0,1,1,0,1229.47,-570.46997)">
+    <rect
+       style="fill:#a0afc3;fill-opacity:1"
+       height="1"
+       width="32"
+       y="79.530029"
+       x="665"
+       id="rect4115" />
+    <rect
+       style="fill:url(#linearGradient4283);fill-opacity:1"
+       height="1"
+       width="32"
+       y="78.530029"
+       x="665"
+       id="rect4117" />
+    <rect
+       id="rect4119"
+       x="665"
+       y="77.530029"
+       width="32"
+       height="1"
+       style="fill:#dde9f7;fill-opacity:1" />
+  </g>
+  <g
+     transform="rotate(90,961.5,391.03003)"
+     id="tbaritem-pressed-left">
+    <rect
+       id="rect4123"
+       x="665"
+       y="79.530029"
+       width="32"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:1" />
+    <rect
+       id="rect4125"
+       x="665"
+       y="78.530029"
+       width="32"
+       height="1"
+       style="fill:#d5e5f7;fill-opacity:1" />
+    <rect
+       style="fill:#dde9f7;fill-opacity:1"
+       height="1"
+       width="32"
+       y="77.530029"
+       x="665"
+       id="rect4127" />
+  </g>
+  <g
+     id="tbaritem-pressed-topright"
+     transform="matrix(1,0,0,-1,610,171.06006)">
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#e4effb;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="697"
+       id="rect4131" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#d5e5f7;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="697"
+       id="rect4133" />
+    <rect
+       id="rect4136"
+       x="698"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#f4f7fa;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.8627451"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="698"
+       id="rect4139" />
+    <rect
+       id="rect4149"
+       x="697"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="699"
+       id="rect4157" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="698"
+       id="rect4165" />
+    <rect
+       id="rect4167"
+       x="699"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
+       transform="scale(1,-1)" />
+  </g>
+  <g
+     id="tbaritem-pressed-topleft"
+     transform="rotate(-180,986,85.530029)">
+    <rect
+       id="rect4171"
+       x="697"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#e4effb;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect4173"
+       x="697"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#d5e5f7;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#d5e5f7;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="698"
+       id="rect4183" />
+    <rect
+       id="rect4185"
+       x="698"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.86160715"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="697"
+       id="rect4187" />
+    <rect
+       id="rect4191"
+       x="699"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect4206"
+       x="698"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="699"
+       id="rect4209" />
+  </g>
+  <g
+     id="tbaritem-pressed-bottomright"
+     transform="translate(610,50.000001)">
+    <rect
+       id="rect4227"
+       x="697"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#e0ecf9;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect4240"
+       x="697"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#ffffff;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="698"
+       id="rect4245" />
+    <rect
+       id="rect4247"
+       x="698"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.8627451"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="697"
+       id="rect4249" />
+    <rect
+       id="rect4251"
+       x="699"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect4253"
+       x="698"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.75294118"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="699"
+       id="rect4255" />
+  </g>
+  <g
+     id="tbaritem-pressed-bottomleft"
+     transform="matrix(-1,0,0,1,1972,50.000001)">
+    <rect
+       id="rect4259"
+       x="697"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#d5e5f7;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect4261"
+       x="697"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#d5e5f7;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="698"
+       id="rect4263" />
+    <rect
+       id="rect4265"
+       x="698"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.8627451"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="697"
+       id="rect4267" />
+    <rect
+       id="rect4269"
+       x="699"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect4271"
+       x="698"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.75446424"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.75446424"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="699"
+       id="rect4273" />
+  </g>
+  <rect
+     style="fill:url(#linearGradient11031);fill-opacity:1"
+     height="32"
+     width="32"
+     y="94.530029"
+     x="1320"
+     id="tbaritem-toggled" />
+  <g
+     id="tbaritem-toggled-top"
+     transform="matrix(1,0,0,-1,654.99997,172.06006)">
+    <rect
+       style="fill:#939fb1;fill-opacity:1"
+       height="1"
+       width="32"
+       y="79.530029"
+       x="665"
+       id="rect7606" />
+    <rect
+       style="fill:#fcfcfc;fill-opacity:1"
+       height="1"
+       width="32"
+       y="78.530029"
+       x="665"
+       id="rect7608" />
+    <rect
+       id="rect7610"
+       x="665"
+       y="77.530029"
+       width="32"
+       height="1"
+       style="fill:#ebd1b4;fill-opacity:1" />
+  </g>
+  <g
+     transform="translate(654.99997,49.000011)"
+     id="tbaritem-toggled-bottom">
+    <rect
+       id="rect7614"
+       x="665"
+       y="79.530029"
+       width="32"
+       height="1"
+       style="fill:#939fb1;fill-opacity:1" />
+    <rect
+       id="rect7616"
+       x="665"
+       y="78.530029"
+       width="32"
+       height="1"
+       style="fill:#fcfcfc;fill-opacity:1" />
+    <rect
+       style="fill:#ffe47f;fill-opacity:1"
+       height="1"
+       width="32"
+       y="77.530029"
+       x="665"
+       id="rect7618" />
+  </g>
+  <g
+     id="tbaritem-toggled-right"
+     transform="matrix(0,1,1,0,1274.47,-570.46997)">
+    <rect
+       style="fill:#939fb1;fill-opacity:1"
+       height="1"
+       width="32"
+       y="79.530029"
+       x="665"
+       id="rect7622" />
+    <rect
+       style="fill:#fcfcfc;fill-opacity:1"
+       height="1"
+       width="32"
+       y="78.530029"
+       x="665"
+       id="rect7624" />
+    <rect
+       id="rect7626"
+       x="665"
+       y="77.530029"
+       width="32"
+       height="1"
+       style="fill:url(#linearGradient11053);fill-opacity:1.0" />
+  </g>
+  <g
+     transform="rotate(90,983.99999,413.53002)"
+     id="tbaritem-toggled-left">
+    <rect
+       id="rect7630"
+       x="665"
+       y="79.530029"
+       width="32"
+       height="1"
+       style="fill:#939fb1;fill-opacity:1" />
+    <rect
+       id="rect7632"
+       x="665"
+       y="78.530029"
+       width="32"
+       height="1"
+       style="fill:#fcfcfc;fill-opacity:1" />
+    <rect
+       style="fill:url(#linearGradient11045);fill-opacity:1.0"
+       height="1"
+       width="32"
+       y="77.530029"
+       x="665"
+       id="rect7634" />
+  </g>
+  <g
+     id="tbaritem-toggled-topright"
+     transform="matrix(1,0,0,-1,654.99997,171.06006)">
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#fcfcfc;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="697"
+       id="rect7638" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#fcfcfc;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="697"
+       id="rect7640" />
+    <rect
+       id="rect7642"
+       x="698"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#fcfcfc;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.77678573"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="698"
+       id="rect7644" />
+    <rect
+       id="rect7646"
+       x="697"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="699"
+       id="rect7648" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.6339286"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="698"
+       id="rect7650" />
+    <rect
+       id="rect7652"
+       x="699"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.6339286"
+       transform="scale(1,-1)" />
+  </g>
+  <g
+     id="tbaritem-toggled-topleft"
+     transform="rotate(-180,1008.5,85.530029)">
+    <rect
+       id="rect7656"
+       x="697"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#fcfcfc;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect7658"
+       x="697"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#fcfcfc;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#fcfcfc;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="698"
+       id="rect7660" />
+    <rect
+       id="rect7662"
+       x="698"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.77678573"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="697"
+       id="rect7664" />
+    <rect
+       id="rect7666"
+       x="699"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect7668"
+       x="698"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.6339286"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.6339286"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="699"
+       id="rect7670" />
+  </g>
+  <g
+     id="tbaritem-toggled-bottomright"
+     transform="translate(654.99997,50.000001)">
+    <rect
+       id="rect7674"
+       x="697"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#fcfcfc;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect7676"
+       x="697"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#fafafa;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#fafafa;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="698"
+       id="rect7678" />
+    <rect
+       id="rect7680"
+       x="698"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.77678573"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="697"
+       id="rect7682" />
+    <rect
+       id="rect7684"
+       x="699"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect7686"
+       x="698"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.6339286"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#a0afc3;fill-opacity:0.6339286"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="699"
+       id="rect7688" />
+  </g>
+  <g
+     id="tbaritem-toggled-bottomleft"
+     transform="matrix(-1,0,0,1,2017,50.000001)">
+    <rect
+       id="rect7692"
+       x="697"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#fcfcfc;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect7694"
+       x="697"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#fcfcfc;fill-opacity:1"
+       height="1"
+       width="1"
+       y="-77.530029"
+       x="698"
+       id="rect7696" />
+    <rect
+       id="rect7698"
+       x="698"
+       y="-78.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.77678573"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       height="1"
+       width="1"
+       y="-79.530029"
+       x="697"
+       id="rect7700" />
+    <rect
+       id="rect7702"
+       x="699"
+       y="-77.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:1"
+       transform="scale(1,-1)" />
+    <rect
+       id="rect7704"
+       x="698"
+       y="-79.530029"
+       width="1"
+       height="1"
+       style="fill:#a0afc3;fill-opacity:0.6339286"
+       transform="scale(1,-1)" />
+    <rect
+       transform="scale(1,-1)"
+       style="fill:#8d9fb7;fill-opacity:0.95424104"
+       height="1"
+       width="1"
+       y="-78.530029"
+       x="699"
+       id="rect7706" />
+  </g>
 </svg>
