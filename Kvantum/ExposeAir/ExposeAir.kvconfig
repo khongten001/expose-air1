@@ -115,7 +115,7 @@ iconless_menu=false
 iconless_pushbutton=false
 lxqtmainmenu_iconsize=22
 no_selection_tint=true
-normal_default_pushbutton=false
+normal_default_pushbutton=true
 #tint_on_mouseover=0
 transparent_pcmanfm_view=false
 transparent_arrow_button=true
@@ -133,14 +133,7 @@ interior.y.patternsize=32
 frame.expansion=0
 
 [PanelButtonCommand]
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
-text.margin.top=3
-text.margin.bottom=3
-text.margin.left=4
-text.margin.right=4
+
 frame.expansion=0
 interior.element=btn
 interior=true

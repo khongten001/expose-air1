@@ -52,8 +52,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="44.8"
-     inkscape:cx="10.131278"
-     inkscape:cy="9.2906659"
+     inkscape:cx="6.0352959"
+     inkscape:cy="9.2013802"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -97,11 +97,11 @@
          height="32"
          width="1.0000006"
          id="rect3195"
-         style="opacity:1;fill:#000000;fill-opacity:0.83333331;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#1c618a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          transform="matrix(0,1,1,0,0,0)" />
       <rect
          transform="matrix(0,1,1,0,0,0)"
-         style="opacity:1;fill:#d0d0d0;fill-opacity:0.58431375;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#5d8dab;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          id="rect3197"
          width="1.0000006"
          height="32"
@@ -114,7 +114,7 @@
        id="vertical-line">
       <rect
          transform="matrix(0,1,1,0,0,0)"
-         style="opacity:1;fill:#000000;fill-opacity:0.83333331;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#1c618a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          id="rect846"
          width="1.0000006"
          height="32"
@@ -126,7 +126,7 @@
          height="32"
          width="1.0000006"
          id="rect848"
-         style="opacity:1;fill:#d0d0d0;fill-opacity:0.58431375;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#5d8dab;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          transform="matrix(0,1,1,0,0,0)" />
     </g>
   </g>

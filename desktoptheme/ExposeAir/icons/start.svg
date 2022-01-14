@@ -71,9 +71,13 @@
        inkscape:collect="always"
        id="linearGradient971">
       <stop
-         style="stop-color:#58bdef;stop-opacity:0.70222223"
+         style="stop-color:#82cef3;stop-opacity:0.7019608"
          offset="0"
          id="stop967" />
+      <stop
+         id="stop892"
+         offset="0.68562877"
+         style="stop-color:#2f87b2;stop-opacity:0.63921571" />
       <stop
          style="stop-color:#073e59;stop-opacity:0.41960785"
          offset="1"
@@ -128,10 +132,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient950"
        id="radialGradient944"
-       cx="-124.75001"
-       cy="1174.2697"
-       fx="-124.75001"
-       fy="1174.2697"
+       cx="-125.99525"
+       cy="1175.5226"
+       fx="-125.99525"
+       fy="1175.5226"
        r="15"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(-0.76738988,0.7673897,-0.73333039,-0.73333062,641.39577,2129.3794)" />
@@ -149,10 +153,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient971"
        id="radialGradient982"
-       cx="-124.94965"
-       cy="1206.4004"
-       fx="-124.94965"
-       fy="1206.4004"
+       cx="-125.40908"
+       cy="1206.7373"
+       fx="-125.40908"
+       fy="1206.7373"
        r="15"
        gradientTransform="matrix(0.60000261,-0.59999735,0.59999502,0.60000027,-772.69663,401.72986)"
        gradientUnits="userSpaceOnUse" />
@@ -257,9 +261,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.604167"
-     inkscape:cx="16"
-     inkscape:cy="21.999947"
+     inkscape:zoom="27.208334"
+     inkscape:cx="35.254309"
+     inkscape:cy="27.786752"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -276,7 +280,7 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:snap-nodes="true"
+     inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true">
@@ -294,7 +298,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -304,17 +308,16 @@
      id="layer1"
      transform="translate(85,-1133.5196)">
     <g
-       id="start-here-kde"
-       transform="translate(16,-10.000053)">
+       id="start-here-kde">
       <rect
-         y="1151.5197"
-         x="-93"
-         height="48"
-         width="48"
+         y="1145.5197"
+         x="-73"
+         height="40"
+         width="40"
          id="rect864"
          style="opacity:1;fill:none;fill-opacity:0.4627451;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <g
-         transform="translate(54.832527,-10.020278)"
+         transform="translate(71,-20.000003)"
          id="g880">
         <path
            inkscape:connector-curvature="0"
