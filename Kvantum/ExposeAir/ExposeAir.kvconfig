@@ -149,19 +149,11 @@ frame.element=btn
 indicator.size=8
 
 [PanelButtonTool]
-text.margin.top=2
-text.margin.bottom=2
-text.margin.left=2
-text.margin.right=2
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
 interior.element=tbaritem
 interior=true
 frame=true
 frame.element=tbaritem
-indicator.size=6
+indicator.size=9
 
 [Dock]
 inherits=PanelButtonCommand
