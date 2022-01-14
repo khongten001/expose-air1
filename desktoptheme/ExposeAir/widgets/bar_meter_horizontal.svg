@@ -14,9 +14,9 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    id="svg843"
    version="1.1"
-   viewBox="0 0 54.121666 22.106162"
-   height="22.106161"
-   width="54.121666">
+   viewBox="0 0 39.000008 22.000182"
+   height="22.000181"
+   width="39.000008">
   <defs
      id="defs837">
     <linearGradient
@@ -92,7 +92,7 @@
        x2="174.2345"
        y2="530.78876"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(18.560824,-2.5530369)" />
+       gradientTransform="translate(19.000004,-1.9999736)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient888"
@@ -138,7 +138,7 @@
        y1="522.78876"
        x2="174.2345"
        y2="530.78876"
-       gradientTransform="translate(32.560824,-2.5530369)" />
+       gradientTransform="translate(30.000002,-1.9999152)" />
   </defs>
   <style
      id="current-color-scheme"
@@ -173,12 +173,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="18.211933"
-     inkscape:cx="26.073225"
-     inkscape:cy="7.5297156"
+     inkscape:zoom="12.877781"
+     inkscape:cx="15.219101"
+     inkscape:cy="6.2872684"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:showpageshadow="false"
@@ -187,8 +187,8 @@
      fit-margin-right="5"
      fit-margin-bottom="5">
     <inkscape:grid
-       originy="-23.44694"
-       originx="-17.439171"
+       originy="-22.999859"
+       originx="-29.999998"
        type="xygrid"
        id="grid874" />
   </sodipodi:namedview>
@@ -200,7 +200,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -208,24 +208,24 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-161.67367,-513.23568)">
+     transform="translate(-174.2345,-513.78874)">
     <rect
        style="opacity:1;fill:#ffb380;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.13543296;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="hint-bar-size"
-       width="12"
-       height="12"
-       x="166.67366"
-       y="518.34186" />
+       width="6.0000033"
+       height="5.9999523"
+       x="179.2345"
+       y="521.78876" />
     <rect
        style="opacity:1;fill:url(#linearGradient853);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="bar-inactive-center"
        width="1.9999959"
        height="7.9999804"
-       x="192.79532"
-       y="520.23572" />
+       x="193.2345"
+       y="520.78876" />
     <g
        id="bar-inactive-top"
-       transform="matrix(0.33333265,0,0,1,134.71727,-2.5530369)"
+       transform="matrix(0.33333265,0,0,1,135.15645,-1.9999736)"
        style="stroke-width:1.73205256">
       <rect
          style="opacity:1;fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:2.59807873;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -244,7 +244,7 @@
     </g>
     <g
        style="stroke-width:1.73205256"
-       transform="matrix(0.33333265,0,0,1,134.71727,7.4469831)"
+       transform="matrix(0.33333265,0,0,1,135.15645,8.0000464)"
        id="bar-inactive-bottom">
       <rect
          y="521.78876"
@@ -263,7 +263,7 @@
     </g>
     <g
        id="bar-inactive-topleft"
-       transform="translate(18.560824,-2.5530369)">
+       transform="translate(19.000004,-1.9999736)">
       <rect
          y="521.78876"
          x="173.2345"
@@ -288,7 +288,7 @@
     </g>
     <g
        id="bar-inactive-left"
-       transform="translate(18.560824,-2.5530369)">
+       transform="translate(19.000004,-1.9999736)">
       <rect
          style="opacity:1;fill:url(#linearGradient890);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect882"
@@ -306,7 +306,7 @@
     </g>
     <g
        id="bar-inactive-bottomleft"
-       transform="matrix(1,0,0,-1,18.56082,1051.0245)">
+       transform="matrix(1,0,0,-1,19,1051.5776)">
       <rect
          style="opacity:1;fill:#ebebea;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect900"
@@ -331,7 +331,7 @@
     </g>
     <g
        id="bar-inactive-topright"
-       transform="matrix(-1,0,0,1,369.02981,-2.5530782)">
+       transform="matrix(-1,0,0,1,369.46899,-2.0000149)">
       <rect
          style="opacity:1;fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect908"
@@ -355,7 +355,7 @@
          y="520.78876" />
     </g>
     <g
-       transform="rotate(-180,184.51491,525.51228)"
+       transform="rotate(-180,184.7345,525.78881)"
        id="bar-inactive-bottomright">
       <rect
          y="521.78876"
@@ -381,7 +381,7 @@
     </g>
     <g
        id="bar-inactive-right"
-       transform="matrix(-1,0,0,1,369.02981,-2.5529562)">
+       transform="matrix(-1,0,0,1,369.46899,-1.9998929)">
       <rect
          y="522.78876"
          x="173.2345"
@@ -402,11 +402,11 @@
        id="bar-active-center"
        width="1.9999959"
        height="7.9999804"
-       x="206.79532"
-       y="520.23572" />
+       x="204.2345"
+       y="520.78882" />
     <g
        id="bar-active-top"
-       transform="matrix(0.33333265,0,0,1,148.71727,-2.5530369)"
+       transform="matrix(0.33333265,0,0,1,146.15645,-1.9999152)"
        style="fill:none;stroke-width:1.73205256">
       <rect
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:2.59807873;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -425,7 +425,7 @@
     </g>
     <g
        style="fill:none;stroke-width:1.73205256"
-       transform="matrix(0.33333265,0,0,1,148.71727,7.4469831)"
+       transform="matrix(0.33333265,0,0,1,146.15645,8.0001048)"
        id="bar-active-bottom">
       <rect
          y="521.78876"
@@ -443,7 +443,7 @@
          y="520.78876" />
     </g>
     <g
-       transform="translate(32.560824,-2.5530369)"
+       transform="translate(30.000002,-1.9999152)"
        id="bar-active-topleft"
        style="fill:none">
       <rect
@@ -469,7 +469,7 @@
          style="opacity:1;fill:none;fill-opacity:0.78431373;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       transform="translate(32.560824,-2.5530369)"
+       transform="translate(30.000002,-1.9999152)"
        id="bar-active-left"
        style="fill:none">
       <rect
@@ -489,7 +489,7 @@
     </g>
     <g
        id="bar-active-bottomleft"
-       transform="matrix(1,0,0,-1,32.56082,1051.0245)"
+       transform="matrix(1,0,0,-1,29.999998,1051.5776)"
        style="fill:none">
       <rect
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -515,7 +515,7 @@
     </g>
     <g
        id="bar-active-topright"
-       transform="matrix(-1,0,0,1,383.02981,-2.5530782)"
+       transform="matrix(-1,0,0,1,380.46899,-1.9999565)"
        style="fill:none">
       <rect
          style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -540,7 +540,7 @@
          y="520.78876" />
     </g>
     <g
-       transform="rotate(-180,191.51491,525.51228)"
+       transform="rotate(-180,190.2345,525.78884)"
        id="bar-active-bottomright"
        style="fill:none">
       <rect
@@ -567,7 +567,7 @@
     </g>
     <g
        id="bar-active-right"
-       transform="matrix(-1,0,0,1,383.02981,-2.5529562)"
+       transform="matrix(-1,0,0,1,380.46899,-1.9998345)"
        style="fill:none">
       <rect
          y="522.78876"
