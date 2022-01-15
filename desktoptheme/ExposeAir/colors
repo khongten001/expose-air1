@@ -17,4 +17,4 @@ ForegroundNormal=255,255,255
 BackgroundNormal=255,255,0
 
 [Colors:Button]
-ForegroundNormal=30,30,30
+ForegroundNormal=50,54,58
