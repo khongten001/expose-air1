@@ -10,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="bar_meter_horizontal.svg"
+   sodipodi:docname="bar_meter_vertical.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    id="svg843"
    version="1.1"
@@ -174,8 +174,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.877781"
-     inkscape:cx="15.219101"
-     inkscape:cy="6.2872684"
+     inkscape:cx="0.96975167"
+     inkscape:cy="5.9766559"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -200,7 +200,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -212,10 +212,10 @@
     <rect
        style="opacity:1;fill:#ffb380;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.13543296;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="hint-bar-size"
-       width="6.0000033"
-       height="5.9999523"
+       width="8"
+       height="8"
        x="179.2345"
-       y="521.78876" />
+       y="519.7887" />
     <rect
        style="opacity:1;fill:url(#linearGradient853);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="bar-inactive-center"
