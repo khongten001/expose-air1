@@ -62,8 +62,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="32.000001"
-     inkscape:cx="112.59567"
-     inkscape:cy="22.639693"
+     inkscape:cx="106.47889"
+     inkscape:cy="12.897671"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -209,7 +209,7 @@
          sodipodi:cx="335.28519"
          sodipodi:type="arc"
          id="path16593"
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          id="rect16595"
          transform="scale(-1,1)"
@@ -222,7 +222,7 @@
     <g
        id="north-active-tab-bottom">
       <rect
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -257,7 +257,7 @@
     <g
        id="north-active-tab-right">
       <rect
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
@@ -292,7 +292,7 @@
     <g
        id="north-active-tab-left">
       <rect
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
@@ -323,7 +323,7 @@
     <g
        id="north-active-tab-top">
       <rect
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -383,7 +383,7 @@
          id="path4886"
          style="opacity:1;fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4888"
          sodipodi:type="arc"
          sodipodi:cx="335.28519"
@@ -431,7 +431,7 @@
          id="path4896"
          style="opacity:1;fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4898"
          sodipodi:type="arc"
          sodipodi:cx="335.28519"
@@ -479,7 +479,7 @@
          id="path4906"
          style="opacity:1;fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         style="opacity:1;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4908"
          sodipodi:type="arc"
          sodipodi:cx="335.28519"
