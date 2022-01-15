@@ -32,8 +32,8 @@
      id="namedview3047"
      showgrid="true"
      inkscape:zoom="16.656764"
-     inkscape:cx="1331.2807"
-     inkscape:cy="647.86519"
+     inkscape:cx="1177.133"
+     inkscape:cy="615.52164"
      inkscape:current-layer="svg8"
      inkscape:pagecheckerboard="true"
      inkscape:showpageshadow="false"
@@ -2386,17 +2386,17 @@
     </g>
   </g>
   <g
-     transform="matrix(-1,0,0,1,-1222.84,368.18)"
+     transform="matrix(-1,0,0,1,-394,-55.939972)"
      id="tbar-separator">
     <rect
-       style="fill:#fffdf4"
+       style="fill:#f5f8fb;fill-opacity:1"
        height="24"
        width="1"
        y="157.47"
        x="-1564"
        id="rect2753" />
     <rect
-       style="fill:#8b8e93;fill-opacity:1"
+       style="fill:#a0afc3;fill-opacity:1"
        height="24"
        width="1"
        y="157.47"
