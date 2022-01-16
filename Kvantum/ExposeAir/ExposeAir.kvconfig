@@ -1,7 +1,7 @@
 [%General]
 author=Phob1an
 comment=Air for the Expose series
-active_tab_overlap=2
+active_tab_overlap=3
 alt_mnemonic=true
 animate_states=false
 attach_active_tab=true
@@ -24,7 +24,7 @@ group_toolbar_buttons=false
 hide_combo_checkboxes=false
 inline_spin_indicators=false
 intensity=1.00
-joined_inactive_tabs=false
+joined_inactive_tabs=true
 large_icon_size=32
 layout_margin=3
 layout_spacing=3
@@ -33,6 +33,7 @@ menubar_mouse_tracking=true
 menu_shadow_depth=4
 merge_menubar_with_toolbar=false
 min_height=32
+no_active_tab_separator=true
 no_inactiveness=false
 no_inactive_tab_expansion=true
 no_window_pattern=false
@@ -62,8 +63,8 @@ submenu_delay=250
 submenu_overlap=10
 tab_button_extra_margin=2
 toolbar_icon_size=16
-toolbar_interior_spacing=0
-toolbar_item_spacing=2
+toolbar_interior_spacing=3
+toolbar_item_spacing=3
 toolbutton_style=0
 tooltip_delay=-1
 tooltip_shadow_depth=4
@@ -133,12 +134,15 @@ interior.y.patternsize=32
 frame.expansion=0
 
 [PanelButtonCommand]
-
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 frame.expansion=0
-interior.element=btn
+interior.element=tbaritem
 interior=true
 frame=true
-frame.element=btn
+frame.element=tbaritem
 indicator.size=8
 
 [PanelButtonTool]
@@ -147,6 +151,10 @@ interior=true
 frame=true
 frame.element=tbaritem
 indicator.size=9
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 
 [Dock]
 inherits=PanelButtonCommand
@@ -214,10 +222,10 @@ text.margin.left=4
 text.margin.right=4
 
 [Tab]
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 focusFrame=true
 text.margin.top=4
 frame.expansion=0
@@ -226,12 +234,12 @@ interior.element=tab
 frame.element=tab
 
 [TabFrame]
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
-frame.element=tbf
-interior.element=tbf
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
+frame.element=tabframe
+interior.element=tabframe
 frame=true
 interior=true
 
@@ -263,14 +271,10 @@ frame.expansion=0
 text.normal.color=black
 
 [TabBarFrame]
-frame=true
+frame=false
 frame.element=tbframe
-interior=true
+interior=false
 interior.element=tbframe
-frame.top=5
-frame.bottom=4
-frame.left=4
-frame.right=4
 
 [SizeGrip]
 inherits=PanelButtonCommand
