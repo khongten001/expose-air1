@@ -10,7 +10,7 @@ bold_active_tab=false
 button_contents_shift=true
 button_icon_size=16
 center_toolbar_handle=false
-check_size=16
+check_size=14
 click_behavior=1
 combo_as_lineedit=false
 combo_focus_rect=false
@@ -262,13 +262,9 @@ interior=true
 frame=true
 frame.element=gbox
 interior.element=gbox
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
 text.bold=false
 frame.expansion=0
-text.normal.color=black
+text.normal.color=#ffb700
 
 [TabBarFrame]
 frame=false
