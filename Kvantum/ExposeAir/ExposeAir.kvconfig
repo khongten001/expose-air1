@@ -59,7 +59,7 @@ spin_button_width=12
 splitter_width=6
 spread_header=false
 spread_progressbar=false
-square_combo_button=true
+square_combo_button=false
 submenu_delay=250
 submenu_overlap=10
 tab_button_extra_margin=0
@@ -186,13 +186,12 @@ frame.element=common
 interior.element=common
 
 [LineEdit]
-#inherits=PanelButtonCommand
 frame.element=ledit
 interior.element=ledit
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 
 [IndicatorSpinBox]
 indicator.element=spind
@@ -203,13 +202,7 @@ frame.left=4
 frame.right=4
 
 [DropDownButton]
-inherits=PanelButtonCommand
-interior.element=ddown
-frame.element=ddown
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+indicator.element=cind
 
 [ToolboxTab]
 inherits=PanelButtonCommand
@@ -405,11 +398,7 @@ text.normal.color=white
 interior.element=cbox
 frame.element=cbox
 frame=true
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
-indicator.size=20
+indicator.size=16
 indicator.element=cind
 
 [Splitter]
