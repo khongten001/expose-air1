@@ -33,6 +33,7 @@ menubar_mouse_tracking=true
 menu_shadow_depth=4
 merge_menubar_with_toolbar=false
 min_height=32
+mirror_doc_tabs=true
 no_active_tab_separator=true
 no_inactiveness=false
 no_inactive_tab_expansion=true
@@ -61,7 +62,7 @@ spread_progressbar=false
 square_combo_button=true
 submenu_delay=250
 submenu_overlap=10
-tab_button_extra_margin=2
+tab_button_extra_margin=0
 toolbar_icon_size=16
 toolbar_interior_spacing=3
 toolbar_item_spacing=3
@@ -183,10 +184,6 @@ frame=true
 interior=true
 frame.element=common
 interior.element=common
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
 
 [LineEdit]
 #inherits=PanelButtonCommand
@@ -267,9 +264,9 @@ frame.expansion=0
 text.normal.color=#ffb700
 
 [TabBarFrame]
-frame=false
+frame=true
 frame.element=tbframe
-interior=false
+interior=true
 interior.element=tbframe
 
 [SizeGrip]
