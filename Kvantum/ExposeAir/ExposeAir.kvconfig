@@ -12,7 +12,7 @@ button_icon_size=16
 center_toolbar_handle=false
 check_size=14
 click_behavior=1
-combo_as_lineedit=false
+combo_as_lineedit=true
 combo_focus_rect=false
 combo_menu=false
 composite=true
@@ -22,7 +22,7 @@ fill_rubberband=false
 groupbox_top_label=false
 group_toolbar_buttons=false
 hide_combo_checkboxes=false
-inline_spin_indicators=false
+inline_spin_indicators=true
 intensity=1.00
 joined_inactive_tabs=true
 large_icon_size=32
@@ -55,7 +55,7 @@ slider_handle_length=12
 slider_handle_width=24
 slider_width=3
 small_icon_size=16
-spin_button_width=12
+spin_button_width=16
 splitter_width=6
 spread_header=false
 spread_progressbar=false
@@ -73,7 +73,7 @@ transient_groove=false
 transient_scrollbar=false
 translucent_windows=true
 tree_branch_line=true
-vertical_spin_indicators=false
+vertical_spin_indicators=true
 x11drag=all
 
 
@@ -194,15 +194,12 @@ frame.left=3
 frame.right=3
 
 [IndicatorSpinBox]
-indicator.element=spind
-indicator.size=9
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+indicator.element=sparrow
+indicator.size=16
 
 [DropDownButton]
 indicator.element=cind
+indicator.size=16
 
 [ToolboxTab]
 inherits=PanelButtonCommand
