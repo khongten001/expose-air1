@@ -61,7 +61,7 @@ spread_header=false
 spread_progressbar=false
 square_combo_button=false
 submenu_delay=250
-submenu_overlap=10
+submenu_overlap=6
 tab_button_extra_margin=0
 toolbar_icon_size=16
 toolbar_interior_spacing=3
@@ -78,9 +78,9 @@ x11drag=all
 
 
 [GeneralColors]
-window.color=#f4f4f6
+window.color=#f1f5fb
 base.color=white
-alt.base.color=#f4f4f6
+alt.base.color=#f1f5fb
 button.color=#efebe7
 light.color=white
 mid.light.color=#bababe
@@ -94,10 +94,10 @@ inactive.window.text.color=black
 button.text.color=black
 disabled.text.color=#00000070
 tooltip.text.color=black
-highlight.text.color=white
+highlight.text.color=#7294e8
 inactive.highlight.text.color=black
 highlight.color=#a6a8c1
-link.color=#0000ff
+link.color=#7294e8
 link.visited.color=#ff00ff
 progress.indicator.text.color=white
 progress.inactive.indicator.text.color=black
@@ -215,6 +215,7 @@ frame.left=3
 frame.right=3
 focusFrame=true
 text.margin.top=4
+text.margin.bottom=2
 frame.expansion=0
 indicator.size=12
 interior.element=tab
@@ -314,10 +315,6 @@ text.normal.color=black
 frame.expansion=0
 interior.element=pbgutter
 frame.element=pbgutter
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
 frame=true
 interior=true
 
@@ -391,9 +388,8 @@ text.italic=true
 text.normal.color=white
 
 [ComboBox]
-#inherits=PanelButtonCommand
-interior.element=cbox
-frame.element=cbox
+interior.element=comb
+frame.element=comb
 frame=true
 indicator.size=16
 indicator.element=cind
