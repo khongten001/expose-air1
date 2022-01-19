@@ -7,11 +7,12 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="18.113897"
-   height="14"
-   viewBox="0 0 18.113897 14.000001"
+   width="12"
+   height="11"
+   viewBox="0 0 12 11.000001"
    version="1.1"
    id="svg831"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -51,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="44.8"
-     inkscape:cx="6.0352959"
-     inkscape:cy="9.2013802"
+     inkscape:zoom="31.678384"
+     inkscape:cx="5.291865"
+     inkscape:cy="8.0185937"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -67,8 +68,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid1767"
-       originx="-8.1003901"
-       originy="-12.219307" />
+       originx="-11.787894"
+       originy="-12.777334" />
   </sodipodi:namedview>
   <metadata
      id="metadata828">
@@ -78,7 +79,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,48 +87,21 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-102.48592,-490.27821)">
-    <g
+     transform="translate(-106.17342,-492.72018)">
+    <rect
+       style="opacity:0.6;fill:#344959;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="horizontal-line"
-       transform="matrix(0.125,0,0,-1,97.649845,995.56659)"
-       style="stroke-width:2.82842708">
-      <rect
-         y="111.59982"
-         x="497.78329"
-         height="32"
-         width="1.0000006"
-         id="rect3195"
-         style="opacity:1;fill:#1c618a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
-         transform="matrix(0,1,1,0,0,0)" />
-      <rect
-         transform="matrix(0,1,1,0,0,0)"
-         style="opacity:1;fill:#5d8dab;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
-         id="rect3197"
-         width="1.0000006"
-         height="32"
-         x="496.78329"
-         y="111.59982" />
-    </g>
-    <g
-       style="stroke-width:2.82842708"
-       transform="matrix(0,-0.125,1,0,-389.29737,513.22819)"
-       id="vertical-line">
-      <rect
-         transform="matrix(0,1,1,0,0,0)"
-         style="opacity:1;fill:#1c618a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
-         id="rect846"
-         width="1.0000006"
-         height="32"
-         x="497.78329"
-         y="111.59982" />
-      <rect
-         y="111.59982"
-         x="496.78329"
-         height="32"
-         width="1.0000006"
-         id="rect848"
-         style="opacity:1;fill:#5d8dab;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:6.07952309;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
-         transform="matrix(0,1,1,0,0,0)" />
-    </g>
+       width="1"
+       height="1"
+       x="112.17342"
+       y="497.72018" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#horizontal-line"
+       id="vertical-line"
+       transform="translate(-1)"
+       width="100%"
+       height="100%" />
   </g>
 </svg>

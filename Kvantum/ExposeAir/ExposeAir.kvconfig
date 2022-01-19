@@ -81,11 +81,11 @@ x11drag=all
 window.color=#f1f5fb
 base.color=white
 alt.base.color=#f1f5fb
-button.color=#efebe7
+button.color=#f1f5fb
 light.color=white
-mid.light.color=#bababe
-dark.color=#8b8e93
-mid.color=#8b8e93
+mid.light.color=#ccd9ea
+dark.color=#a0afc3
+mid.color=#a8b8cd
 inactive.highlight.color=#4e4e4e
 text.color=black
 inactive.text.color=black
@@ -94,7 +94,7 @@ inactive.window.text.color=black
 button.text.color=black
 disabled.text.color=#00000070
 tooltip.text.color=black
-highlight.text.color=#7294e8
+highlight.text.color=white
 inactive.highlight.text.color=black
 highlight.color=#a6a8c1
 link.color=#7294e8
@@ -232,16 +232,12 @@ frame=true
 interior=true
 
 [TreeExpander]
-indicator.size=11
+indicator.size=9
 indicator.element=tree
 
 [HeaderSection]
-frame.element=hdr
-interior.element=hdr
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.element=tbaritem
+interior.element=tbaritem
 indicator.element=arrow
 indication.size=8
 
