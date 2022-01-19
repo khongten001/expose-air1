@@ -51,8 +51,8 @@ scrollbar_in_view=false
 scroll_min_extent=32
 scroll_width=16
 shadowless_popup=false
-slider_handle_length=12
-slider_handle_width=24
+slider_handle_length=11
+slider_handle_width=22
 slider_width=3
 small_icon_size=16
 spin_button_width=16
@@ -413,10 +413,10 @@ interior=true
 interior.element=scursor
 frame.element=scursor
 frame=true
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 
 
 [Focus]
