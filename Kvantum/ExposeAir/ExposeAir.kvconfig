@@ -434,10 +434,6 @@ interior=true
 frame=true
 interior.element=ttip
 frame.element=ttip
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
 text.normal.color=black
 
 [RadioButton]
