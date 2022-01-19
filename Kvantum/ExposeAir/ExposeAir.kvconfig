@@ -252,7 +252,7 @@ frame.element=gbox
 interior.element=gbox
 text.bold=false
 frame.expansion=0
-text.normal.color=#ffb700
+#text.normal.color=#ffb700
 
 [TabBarFrame]
 frame=true
