@@ -2,7 +2,7 @@
 cursorTheme=breeze_cursors
 
 [kdeglobals][General]
-ColorScheme=ExposeModern
+ColorScheme=ExposeAir
 
 [kdeglobals][KDE]
 widgetStyle=kvantum
@@ -15,7 +15,7 @@ LayoutName=org.kde.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__ExposeModern
+theme=__aurorae__svg__ExposeAir
 
 [plasmarc][Theme]
-name=ExposeModern
+name=ExposeAir
