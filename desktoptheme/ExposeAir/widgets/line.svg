@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="12"
@@ -52,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="31.678384"
-     inkscape:cx="5.291865"
-     inkscape:cy="8.0185937"
+     inkscape:zoom="89.600001"
+     inkscape:cx="4.8015075"
+     inkscape:cy="6.4085175"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -79,7 +78,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -88,20 +87,54 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-106.17342,-492.72018)">
-    <rect
-       style="opacity:0.6;fill:#344959;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+    <g
+       id="vertical-line">
+      <rect
+         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2348"
+         width="1"
+         height="1"
+         x="108.15556"
+         y="496.04608" />
+      <rect
+         y="496.04608"
+         x="109.15556"
+         height="1"
+         width="1"
+         id="rect2350"
+         style="opacity:0.5;fill:#25333f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2352"
+         width="1"
+         height="1"
+         x="110.15556"
+         y="496.04608" />
+    </g>
+    <g
        id="horizontal-line"
-       width="1"
-       height="1"
-       x="112.17342"
-       y="497.72018" />
-    <use
-       x="0"
-       y="0"
-       xlink:href="#horizontal-line"
-       id="vertical-line"
-       transform="translate(-1)"
-       width="100%"
-       height="100%" />
+       transform="rotate(90,111.55288,498.59965)">
+      <rect
+         y="496.04608"
+         x="108.15556"
+         height="1"
+         width="1"
+         id="rect2359"
+         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="opacity:0.5;fill:#25333f;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2361"
+         width="1"
+         height="1"
+         x="109.15556"
+         y="496.04608" />
+      <rect
+         y="496.04608"
+         x="110.15556"
+         height="1"
+         width="1"
+         id="rect2363"
+         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
