@@ -56,7 +56,7 @@ slider_handle_width=22
 slider_width=3
 small_icon_size=16
 spin_button_width=16
-splitter_width=6
+splitter_width=3
 spread_header=false
 spread_progressbar=false
 square_combo_button=false
@@ -158,10 +158,10 @@ frame.left=3
 frame.right=3
 
 [Dock]
-inherits=PanelButtonCommand
-interior.element=mubar
-frame.element=mubar
-
+interior.element=tabframe
+frame.element=tabframe
+interior=true
+frame=true
 text.normal.color=#000000c8
 
 [DockTitle]
@@ -440,17 +440,7 @@ text.focus.color=#22222a
 text.normal.color=black
 text.focus.color=#22222a
 
-[Dock]
-interior.element=dtitle
-frame.element=dtitle
-frame=true
-interior=true
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
-indicator.element=dock
-indicator.size=8
+
 
 [DockTitle]
 frame=true
