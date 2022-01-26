@@ -66,7 +66,7 @@
        fx="16.67119"
        fy="99.223717"
        r="7.000001"
-       gradientTransform="matrix(1.9760204,-2.0171863,2.3053552,1.7290176,-302.68852,176.85679)"
+       gradientTransform="matrix(1.7142858,-1.5910676,1.8193275,1.6270747,-250.09962,179.86803)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -76,7 +76,7 @@
          offset="0"
          id="stop888" />
       <stop
-         style="stop-color:#47cbfa;stop-opacity:0.02232143"
+         style="stop-color:#1bbff8;stop-opacity:0.02352941"
          offset="1"
          id="stop890" />
     </linearGradient>
@@ -94,11 +94,11 @@
        inkscape:collect="always"
        id="linearGradient909">
       <stop
-         style="stop-color:#ffffff;stop-opacity:0.80392158"
+         style="stop-color:#e2ebfa;stop-opacity:1"
          offset="0"
          id="stop905" />
       <stop
-         style="stop-color:#e0e0e0;stop-opacity:0.16078432"
+         style="stop-color:#427fdf;stop-opacity:0.20392157"
          offset="1"
          id="stop907" />
     </linearGradient>
@@ -119,9 +119,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.627417"
-     inkscape:cx="11.047861"
-     inkscape:cy="28.931678"
+     inkscape:zoom="16"
+     inkscape:cx="20.640566"
+     inkscape:cy="13.782581"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -161,7 +161,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

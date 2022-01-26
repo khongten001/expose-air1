@@ -44,7 +44,7 @@ Rectangle {
 
     Image {
         id: backing
-        source: "airlogin.png"
+        source: "airlogin3.png"
         width: parent.width
         height: parent.height
     }
@@ -262,7 +262,7 @@ Rectangle {
             height: 26
             text: textConstants.shutdown
             font.family: basefont.name
-            font.pointSize: 10
+            font.pointSize: 8
             verticalAlignment: Text.AlignVCenter
             color: "white"
         }
@@ -270,8 +270,8 @@ Rectangle {
         Q1.Button {
             id: shutdownButton
             anchors.horizontalCenter: parent.horizontalCenter
-            height: 32
-            width: 32
+            height: 44
+            width: 44
             style: ButtonStyle {
             background: Image {
             source: control.hovered ? "shutdownpressed.svg": "shutdown.svg"
@@ -292,15 +292,15 @@ Column {
         height: 26
         text: textConstants.reboot
         font.family: basefont.name
-        font.pointSize: 10
+        font.pointSize: 8
         verticalAlignment: Text.AlignVCenter
         color: "white"
     }
     Q1.Button {
         id: rebootButton
         anchors.horizontalCenter: parent.horizontalCenter
-        height: 32
-        width: 32
+        height: 44
+        width: 44
         style: ButtonStyle {
         background: Image {
         source: control.hovered ? "rebootpressed.svg": "reboot.svg"
