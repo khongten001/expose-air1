@@ -23,36 +23,34 @@
 ***************************************************************************/
 
 import QtQuick 2.0
-
 Column {
-    id: container
-
-    property date dateTime: new Date()
-    property color color: "#f4f4f2"
-    property alias timeFont: time.font
-    property alias dateFont: date.font
-    
+    id : container
+    property date dateTime : new Date()
+    property color color : "#f4f4f2"
+    property alias timeFont : time.font
+    property alias dateFont : date.font
     Timer {
-        interval: 1000; running: true; repeat: true;
-        onTriggered: container.dateTime = new Date()
+        interval : 1000
+        running : true
+        repeat : true
+        onTriggered : container.dateTime = new Date()
     }
-
     Column {
         Text {
-            id: date
-            anchors.horizontalCenter: parent.horizontalCenter
-            color: container.color
-            font.weight: Font.Bold
+            id : date
+            anchors.horizontalCenter : parent.horizontalCenter
+            color : container.color
+            font.weight : Font.Bold
             text : Qt.formatDate(container.dateTime, Qt.DefaultLocaleLongDate)
-            font.pointSize: 13
+            font.pointSize : 13
         }
         Text {
-            id: time
-            anchors.horizontalCenter: parent.horizontalCenter
-            color: container.color
+            id : time
+            anchors.horizontalCenter : parent.horizontalCenter
+            color : container.color
             text : Qt.formatDateTime(container.dateTime, "h:mm ap")
-            font.pointSize: 79
-            font.weight: Font.Thin
+            font.pointSize : 79
+            font.weight : Font.Thin
         }
     }
 }
