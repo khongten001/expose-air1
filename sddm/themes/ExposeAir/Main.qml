@@ -26,6 +26,10 @@ Rectangle {
         id: boldfont
         source: "selawksb.ttf"
     }
+    FontLoader {
+        id: lightfont
+        source: "selawkl.ttf"
+    }
     Connections {
         target: sddm
 
@@ -42,88 +46,63 @@ Rectangle {
         }
     }
 
-    Image {
-        id: backing
-        source: "airlogin3.png"
-        width: parent.width
-        height: parent.height
-    }
-
-    Rectangle {
-        id: topBox
-        anchors.top: parent.top
-        anchors.left: parent.left
-        anchors.topMargin: 24
-        height: 128
-        width: parent.width
-        color: "transparent"
-
-        Column {
-            anchors.horizontalCenter: parent.horizontalCenter
-            spacing: 24
-            Clock2 {
-                id: clock
-                anchors.horizontalCenter: parent.horizontalCenter
-                color: "white"
-                timeFont.family: basefont.name
-                dateFont.family: basefont.name
+    Background {
+        anchors.fill: parent
+        source: config.background
+        fillMode: Image.Stretch
+        onStatusChanged: {
+            if (status == Image.Error && source != config.defaultBackground) {
+                source = config.defaultBackground
             }
         }
     }
 
-    Rectangle {
-        id: mainGrid
-        color: "transparent"
-        width: 520
-        height: 240
-        anchors.horizontalCenter: parent.horizontalCenter
+    Column {
         anchors.verticalCenter: parent.verticalCenter
+        anchors.left: parent.left
+        spacing: 24
+        anchors.leftMargin: 120
 
-        //             anchors.topMargin: 112
-        //anchors.leftMargin: 48
-        //spacing: 64
-        // Row {
-        //     spacing: 64
+        Clock2 {
+            id: clock
+            anchors.horizontalCenter: parent.horizontalCenter
+            color: "white"
+            timeFont.family: lightfont.name
+            dateFont.family: boldfont.name
+        }
+    }
 
-            // Image {
-            //     id: funny
-            //     source: "system-users.png"
-            //     anchors.top: parent.top
-            //     anchors.topMargin: 16
-            //     //Layout.rowSpan: 4
-            // }
+    Column {
+        x: parent.width / 2
+        anchors.verticalCenter: parent.verticalCenter
+        Text {
+            id: lblLoginName
+            height: 32
+            text: textConstants.promptUser
+            font.pointSize: 9
+            verticalAlignment: Text.AlignVCenter
+            color: "#f4f4f2"
+            font.family: basefont.name
+            bottomPadding: 20
+        }
 
-            Column {
-                anchors.horizontalCenter: parent.horizontalCenter
-                anchors.verticalCenter: parent.verticalCenter
-                Text {
-                    id: lblLoginName
-                    height: 32
-                    text: textConstants.promptUser
-                    font.pointSize: 8
-                    verticalAlignment: Text.AlignVCenter
-                    color: "#f4f4f2"
-                    font.family: basefont.name
-                }
+        TextField {
+            id: name
+            font.family: basefont.name
+            width: 320
+            height: 28
+            text: userModel.lastUser
+            font.pointSize: 10
+            color: "#212121"
+            background: Image {
+                source: "input.svg"
+            }
 
-                TextField {
-                    id: name
-                    font.family: basefont.name
-                    width: 320
-                    height: 28
-                    text: userModel.lastUser
-                    font.pointSize: 10
-                    color: "#212121"
-                    background: Image {
-                    source: "input.svg"
-                }
+            KeyNavigation.backtab: rebootButton
+            KeyNavigation.tab: password
 
-                KeyNavigation.backtab: rebootButton
-                KeyNavigation.tab: password
-
-                Keys.onPressed: {
-                    if (event.key === Qt.Key_Return
-                    || event.key === Qt.Key_Enter){
+            Keys.onPressed: {
+                if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
                     sddm.login(name.text, password.text, sessionIndex)
                     event.accepted = true
                 }
@@ -135,7 +114,7 @@ Rectangle {
             text: textConstants.promptPassword
             verticalAlignment: Text.AlignVCenter
             color: "#f4f4f2"
-            font.pointSize: 8
+            font.pointSize: 9
             font.family: basefont.name
         }
 
@@ -147,81 +126,70 @@ Rectangle {
                 font.pointSize: 10
                 echoMode: TextInput.Password
                 font.family: basefont.name
-                color: "#404040"
+                color: "#212121"
                 width: 320
                 height: 28
 
                 background: Image {
-                source: "input.svg"
+                    source: "input.svg"
+                }
+
+                KeyNavigation.backtab: name
+
+                KeyNavigation.tab: loginButton
+                Keys.onPressed: {
+                    if (event.key === Qt.Key_Return
+                            || event.key === Qt.Key_Enter) {
+                        sddm.login(name.text, password.text, sessionIndex)
+                        event.accepted = true
+                    }
+                }
             }
 
-            KeyNavigation.backtab: name
-            //                        KeyNavigation.tab: loginButton
+            Image {
+                id: loginButton
+                width: 44
+                height: 44
+                source: "buttonup.svg"
 
-            Keys.onPressed: {
-                if (event.key === Qt.Key_Return
-                || event.key === Qt.Key_Enter){
-                sddm.login(name.text, password.text,
-                sessionIndex)
-                event.accepted = true
+                MouseArea {
+                    anchors.fill: parent
+                    hoverEnabled: true
+                    onEntered: {
+                        parent.source = "buttonhover.svg"
+                    }
+                    onExited: {
+                        parent.source = "buttonup.svg"
+                    }
+                    onPressed: {
+                        parent.source = "buttondown.svg"
+                        sddm.login(name.text, password.text, sessionIndex)
+                    }
+                    onReleased: {
+                        parent.source = "buttonup.svg"
+                    }
+                }
+
+                KeyNavigation.backtab: password
+                KeyNavigation.tab: shutdownButton
             }
         }
-    }
-
-    Image {
-        width: 44
-        height: 44
-        source: "buttonup.svg"
-
-        //                     anchors.right: parent.right
-        MouseArea {
-            anchors.fill: parent
-            hoverEnabled: true
-            onEntered: {
-                parent.source = "buttonhover.svg"
-            }
-            onExited: {
-                parent.source = "buttonup.svg"
-            }
-            onPressed: {
-                parent.source = "buttondown.svg"
-                sddm.login(name.text, password.text,
-                sessionIndex)
-            }
-            onReleased: {
-                parent.source = "buttonup.svg"
-            }
+        Text {
+            id: errorMessage
+            topPadding: 24
+            text: textConstants.prompt
+            font.pointSize: 9
+            color: "#f4f4f2"
+            font.family: basefont.name
         }
-
-        KeyNavigation.backtab: password
-        KeyNavigation.tab: shutdownButton
     }
-}
-}
-// }
-Text {
-    id: errorMessage
-    anchors.horizontalCenter: parent.horizontalCenter
-    anchors.bottom: parent.bottom
-    text: textConstants.prompt
-    font.pointSize: 10
-    color: "#f4f4f2"
-    font.family: basefont.name
-}
-}
-
-Rectangle {
-    anchors.bottom: parent.bottom
-    anchors.horizontalCenter: parent.horizontalCenter
-    anchors.bottomMargin: 12
-    width: 560
-    height: 64
-    color: "transparent"
 
     Column {
-        anchors.left: parent.left
-        anchors.leftMargin: 36
-        width: 196
+        anchors.right: parent.right
+        anchors.rightMargin: 24
+        anchors.topMargin: 12
+        anchors.top: parent.top
+        width: 180
 
         Text {
             height: 30
@@ -236,88 +204,93 @@ Rectangle {
         ComboBox {
             id: session
             width: parent.width
-            height: 24
-            font.pixelSize: 12
+            height: 22
+            font.pixelSize: 10
+            font.family: basefont.name
             arrowIcon: "comboarrow.svg"
             model: sessionModel
             index: sessionModel.lastIndex
-            borderColor: "#9c8e78"
-            color: "#2c2c2c"
-            textColor: "#f4f4f2"
-            hoverColor: "#bfad93"
+            borderColor: "#a0afc3"
+            color: "#f9f9f9"
+            textColor: "#212121"
+            hoverColor: "#909eb0"
 
             KeyNavigation.backtab: password
             KeyNavigation.tab: shutdownButton
         }
     }
 
-    Column {
+    Row {
+        anchors.bottom: parent.bottom
         anchors.right: parent.right
-        anchors.rightMargin: 96
-        width: 72
+        anchors.bottomMargin: 18
+        anchors.rightMargin: 24
+        height: 64
+        spacing: 24
 
-        Text {
-            id: rebootName2
-            anchors.horizontalCenter: parent.horizontalCenter
-            height: 26
-            text: textConstants.shutdown
-            font.family: basefont.name
-            font.pointSize: 8
-            verticalAlignment: Text.AlignVCenter
-            color: "white"
+        Column {
+            width: 72
+
+            Text {
+                id: rebootName2
+                anchors.horizontalCenter: parent.horizontalCenter
+                height: 26
+                text: textConstants.shutdown
+                font.family: basefont.name
+                font.pointSize: 8
+                verticalAlignment: Text.AlignVCenter
+                color: "white"
+            }
+
+            Q1.Button {
+                id: shutdownButton
+                anchors.horizontalCenter: parent.horizontalCenter
+                height: 44
+                width: 44
+                style: ButtonStyle {
+                    background: Image {
+                        source: control.hovered ? "shutdownpressed.svg" : "shutdown.svg"
+                    }
+                }
+
+                onClicked: sddm.powerOff()
+                KeyNavigation.backtab: loginButton
+                KeyNavigation.tab: rebootButton
+            }
         }
+        Column {
+            Text {
+                id: rebootName
+                anchors.horizontalCenter: parent.horizontalCenter
+                height: 26
+                text: textConstants.reboot
+                font.family: basefont.name
+                font.pointSize: 8
+                verticalAlignment: Text.AlignVCenter
+                color: "white"
+            }
+            Q1.Button {
+                id: rebootButton
+                anchors.horizontalCenter: parent.horizontalCenter
+                height: 44
+                width: 44
+                style: ButtonStyle {
+                    background: Image {
+                        source: control.hovered ? "rebootpressed.svg" : "reboot.svg"
+                    }
+                }
 
-        Q1.Button {
-            id: shutdownButton
-            anchors.horizontalCenter: parent.horizontalCenter
-            height: 44
-            width: 44
-            style: ButtonStyle {
-            background: Image {
-            source: control.hovered ? "shutdownpressed.svg": "shutdown.svg"
+                onClicked: sddm.reboot()
+                KeyNavigation.backtab: shutdownButton
+                KeyNavigation.tab: name
+            }
         }
     }
 
-    onClicked: sddm.powerOff()
-    //                KeyNavigation.backtab: loginButton
-    KeyNavigation.tab: rebootButton
-}
-}
-Column {
-    anchors.right: parent.right
-    width: 96
-    Text {
-        id: rebootName
-        anchors.horizontalCenter: parent.horizontalCenter
-        height: 26
-        text: textConstants.reboot
-        font.family: basefont.name
-        font.pointSize: 8
-        verticalAlignment: Text.AlignVCenter
-        color: "white"
-    }
-    Q1.Button {
-        id: rebootButton
-        anchors.horizontalCenter: parent.horizontalCenter
-        height: 44
-        width: 44
-        style: ButtonStyle {
-        background: Image {
-        source: control.hovered ? "rebootpressed.svg": "reboot.svg"
-    }
-}
-
-onClicked: sddm.reboot()
-KeyNavigation.backtab: shutdownButton
-KeyNavigation.tab: name
-}
-}
-}
-
-Component.onCompleted: {
-    if (name.text == "")
-        name.focus = true
+    Component.onCompleted: {
+        if (name.text == "")
+            name.focus = true
         else
             password.focus = true
-        }
     }
+}
