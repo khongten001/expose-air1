@@ -55,8 +55,8 @@ Image {
             y: parent.height / 1.5 - 48
             z: 3
             source: "images/gear.svg"
-            width: 96
-            height: 96
+//             width: 96
+            //height: 96
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 0
@@ -71,8 +71,8 @@ Image {
             x: parent.width / 2 - 44
             y: parent.height / 1.5 - 44
             source: "images/gear2.svg"
-            width: 96
-            height: 96
+//             width: 96
+            //height: 96
             RotationAnimator on rotation {
                 id: rotationAnimator2
                 from: 0
