@@ -57,20 +57,25 @@ Rectangle {
         }
     }
 
-    Column {
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.left: parent.left
-        spacing: 24
-        anchors.leftMargin: 120
+    //Rectangle {
+        //anchors.verticalCenter: parent.verticalCenter
+////         anchors.left: parent.left
+        //x: parent.width / 6
+        //width: 12
+        //height: 12
+        //color: "green"
+        //spacing: 24
+        //anchors.leftMargin: 154
 
         Clock2 {
             id: clock
-            anchors.horizontalCenter: parent.horizontalCenter
-            color: "white"
+            anchors.verticalCenter: parent.verticalCenter
+            x: parent.width / 7
+            color: "#f4f4f2"
             timeFont.family: lightfont.name
             dateFont.family: boldfont.name
         }
-    }
+    //}
 
     Column {
         x: parent.width / 2

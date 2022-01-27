@@ -33,7 +33,7 @@ Column {
     property alias dateFont: date.font
     
     Timer {
-        interval: 100; running: true; repeat: true;
+        interval: 1000; running: true; repeat: true;
         onTriggered: container.dateTime = new Date()
     }
 
@@ -44,18 +44,15 @@ Column {
             color: container.color
             font.weight: Font.Bold
             text : Qt.formatDate(container.dateTime, Qt.DefaultLocaleLongDate)
-            font.pointSize: 14
+            font.pointSize: 13
         }
         Text {
             id: time
             anchors.horizontalCenter: parent.horizontalCenter
             color: container.color
             text : Qt.formatDateTime(container.dateTime, "h:mm ap")
-            font.pointSize: 72
-            font.weight: Font.Light
-            font.family: timeFont.name
+            font.pointSize: 79
+            font.weight: Font.Thin
         }
-
-
     }
 }
