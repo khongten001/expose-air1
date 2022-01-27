@@ -10,4 +10,4 @@ X-KDE-PluginInfo-Name=ExposeAir
 X-KDE-PluginInfo-Version=1.0
 X-KDE-PluginInfo-Website=https://www.pling.com/u/phob1an/
 X-KDE-ServiceTypes=Plasma/LookAndFeel
-X-KPackage-Dependencies=kns://aurorae.knsrc/api.kde-look.org/1687243,kns://colorschemes.knsrc/api.kde-look.org/1687244,kns://plasma-themes.knsrc/api.kde-look.org/1687242
+X-KPackage-Dependencies=kns://aurorae.knsrc/api.kde-look.org/1687243,kns://colorschemes.knsrc/api.kde-look.org/1687244,kns://plasma-themes.knsrc/api.kde-look.org/1687242,kns://icons.knsrc/api.kde-look.org/1171111,kns://sddmtheme.knsrc/api.kde-look.org/1692328
