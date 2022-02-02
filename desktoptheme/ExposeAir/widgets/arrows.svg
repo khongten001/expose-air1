@@ -26,12 +26,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="31.999999"
-     inkscape:cx="30.409408"
-     inkscape:cy="13.49708"
+     inkscape:zoom="7.9999998"
+     inkscape:cx="30.260786"
+     inkscape:cy="27.095317"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:showpageshadow="false"
@@ -45,20 +45,11 @@
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:snap-global="true">
+     inkscape:snap-global="true"
+     inkscape:snap-nodes="false">
     <inkscape:grid
        type="xygrid"
        id="grid4365" />
-    <sodipodi:guide
-       position="39,15.000001"
-       orientation="1,0"
-       id="guide822"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="34,13.000001"
-       orientation="0,1"
-       id="guide824"
-       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata829">
@@ -82,15 +73,15 @@
        transform="translate(-3.0000003,-5.9999989)">
       <rect
          transform="rotate(90)"
-         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4374"
-         width="24"
-         height="24"
-         x="347.26254"
-         y="-167.21507" />
+         width="22.000015"
+         height="22.000015"
+         x="348.26254"
+         y="-166.21509" />
       <path
-         transform="matrix(0.57142856,0,0,0.99487166,66.377898,1.8735093)"
-         inkscape:transform-center-x="-0.99999994"
+         transform="matrix(0.3809523,0,0,0.65982872,95.990303,122.2108)"
+         inkscape:transform-center-x="-0.66666587"
          d="m 160.71507,359.26254 -5.25,3.03109 -5.25,3.03109 v -6.06218 -6.06218 l 5.25,3.03109 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
@@ -103,7 +94,7 @@
          sodipodi:cx="153.71507"
          sodipodi:sides="3"
          id="path845"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.98942137;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.99185395;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          sodipodi:type="star" />
     </g>
     <use

@@ -10,48 +10,48 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="154.00003"
-   height="60.000004"
-   viewBox="0 0 154.00003 60.000008"
-   version="1.1"
-   id="svg894"
+   sodipodi:docname="tabbar.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="tabbar.svg">
+   id="svg894"
+   version="1.1"
+   viewBox="0 0 154.00003 60.000008"
+   height="60.000004"
+   width="154.00003">
   <defs
      id="defs888">
     <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="206.53003"
-       x2="1320"
-       y1="174.53003"
-       x1="1320"
-       id="linearGradient19745-18"
-       xlink:href="#linearGradient14361-706"
+       gradientTransform="translate(-1023.7148,372.08483)"
        inkscape:collect="always"
-       gradientTransform="translate(-1023.7148,372.08483)" />
+       xlink:href="#linearGradient14361"
+       id="linearGradient19745"
+       x1="1320"
+       y1="174.53003"
+       x2="1320"
+       y2="206.53003"
+       gradientUnits="userSpaceOnUse" />
     <linearGradient
-       id="linearGradient14361-706"
-       inkscape:collect="always">
+       inkscape:collect="always"
+       id="linearGradient14361">
       <stop
-         id="stop887"
+         style="stop-color:#fbdbb5;stop-opacity:1"
          offset="0"
-         style="stop-color:#e2c5a3;stop-opacity:1;opacity:1" />
+         id="stop14353" />
       <stop
-         style="stop-color:#e5b36c;stop-opacity:1;opacity:1"
+         id="stop14355"
          offset="0.40624991"
-         id="stop889" />
+         style="stop-color:#fec778;stop-opacity:1" />
       <stop
-         id="stop891"
+         style="stop-color:#fea940;stop-opacity:1"
          offset="0.40624991"
-         style="stop-color:#e5983a;stop-opacity:1;opacity:1" />
+         id="stop14357" />
       <stop
-         style="stop-color:#e4b769;stop-opacity:1;;opacity:1"
+         id="stop14363"
          offset="0.71874982"
-         id="stop893" />
+         style="stop-color:#fdcb75;stop-opacity:1;" />
       <stop
-         id="stop895"
+         style="stop-color:#fdeb9f;stop-opacity:1"
          offset="1"
-         style="stop-color:#e4d48f;stop-opacity:1;opacity:1" />
+         id="stop14359" />
     </linearGradient>
   </defs>
   <sodipodi:namedview
@@ -62,8 +62,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="32.000001"
-     inkscape:cx="133.5637"
-     inkscape:cy="42.912926"
+     inkscape:cx="106.47889"
+     inkscape:cy="12.897671"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -79,10 +79,10 @@
      inkscape:bbox-nodes="true"
      inkscape:bbox-paths="true">
     <inkscape:grid
-       originy="-109.00001"
-       originx="36.000009"
+       id="grid2723"
        type="xygrid"
-       id="grid2723" />
+       originx="36.000009"
+       originy="-109.00001" />
   </sodipodi:namedview>
   <metadata
      id="metadata891">
@@ -165,12 +165,12 @@
        x="258.28519"
        y="573.61481" />
     <rect
-       y="546.61487"
-       x="296.28519"
-       height="32"
-       width="32"
+       style="opacity:1;fill:url(#linearGradient19745);fill-opacity:1;stroke:none;stroke-width:1.27952731;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.18662953"
        id="north-active-tab-center"
-       style="opacity:1;fill:url(#linearGradient19745-18);fill-opacity:1;stroke:none;stroke-width:1.27952731;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.18662953" />
+       width="32"
+       height="32"
+       x="296.28519"
+       y="546.61487" />
     <g
        id="north-active-tab-topright"
        transform="translate(-6.9999878,1.6685791e-5)">
@@ -187,7 +187,7 @@
          d="m 339.2852,-546.61481 a 4.0000124,4.0000167 0 0 1 -4.00001,4.00002 l 0,-4.00002 z"
          transform="scale(1,-1)" />
       <path
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path16591"
          sodipodi:type="arc"
          sodipodi:cx="335.28519"
@@ -209,7 +209,7 @@
          sodipodi:cx="335.28519"
          sodipodi:type="arc"
          id="path16593"
-         style="opacity:1;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          id="rect16595"
          transform="scale(-1,1)"
@@ -217,12 +217,12 @@
          y="545.61481"
          width="1"
          height="1"
-         style="opacity:1;fill:#bfab94;fill-opacity:1" />
+         style="opacity:1;fill:#c3a47e;fill-opacity:1" />
     </g>
     <g
        id="north-active-tab-bottom">
       <rect
-         style="opacity:1;fill:#ececec;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -230,7 +230,7 @@
          transform="matrix(0,-1,-1,0,0,0)"
          id="rect16565" />
       <rect
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1"
+         style="opacity:1;fill:#707070;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -238,7 +238,7 @@
          transform="matrix(0,-1,-1,0,0,0)"
          id="rect16567" />
       <rect
-         style="opacity:1;fill:#a68a6b;fill-opacity:1"
+         style="opacity:1;fill:#c3a47e;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -257,7 +257,7 @@
     <g
        id="north-active-tab-right">
       <rect
-         style="opacity:1;fill:#ececec;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
@@ -265,7 +265,7 @@
          transform="scale(-1,1)"
          id="rect16573" />
       <rect
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1"
+         style="opacity:1;fill:#707070;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
@@ -273,7 +273,7 @@
          transform="scale(-1,1)"
          id="rect16575" />
       <rect
-         style="opacity:1;fill:#a68a6b;fill-opacity:1"
+         style="opacity:1;fill:#c3a47e;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
@@ -292,21 +292,21 @@
     <g
        id="north-active-tab-left">
       <rect
-         style="opacity:1;fill:#ececec;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
          x="294.28516"
          id="rect16581" />
       <rect
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1"
+         style="opacity:1;fill:#707070;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
          x="293.28516"
          id="rect16583" />
       <rect
-         style="opacity:1;fill:#a68a6b;fill-opacity:1"
+         style="opacity:1;fill:#c3a47e;fill-opacity:1"
          height="32"
          width="1"
          y="546.61487"
@@ -323,7 +323,7 @@
     <g
        id="north-active-tab-top">
       <rect
-         style="opacity:1;fill:#ececec;fill-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -331,7 +331,7 @@
          transform="rotate(90)"
          id="rect16557" />
       <rect
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1"
+         style="opacity:1;fill:#707070;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -339,7 +339,7 @@
          transform="rotate(90)"
          id="rect16559" />
       <rect
-         style="opacity:1;fill:#a68a6b;fill-opacity:1"
+         style="opacity:1;fill:#c3a47e;fill-opacity:1"
          height="32"
          width="1"
          y="-328.28519"
@@ -381,9 +381,9 @@
          sodipodi:cx="335.28519"
          sodipodi:type="arc"
          id="path4886"
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         style="opacity:1;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4888"
          sodipodi:type="arc"
          sodipodi:cx="335.28519"
@@ -395,7 +395,7 @@
          d="m 337.28519,-546.61481 a 2,2 0 0 1 -2,2 l 0,-2 z"
          transform="scale(1,-1)" />
       <rect
-         style="opacity:1;fill:#bfab94;fill-opacity:1"
+         style="opacity:1;fill:#c3a47e;fill-opacity:1"
          height="1"
          width="1"
          y="545.61481"
@@ -429,9 +429,9 @@
          sodipodi:cx="335.28519"
          sodipodi:type="arc"
          id="path4896"
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         style="opacity:1;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4898"
          sodipodi:type="arc"
          sodipodi:cx="335.28519"
@@ -443,7 +443,7 @@
          d="m 337.28519,-546.61481 a 2,2 0 0 1 -2,2 l 0,-2 z"
          transform="scale(1,-1)" />
       <rect
-         style="opacity:1;fill:#bfab94;fill-opacity:1"
+         style="opacity:1;fill:#c3a47e;fill-opacity:1"
          height="1"
          width="1"
          y="545.61481"
@@ -477,9 +477,9 @@
          sodipodi:cx="335.28519"
          sodipodi:type="arc"
          id="path4906"
-         style="opacity:1;fill:#5c5c5c;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#707070;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
-         style="opacity:1;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path4908"
          sodipodi:type="arc"
          sodipodi:cx="335.28519"
@@ -491,7 +491,7 @@
          d="m 337.28519,-546.61481 a 2,2 0 0 1 -2,2 l 0,-2 z"
          transform="scale(1,-1)" />
       <rect
-         style="opacity:1;fill:#bfab94;fill-opacity:1"
+         style="opacity:1;fill:#c3a47e;fill-opacity:1"
          height="1"
          width="1"
          y="545.61481"

@@ -173,9 +173,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="51.511124"
-     inkscape:cx="9.1291159"
-     inkscape:cy="7.6376751"
+     inkscape:zoom="18.211933"
+     inkscape:cx="20.482298"
+     inkscape:cy="6.6608315"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -212,10 +212,10 @@
     <rect
        style="opacity:1;fill:#ffb380;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.13543296;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="hint-bar-size"
-       width="7.9999981"
-       height="8.0000353"
-       x="179.23451"
-       y="521.78876" />
+       width="10.000009"
+       height="10.000012"
+       x="177.23451"
+       y="519.78876" />
     <rect
        style="opacity:1;fill:url(#linearGradient853);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="bar-inactive-center"
