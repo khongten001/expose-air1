@@ -39,7 +39,7 @@ no_inactiveness=false
 no_inactive_tab_expansion=true
 no_window_pattern=false
 popup_blurring=false
-progressbar_thickness=1.0font
+progressbar_thickness=1.2font
 reduce_menu_opacity=0
 reduce_window_opacity=0
 remove_extra_frames=false
@@ -51,8 +51,8 @@ scrollbar_in_view=true
 scroll_min_extent=32
 scroll_width=14
 shadowless_popup=false
-slider_handle_length=11
-slider_handle_width=22
+slider_handle_length=10
+slider_handle_width=20
 slider_width=3
 small_icon_size=16
 spin_button_width=16
@@ -64,8 +64,8 @@ submenu_delay=250
 submenu_overlap=6
 tab_button_extra_margin=0
 toolbar_icon_size=16
-toolbar_interior_spacing=3
-toolbar_item_spacing=3
+toolbar_interior_spacing=2
+toolbar_item_spacing=2
 toolbutton_style=0
 tooltip_delay=-1
 tooltip_shadow_depth=4
@@ -233,7 +233,7 @@ interior=true
 focusFrame=true
 
 [TreeExpander]
-indicator.size=9
+indicator.size=11
 indicator.element=tree
 
 [HeaderSection]
@@ -363,12 +363,12 @@ text.margin=3
 
 [MenuBarItem]
 interior=true
-interior.element=tbaritem
-frame.element=tbaritem
+interior.element=mbaritem
+frame.element=mbaritem
 frame=true
 frame.expansion=0
 #text.toggle.color=green
-#text.press.color=red
+text.press.color=white
 #text.normal.color=black
 
 [MenuBar]
@@ -412,13 +412,13 @@ focusFrame=true
 [SliderCursor]
 frame=true
 interior=true
-interior.element=scursor
-frame.element=scursor
+interior.element=scrollslide
+frame.element=scrollslide
 frame=true
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 
 [Focus]
