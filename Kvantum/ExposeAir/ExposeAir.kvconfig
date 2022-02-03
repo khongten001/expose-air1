@@ -10,7 +10,7 @@ bold_active_tab=false
 button_contents_shift=true
 button_icon_size=16
 center_toolbar_handle=false
-check_size=14
+check_size=16
 click_behavior=1
 combo_as_lineedit=true
 combo_focus_rect=false
@@ -47,9 +47,9 @@ respect_DE=true
 saturation=1.00
 scrollable_menu=true
 scroll_arrows=true
-scrollbar_in_view=false
+scrollbar_in_view=true
 scroll_min_extent=32
-scroll_width=16
+scroll_width=14
 shadowless_popup=false
 slider_handle_length=11
 slider_handle_width=22
@@ -349,6 +349,7 @@ interior.element=mnu
 frame.element=mnu
 frame=true
 interior=true
+text.margin=3
 
 [MenuItem]
 frame=true
@@ -358,6 +359,7 @@ interior.element=menuitem
 frame.expansion=0
 indicator.element=arrow
 indicator.size=8
+text.margin=3
 
 [MenuBarItem]
 interior=true
@@ -437,11 +439,11 @@ text.normal.color=black
 
 [RadioButton]
 text.normal.color=black
-text.focus.color=#22222a
+text.focus.color=#293552
 
 [CheckBox]
 text.normal.color=black
-text.focus.color=#22222a
+text.focus.color=#293552
 
 
 
