@@ -77,7 +77,7 @@ Rectangle {
             height : 28
             text : userModel.lastUser
             font.pointSize : 10
-            color : "#212121"
+            color : "#323232"
             background : Image {
                 source : "input.svg"
             }
@@ -107,7 +107,7 @@ Rectangle {
                 font.pointSize : 10
                 echoMode : TextInput.Password
                 font.family : basefont.name
-                color : "#212121"
+                color : "#323232"
                 width : 320
                 height : 28
                 background : Image {
@@ -181,9 +181,9 @@ Rectangle {
             arrowIcon : "comboarrow.svg"
             model : sessionModel
             index : sessionModel.lastIndex
-            borderColor : "#a0afc3"
+            borderColor : "#9aeaf9"
             color : "#f9f9f9"
-            textColor : "#212121"
+            textColor : "#323232"
             hoverColor : "#909eb0"
             KeyNavigation.backtab : password
             KeyNavigation.tab : shutdownButton

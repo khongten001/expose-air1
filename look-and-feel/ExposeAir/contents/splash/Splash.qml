@@ -25,7 +25,7 @@ import QtGraphicalEffects 1.0
 Image {
     id: root
 //     color: "#393939"
-    source: "images/airlogin3.png"
+    source: "images/airlogin.png"
     property int stage
 
     onStageChanged: {
@@ -52,7 +52,7 @@ Image {
         Image {
             id: busyIndicator
             x: parent.width / 2 - 48
-            y: parent.height / 1.5 - 48
+            y: parent.height / 1.4 - 48
             z: 3
             source: "images/gear.svg"
 //             width: 96
@@ -69,7 +69,7 @@ Image {
             id: busyShadow
             z: 2
             x: parent.width / 2 - 44
-            y: parent.height / 1.5 - 44
+            y: parent.height / 1.4 - 44
             source: "images/gear2.svg"
 //             width: 96
             //height: 96
