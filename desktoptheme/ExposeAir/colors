@@ -17,7 +17,7 @@ ForegroundNormal=255,255,255
 BackgroundNormal=255,255,0
 
 [Colors:Button]
-ForegroundNormal=50,54,58
+ForegroundNormal=60,66,72
 
 [Colors:Tooltip]
 ForegroundNormal=250,250,250
