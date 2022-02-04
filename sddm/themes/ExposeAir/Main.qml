@@ -51,8 +51,8 @@ Rectangle {
     }
     Clock2 {
         id : clock
-        anchors.verticalCenter : parent.verticalCenter
-        x : parent.width / 7
+        x : parent.width / 5
+        y : parent.height / 2 - 56
         color : "#f4f4f2"
         timeFont.family : lightfont.name
         dateFont.family : boldfont.name
@@ -124,8 +124,8 @@ Rectangle {
             }
             Image {
                 id : loginButton
-                width : 44
-                height : 44
+                width : 42
+                height : 42
                 source : "buttonup.svg"
                 MouseArea {
                     anchors.fill : parent
@@ -148,14 +148,14 @@ Rectangle {
                 KeyNavigation.tab : shutdownButton
             }
         }
-        Text {
-            id : errorMessage
-            topPadding : 24
-            text : textConstants.prompt
-            font.pointSize : 9
-            color : "#f4f4f2"
-            font.family : boldfont.name
-        }
+        //Text {
+            //id : errorMessage
+            //topPadding : 24
+            //text : textConstants.prompt
+            //font.pointSize : 9
+            //color : "#f4f4f2"
+            //font.family : boldfont.name
+        //}
     }
     Column {
         anchors.right : parent.right

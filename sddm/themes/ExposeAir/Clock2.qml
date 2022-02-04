@@ -42,15 +42,17 @@ Column {
             color : container.color
             font.weight : Font.Bold
             text : Qt.formatDate(container.dateTime, Qt.DefaultLocaleLongDate)
-            font.pointSize : 13
+            font.pointSize : 12
+            horizontalAlignment: Text.AlignHCenter
         }
         Text {
             id : time
             anchors.horizontalCenter : parent.horizontalCenter
             color : container.color
             text : Qt.formatDateTime(container.dateTime, "h:mm ap")
-            font.pointSize : 79
+            font.pointSize : 72
             font.weight : Font.Thin
+            horizontalAlignment: Text.AlignHCenter
         }
     }
 }
