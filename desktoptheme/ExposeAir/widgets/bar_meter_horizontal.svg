@@ -162,7 +162,7 @@
        x2="174.2345"
        y2="530.78876"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(16.00001,22.000028)" />
+       gradientTransform="translate(21.000012,-1.0001251)" />
   </defs>
   <style
      id="current-color-scheme"
@@ -198,7 +198,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.877781"
-     inkscape:cx="4.9396779"
+     inkscape:cx="36.000929"
      inkscape:cy="1.8178741"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -432,10 +432,10 @@
        id="bar-inactive-center"
        width="1.9999959"
        height="7.9999804"
-       x="190.2345"
-       y="544.78876" />
+       x="195.2345"
+       y="521.78857" />
     <g
-       transform="translate(-113.7655,-322.73072)"
+       transform="translate(-108.7655,-345.73087)"
        id="bar-inactive-right">
       <rect
          y="867.51971"
@@ -462,7 +462,7 @@
          y="867.51965" />
     </g>
     <g
-       transform="translate(-113.7655,-322.73072)"
+       transform="translate(-108.7655,-345.73087)"
        id="bar-inactive-left">
       <rect
          style="opacity:1;fill:url(#linearGradient2023);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -487,7 +487,7 @@
          y="867.51965" />
     </g>
     <g
-       transform="translate(-113.7655,-322.73072)"
+       transform="translate(-108.7655,-345.73087)"
        id="bar-inactive-top">
       <rect
          style="opacity:1;fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:1.49999988;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -512,7 +512,7 @@
          style="opacity:1;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:1.49999988;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       transform="translate(-113.7655,-322.73072)"
+       transform="translate(-108.7655,-345.73087)"
        id="bar-inactive-bottom">
       <rect
          y="877.51965"
@@ -538,7 +538,7 @@
     </g>
     <g
        id="bar-inactive-bottomright"
-       transform="translate(-177.7655,-316.73072)">
+       transform="translate(-172.7655,-339.73087)">
       <path
          d="m 370,-872.51965 a 3,3 0 0 1 3,3 h -3 z"
          sodipodi:end="0"
@@ -572,7 +572,7 @@
          y="869.51965" />
     </g>
     <g
-       transform="matrix(-1,0,0,1,560.2345,-316.73073)"
+       transform="matrix(-1,0,0,1,565.2345,-339.73088)"
        id="bar-inactive-bottomleft">
       <path
          transform="scale(1,-1)"
@@ -608,7 +608,7 @@
     </g>
     <g
        id="bar-inactive-topright"
-       transform="translate(-177.7655,-316.73072)">
+       transform="translate(-172.7655,-339.73087)">
       <path
          style="opacity:1;fill:#b2b2b2;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path3227"
@@ -640,7 +640,7 @@
          y="860.51965" />
     </g>
     <g
-       transform="matrix(-1,0,0,1,560.2345,-316.73073)"
+       transform="matrix(-1,0,0,1,565.2345,-339.73088)"
        id="bar-inactive-topleft">
       <path
          d="m 370,858.51965 a 3,3 0 0 1 3,3 h -3 z"
