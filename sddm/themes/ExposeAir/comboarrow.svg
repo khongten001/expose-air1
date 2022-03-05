@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="34"
@@ -18,38 +17,7 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="comboarrow.svg">
   <defs
-     id="defs5774">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4123">
-      <stop
-         style="stop-color:#f9fcff;stop-opacity:1"
-         offset="0"
-         id="stop4119" />
-      <stop
-         id="stop4129"
-         offset="0.49491644"
-         style="stop-color:#e6f0fa;stop-opacity:1" />
-      <stop
-         style="stop-color:#dce6f4;stop-opacity:1"
-         offset="0.49960676"
-         id="stop4131" />
-      <stop
-         style="stop-color:#dde9f7;stop-opacity:1"
-         offset="1"
-         id="stop4121" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4123"
-       id="linearGradient3521"
-       x1="0"
-       y1="276.64999"
-       x2="0"
-       y2="314.64999"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.89473688,0,31.121044)" />
-  </defs>
+     id="defs5774" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -58,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="17.388889"
-     inkscape:cx="18.65132"
+     inkscape:cx="7.3797546"
      inkscape:cy="21.108654"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -110,13 +78,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-276.64999)">
-    <rect
-       style="opacity:1;fill:url(#linearGradient3521);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3480"
-       width="34"
-       height="34"
-       x="0"
-       y="278.64999" />
     <g
        id="cind-normal"
        transform="matrix(2,0,0,2,-274,-1363.3893)"

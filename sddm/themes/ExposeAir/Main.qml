@@ -3,6 +3,7 @@ import QtQuick.Controls 2.8
 import QtQuick.Controls 1.4 as Q1
 import QtQuick.Controls.Styles 1.4
 import SddmComponents 2.0
+import QtGraphicalEffects 1.0
 import "."
 Rectangle {
     id : container
@@ -22,10 +23,7 @@ Rectangle {
         id : boldfont
         source : "selawksb.ttf"
     }
-    FontLoader {
-        id : lightfont
-        source : "selawkl.ttf"
-    }
+
     Connections {
         target : sddm
         onLoginSucceeded : {
@@ -49,34 +47,55 @@ Rectangle {
             }
         }
     }
+    Text {
+        id: greeting
+        anchors.top : parent.top
+        anchors.horizontalCenter :parent.horizontalCenter
+        font.pointSize : 16
+        anchors.topMargin : 28
+        color : "#ffffff"
+        text : textConstants.welcomeText.arg(sddm.hostName)
+    }
+            DropShadow {
+            source : greeting
+            anchors.fill : greeting
+            verticalOffset : 1
+            horizontalOffset : 1
+            color : "#80003399"
+            radius : 3
+            samples : 7
+        }
+
+    Row {
+        anchors.verticalCenter : parent.verticalCenter
+        anchors.horizontalCenter : parent.horizontalCenter
+        spacing: 96
+
     Clock2 {
         id : clock
-        x : parent.width / 5
-        y : parent.height / 2 - 56
+        anchors.verticalCenter : parent.verticalCenter
         color : "#f4f4f2"
         timeFont.family : lightfont.name
         dateFont.family : boldfont.name
-    } // }
+    }
     Column {
-        x : parent.width / 2
-        anchors.verticalCenter : parent.verticalCenter
         Text {
             id : lblLoginName
-            height : 32
+//             height : 32
             text : textConstants.promptUser
-            font.pointSize : 9
+            font.pointSize : 10
             verticalAlignment : Text.AlignVCenter
             color : "#f4f4f2"
             font.family : basefont.name
-            bottomPadding : 20
+            bottomPadding : 5
         }
         TextField {
             id : name
             font.family : basefont.name
             width : 320
-            height : 28
+            height : 32
             text : userModel.lastUser
-            font.pointSize : 10
+            font.pointSize : 11
             color : "#323232"
             background : Image {
                 source : "input.svg"
@@ -90,13 +109,18 @@ Rectangle {
                 }
             }
         }
+                    Rectangle {
+                height : 12
+                width : 12
+                color : "transparent"
+            }
         Text {
             id : lblLoginPassword
-            height : 32
+//             height : 32
             text : textConstants.promptPassword
             verticalAlignment : Text.AlignVCenter
             color : "#f4f4f2"
-            font.pointSize : 9
+            font.pointSize : 10
             font.family : basefont.name
         }
         Row {
@@ -104,12 +128,12 @@ Rectangle {
             TextField {
                 id : password
                 anchors.verticalCenter : parent.verticalCenter
-                font.pointSize : 10
+                font.pointSize : 11
                 echoMode : TextInput.Password
                 font.family : basefont.name
                 color : "#323232"
                 width : 320
-                height : 28
+                height : 32
                 background : Image {
                     source : "input.svg"
                 }
@@ -157,6 +181,7 @@ Rectangle {
             //font.family : boldfont.name
         //}
     }
+    }
     Column {
         anchors.right : parent.right
         anchors.rightMargin : 24
@@ -168,23 +193,25 @@ Rectangle {
             id : lblSession
             width : parent.width
             text : textConstants.session
-            font.pointSize : 8
+            font.pointSize : 10
             verticalAlignment : Text.AlignVCenter
             color : "white"
         }
+
         ComboBox {
             id : session
             width : parent.width
-            height : 22
-            font.pixelSize : 10
+            height : 28
+            font.pixelSize : 11
             font.family : basefont.name
             arrowIcon : "comboarrow.svg"
             model : sessionModel
             index : sessionModel.lastIndex
-            borderColor : "#9aeaf9"
-            color : "#f9f9f9"
+            borderColor : "#3db5f0"
+            color : "#ccf9f9f9"
             textColor : "#323232"
-            hoverColor : "#909eb0"
+            hoverColor : "#36a1d3"
+            focusColor : "#36a1d3"
             KeyNavigation.backtab : password
             KeyNavigation.tab : shutdownButton
         }
@@ -204,7 +231,7 @@ Rectangle {
                 height : 26
                 text : textConstants.shutdown
                 font.family : basefont.name
-                font.pointSize : 8
+                font.pointSize : 10
                 verticalAlignment : Text.AlignVCenter
                 color : "white"
             }
@@ -232,7 +259,7 @@ Rectangle {
                 height : 26
                 text : textConstants.reboot
                 font.family : basefont.name
-                font.pointSize : 8
+                font.pointSize : 10
                 verticalAlignment : Text.AlignVCenter
                 color : "white"
             }
