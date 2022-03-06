@@ -61,7 +61,7 @@ Rectangle {
             anchors.fill : greeting
             verticalOffset : 1
             horizontalOffset : 1
-            color : "#80003399"
+            color : "#97001177"
             radius : 3
             samples : 7
         }
@@ -74,7 +74,7 @@ Rectangle {
     Clock2 {
         id : clock
         anchors.verticalCenter : parent.verticalCenter
-        color : "#f4f4f2"
+        color : "#fafafa"
         timeFont.family : lightfont.name
         dateFont.family : boldfont.name
     }
@@ -85,7 +85,7 @@ Rectangle {
             text : textConstants.promptUser
             font.pointSize : 10
             verticalAlignment : Text.AlignVCenter
-            color : "#f4f4f2"
+            color : "#fafafa"
             font.family : basefont.name
             bottomPadding : 5
         }
@@ -119,7 +119,7 @@ Rectangle {
 //             height : 32
             text : textConstants.promptPassword
             verticalAlignment : Text.AlignVCenter
-            color : "#f4f4f2"
+            color : "#fafafa"
             font.pointSize : 10
             font.family : basefont.name
         }
@@ -172,14 +172,6 @@ Rectangle {
                 KeyNavigation.tab : shutdownButton
             }
         }
-        //Text {
-            //id : errorMessage
-            //topPadding : 24
-            //text : textConstants.prompt
-            //font.pointSize : 9
-            //color : "#f4f4f2"
-            //font.family : boldfont.name
-        //}
     }
     }
     Column {
@@ -187,28 +179,29 @@ Rectangle {
         anchors.rightMargin : 24
         anchors.topMargin : 12
         anchors.top : parent.top
-        width : 180
+        width : 144
         Text {
-            height : 30
+            //height : 30
             id : lblSession
             width : parent.width
             text : textConstants.session
             font.pointSize : 10
             verticalAlignment : Text.AlignVCenter
-            color : "white"
+            color : "#fafafa"
         }
 
         ComboBox {
             id : session
             width : parent.width
-            height : 28
+//             height : 30
             font.pixelSize : 11
             font.family : basefont.name
             arrowIcon : "comboarrow.svg"
             model : sessionModel
             index : sessionModel.lastIndex
             borderColor : "#3db5f0"
-            color : "#ccf9f9f9"
+            color : "#f4f4f8"
+            menuColor : "#f4f4f8"
             textColor : "#323232"
             hoverColor : "#36a1d3"
             focusColor : "#36a1d3"
@@ -233,7 +226,7 @@ Rectangle {
                 font.family : basefont.name
                 font.pointSize : 10
                 verticalAlignment : Text.AlignVCenter
-                color : "white"
+                color : "#fafafa"
             }
             Q1.Button {
                 id : shutdownButton
@@ -261,7 +254,7 @@ Rectangle {
                 font.family : basefont.name
                 font.pointSize : 10
                 verticalAlignment : Text.AlignVCenter
-                color : "white"
+                color : "#fafafa"
             }
             Q1.Button {
                 id : rebootButton
