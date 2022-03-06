@@ -29,16 +29,19 @@ Column {
     property color color : "#f4f4f2"
     property alias timeFont : time.font
     property alias dateFont : date.font
-        FontLoader {
+
+    FontLoader {
         id : lightfont
         source : "FiraSans-Light.ttf"
     }
+
     Timer {
         interval : 1000
         running : true
         repeat : true
         onTriggered : container.dateTime = new Date()
     }
+
     Column {
         Text {
             id : date

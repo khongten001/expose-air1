@@ -24,6 +24,7 @@ Rectangle {
         source : "FiraSans-Bold.ttf"
     }
 
+
     Connections {
         target : sddm
         onLoginSucceeded : {
@@ -77,6 +78,7 @@ Rectangle {
             id : clock
             anchors.horizontalCenter : parent.horizontalCenter
             color : "#fafafa"
+            // I know this throws a warning but it works
             timeFont.family : lightfont.name
             dateFont.family : boldfont.name
         }
