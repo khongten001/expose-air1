@@ -17,11 +17,11 @@ Rectangle {
     }
     FontLoader {
         id : basefont
-        source : "selawk.ttf"
+        source : "FiraSans-Regular.ttf"
     }
     FontLoader {
         id : boldfont
-        source : "selawksb.ttf"
+        source : "FiraSans-Bold.ttf"
     }
 
     Connections {
@@ -47,96 +47,76 @@ Rectangle {
             }
         }
     }
+
     Text {
         id: greeting
-        anchors.top : parent.top
+        anchors.bottom : parent.bottom
         anchors.horizontalCenter :parent.horizontalCenter
-        font.pointSize : 16
-        anchors.topMargin : 28
+        font.pointSize : 12
+        anchors.bottomMargin : 41
         color : "#ffffff"
         text : textConstants.welcomeText.arg(sddm.hostName)
     }
-            DropShadow {
-            source : greeting
-            anchors.fill : greeting
-            verticalOffset : 1
-            horizontalOffset : 1
-            color : "#aa001133"
-            radius : 3
-            samples : 7
-        }
+
+    //DropShadow {
+        //source : greeting
+        //anchors.fill : greeting
+        //verticalOffset : 2
+        //horizontalOffset : 2
+        //color : "#33000000"
+        //radius : 1
+        //samples : 3
+    //}
 
     Column {
         anchors.verticalCenter : parent.verticalCenter
         anchors.horizontalCenter : parent.horizontalCenter
-        spacing: 48
+        spacing: 36
 
-    Clock2 {
-        id : clock
-        anchors.horizontalCenter : parent.horizontalCenter
-        color : "#fafafa"
-        timeFont.family : lightfont.name
-        dateFont.family : boldfont.name
-    }
-    Column {
-        Text {
-            id : lblLoginName
-            text : textConstants.promptUser
-            font.pointSize : 10
-            verticalAlignment : Text.AlignVCenter
+        Clock2 {
+            id : clock
+            anchors.horizontalCenter : parent.horizontalCenter
             color : "#fafafa"
-            font.family : basefont.name
-            bottomPadding : 5
+            timeFont.family : lightfont.name
+            dateFont.family : boldfont.name
         }
-        TextField {
-            id : name
-            font.family : basefont.name
-            width : 320
-            height : 32
-            text : userModel.lastUser
-            font.pointSize : 12
-            color : "#323232"
-            background : Image {
-                source : "input.svg"
-            }
-            KeyNavigation.backtab : rebootButton
-            KeyNavigation.tab : password
-            Keys.onPressed : {
-                if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                    sddm.login(name.text, password.text, sessionIndex)
-                    event.accepted = true
+
+        Column {
+                        Row {
+                Rectangle {
+                    color : "transparent"
+                    width : 46
+                    height : 8
                 }
-            }
-        }
-                    Rectangle {
-                height : 12
-                width : 12
-                color : "transparent"
-            }
-        Text {
-            id : lblLoginPassword
-            text : textConstants.promptPassword
-            verticalAlignment : Text.AlignVCenter
-            color : "#fafafa"
-            font.pointSize : 10
-            font.family : basefont.name
-        }
-        Row {
-            spacing : 4
-            TextField {
-                id : password
-                anchors.verticalCenter : parent.verticalCenter
-                font.pointSize : 12
-                echoMode : TextInput.Password
+            Text {
+                id : lblLoginName
+                text : textConstants.promptUser
+                font.pointSize : 10
+                verticalAlignment : Text.AlignVCenter
+                color : "#fafafa"
                 font.family : basefont.name
-                color : "#323232"
-                width : 278
-                height : 32
-                background : Image {
-                    source : "input2.svg"
+                bottomPadding : 5
+            }
+                        }
+                        Row {
+                Rectangle {
+                    color : "transparent"
+                    width : 46
+                    height : 8
                 }
-                KeyNavigation.backtab : name
-                KeyNavigation.tab : loginButton
+            TextField {
+                id : name
+                font.family : basefont.name
+                width : 320
+                height : 32
+                text : userModel.lastUser
+                font.pointSize : 12
+                color : "#323232"
+                background : Image {
+                    source : "input.svg"
+                }
+                KeyNavigation.backtab : rebootButton
+                KeyNavigation.tab : password
                 Keys.onPressed : {
                     if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
                         sddm.login(name.text, password.text, sessionIndex)
@@ -144,33 +124,84 @@ Rectangle {
                     }
                 }
             }
-            Image {
-                id : loginButton
-                width : 42
-                height : 42
-                source : "buttonup.svg"
-                MouseArea {
-                    anchors.fill : parent
-                    hoverEnabled : true
-                    onEntered : {
-                        parent.source = "buttonhover.svg"
+                        }
+                        Rectangle {
+                    height : 12
+                    width : 12
+                    color : "transparent"
+                }
+            Row {
+                Rectangle {
+                    color : "transparent"
+                    width : 46
+                    height : 8
+                }
+            Text {
+                id : lblLoginPassword
+                text : textConstants.promptPassword
+                verticalAlignment : Text.AlignVCenter
+                color : "#fafafa"
+                font.pointSize : 10
+                font.family : basefont.name
+            }
+            }
+            Row {
+                spacing : 4
+
+                Rectangle {
+                    color : "transparent"
+                    width : 42
+                    height : 8
+                }
+
+                TextField {
+                    id : password
+                    anchors.verticalCenter : parent.verticalCenter
+                    font.pointSize : 12
+                    echoMode : TextInput.Password
+                    font.family : basefont.name
+                    color : "#323232"
+                    width : 320
+                    height : 32
+                    background : Image {
+                        source : "input.svg"
                     }
-                    onExited : {
-                        parent.source = "buttonup.svg"
-                    }
-                    onPressed : {
-                        parent.source = "buttondown.svg"
-                        sddm.login(name.text, password.text, sessionIndex)
-                    }
-                    onReleased : {
-                        parent.source = "buttonup.svg"
+                    KeyNavigation.backtab : name
+                    KeyNavigation.tab : loginButton
+                    Keys.onPressed : {
+                        if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
+                            sddm.login(name.text, password.text, sessionIndex)
+                            event.accepted = true
+                        }
                     }
                 }
-                KeyNavigation.backtab : password
-                KeyNavigation.tab : shutdownButton
+                Image {
+                    id : loginButton
+                    width : 42
+                    height : 42
+                    source : "buttonup.svg"
+                    MouseArea {
+                        anchors.fill : parent
+                        hoverEnabled : true
+                        onEntered : {
+                            parent.source = "buttonhover.svg"
+                        }
+                        onExited : {
+                            parent.source = "buttonup.svg"
+                        }
+                        onPressed : {
+                            parent.source = "buttondown.svg"
+                            sddm.login(name.text, password.text, sessionIndex)
+                        }
+                        onReleased : {
+                            parent.source = "buttonup.svg"
+                        }
+                    }
+                    KeyNavigation.backtab : password
+                    KeyNavigation.tab : shutdownButton
+                }
             }
         }
-    }
     }
     Column {
         anchors.right : parent.right
