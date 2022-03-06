@@ -54,7 +54,7 @@ Column {
             anchors.horizontalCenter : parent.horizontalCenter
             color : container.color
             text : Qt.formatDateTime(container.dateTime, "h:mm ap")
-            font.pointSize : 64
+            font.pointSize : 66
             font.weight : Font.Thin
             font.family : lightfont.name
             horizontalAlignment: Text.AlignHCenter

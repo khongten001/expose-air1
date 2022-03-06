@@ -61,19 +61,19 @@ Rectangle {
             anchors.fill : greeting
             verticalOffset : 1
             horizontalOffset : 1
-            color : "#97001177"
+            color : "#aa001133"
             radius : 3
             samples : 7
         }
 
-    Row {
+    Column {
         anchors.verticalCenter : parent.verticalCenter
         anchors.horizontalCenter : parent.horizontalCenter
-        spacing: 96
+        spacing: 48
 
     Clock2 {
         id : clock
-        anchors.verticalCenter : parent.verticalCenter
+        anchors.horizontalCenter : parent.horizontalCenter
         color : "#fafafa"
         timeFont.family : lightfont.name
         dateFont.family : boldfont.name
@@ -95,7 +95,7 @@ Rectangle {
             width : 320
             height : 32
             text : userModel.lastUser
-            font.pointSize : 11
+            font.pointSize : 12
             color : "#323232"
             background : Image {
                 source : "input.svg"
@@ -128,14 +128,14 @@ Rectangle {
             TextField {
                 id : password
                 anchors.verticalCenter : parent.verticalCenter
-                font.pointSize : 11
+                font.pointSize : 12
                 echoMode : TextInput.Password
                 font.family : basefont.name
                 color : "#323232"
-                width : 320
+                width : 278
                 height : 32
                 background : Image {
-                    source : "input.svg"
+                    source : "input2.svg"
                 }
                 KeyNavigation.backtab : name
                 KeyNavigation.tab : loginButton
@@ -193,7 +193,7 @@ Rectangle {
         ComboBox {
             id : session
             width : parent.width
-//             height : 30
+            height : 30
             font.pixelSize : 11
             font.family : basefont.name
             arrowIcon : "comboarrow.svg"
