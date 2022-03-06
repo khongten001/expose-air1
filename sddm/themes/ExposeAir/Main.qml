@@ -81,7 +81,6 @@ Rectangle {
     Column {
         Text {
             id : lblLoginName
-//             height : 32
             text : textConstants.promptUser
             font.pointSize : 10
             verticalAlignment : Text.AlignVCenter
@@ -116,7 +115,6 @@ Rectangle {
             }
         Text {
             id : lblLoginPassword
-//             height : 32
             text : textConstants.promptPassword
             verticalAlignment : Text.AlignVCenter
             color : "#fafafa"
