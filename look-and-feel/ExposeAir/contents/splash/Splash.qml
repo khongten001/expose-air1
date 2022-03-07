@@ -25,7 +25,7 @@ import QtGraphicalEffects 1.0
 Image {
     id: root
 //     color: "#393939"
-    source: "images/airlogin.png"
+    source: "images/airlogin2.png"
     property int stage
 
     onStageChanged: {
@@ -33,11 +33,6 @@ Image {
             introAnimation.running = true;
         } else if (stage == 6) {
             introAnimation.target = busyIndicator;
-            introAnimation.from = 1;
-            introAnimation.to = 0;
-            introAnimation.running = true;
-        } else if (stage == 5) {
-            introAnimation.target = busyShadow;
             introAnimation.from = 1;
             introAnimation.to = 0;
             introAnimation.running = true;
@@ -55,8 +50,6 @@ Image {
             y: parent.height / 1.4 - 48
             z: 3
             source: "images/gear.svg"
-//             width: 96
-            //height: 96
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 0
@@ -65,22 +58,21 @@ Image {
                 loops: Animation.Infinite
             }
         }
-        Image {
-            id: busyShadow
-            z: 2
-            x: parent.width / 2 - 44
-            y: parent.height / 1.4 - 44
-            source: "images/gear2.svg"
-//             width: 96
-            //height: 96
-            RotationAnimator on rotation {
-                id: rotationAnimator2
-                from: 0
-                to: 360
-                duration: 2600
-                loops: Animation.Infinite
-            }
-        }
+
+        //Image {
+            //id: busyShadow
+            //z: 2
+            //x: parent.width / 2 - 44
+            //y: parent.height / 1.4 - 44
+            //source: "images/gear2.svg"
+            //RotationAnimator on rotation {
+                //id: rotationAnimator2
+                //from: 0
+                //to: 360
+                //duration: 2600
+                //loops: Animation.Infinite
+            //}
+        //}
     }
 
     OpacityAnimator {

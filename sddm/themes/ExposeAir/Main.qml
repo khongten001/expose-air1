@@ -212,7 +212,6 @@ Rectangle {
         anchors.top : parent.top
         width : 144
         Text {
-            //height : 30
             id : lblSession
             width : parent.width
             text : textConstants.session
