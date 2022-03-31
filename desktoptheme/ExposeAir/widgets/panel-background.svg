@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="466.28577"
-   height="115"
-   viewBox="0 0 466.28576 115.00001"
+   width="144.00003"
+   height="85"
+   viewBox="0 0 144.00003 85.000007"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -117,9 +117,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-17.302362"
-     inkscape:cy="17.679579"
+     inkscape:zoom="0.7"
+     inkscape:cx="-57.466459"
+     inkscape:cy="136.8285"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -136,7 +136,7 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-global="true">
     <inkscape:grid
-       originy="-30.000011"
+       originy="-30.000013"
        originx="42.000019"
        id="grid3150"
        type="xygrid" />
@@ -157,7 +157,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-20.736672,-873.24042)">
+     transform="translate(-20.736672,-903.24042)">
     <rect
        y="924.24036"
        x="60.736675"
@@ -661,13 +661,6 @@
          id="path1096"
          inkscape:connector-curvature="0" />
     </g>
-    <rect
-       style="opacity:1;fill:#193e69;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect915"
-       width="37.857143"
-       height="30.357143"
-       x="429.16528"
-       y="893.24042" />
     <rect
        style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="shadow-hint-top-inset"
