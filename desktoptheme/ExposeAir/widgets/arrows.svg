@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9999998"
-     inkscape:cx="30.260786"
-     inkscape:cy="27.095317"
+     inkscape:cx="26.894014"
+     inkscape:cy="19.057118"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,7 +46,7 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-global="true"
-     inkscape:snap-nodes="false">
+     inkscape:snap-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid4365" />
@@ -80,22 +80,13 @@
          x="348.26254"
          y="-166.21509" />
       <path
-         transform="matrix(0.3809523,0,0,0.65982872,95.990303,122.2108)"
-         inkscape:transform-center-x="-0.66666587"
-         d="m 160.71507,359.26254 -5.25,3.03109 -5.25,3.03109 v -6.06218 -6.06218 l 5.25,3.03109 z"
-         inkscape:randomized="0"
-         inkscape:rounded="0"
-         inkscape:flatsided="false"
-         sodipodi:arg2="1.0471976"
-         sodipodi:arg1="0"
-         sodipodi:r2="3.5"
-         sodipodi:r1="7"
-         sodipodi:cy="359.26254"
-         sodipodi:cx="153.71507"
-         sodipodi:sides="3"
+         style="opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.80624461;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:transform-center-x="-1.3333361"
+         inkscape:transform-center-y="-4.3279591e-06"
+         d="m 159.21508,359.26254 -3.99999,3.5 -4.00001,3.5 2.66666,-7 -2.66666,-7 4.00001,3.5 z"
          id="path845"
-         style="opacity:0.9;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.99185395;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         sodipodi:type="star" />
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
     </g>
     <use
        x="0"
