@@ -30,11 +30,6 @@ Column {
     property alias timeFont : time.font
     property alias dateFont : date.font
 
-    FontLoader {
-        id : lightfont
-        source : "FiraSans-Light.ttf"
-    }
-
     Timer {
         interval : 1000
         running : true
@@ -47,7 +42,6 @@ Column {
             id : date
             anchors.horizontalCenter : parent.horizontalCenter
             color : container.color
-            font.weight : Font.Bold
             text : Qt.formatDate(container.dateTime, Qt.DefaultLocaleLongDate)
             font.pointSize : 14
             horizontalAlignment: Text.AlignHCenter
@@ -57,9 +51,7 @@ Column {
             anchors.horizontalCenter : parent.horizontalCenter
             color : container.color
             text : Qt.formatDateTime(container.dateTime, "h:mm ap")
-            font.pointSize : 66
-            font.weight : Font.Thin
-            font.family : lightfont.name
+            font.pointSize : 60
             horizontalAlignment: Text.AlignHCenter
         }
     }

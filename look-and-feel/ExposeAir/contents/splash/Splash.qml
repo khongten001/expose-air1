@@ -22,10 +22,10 @@ import QtQuick.Window 2.2
 import org.kde.plasma.core 2.0 as PlasmaCore
 import QtGraphicalEffects 1.0
 
-Image {
+Rectangle {
     id: root
-//     color: "#393939"
-    source: "images/airlogin2.png"
+    color: "#2e87d8"
+//    source: "images/airlogin2.png"
     property int stage
 
     onStageChanged: {
@@ -49,12 +49,12 @@ Image {
             x: parent.width / 2 - 48
             y: parent.height / 1.4 - 48
             z: 3
-            source: "images/gear.svg"
+            source: "images/spinner.svg"
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 0
                 to: 360
-                duration: 2600
+                duration: 1000
                 loops: Animation.Infinite
             }
         }

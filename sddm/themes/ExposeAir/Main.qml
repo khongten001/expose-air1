@@ -17,13 +17,8 @@ Rectangle {
     }
     FontLoader {
         id : basefont
-        source : "FiraSans-Regular.ttf"
+        source : "Inter.ttf"
     }
-    FontLoader {
-        id : boldfont
-        source : "FiraSans-Bold.ttf"
-    }
-
 
     Connections {
         target : sddm
@@ -59,15 +54,6 @@ Rectangle {
         text : textConstants.welcomeText.arg(sddm.hostName)
     }
 
-    //DropShadow {
-        //source : greeting
-        //anchors.fill : greeting
-        //verticalOffset : 2
-        //horizontalOffset : 2
-        //color : "#33000000"
-        //radius : 1
-        //samples : 3
-    //}
 
     Column {
         anchors.verticalCenter : parent.verticalCenter
@@ -78,9 +64,8 @@ Rectangle {
             id : clock
             anchors.horizontalCenter : parent.horizontalCenter
             color : "#fafafa"
-            // I know this throws a warning but it works
-            timeFont.family : lightfont.name
-            dateFont.family : boldfont.name
+            timeFont.family : basefont.name
+            dateFont.family : basefont.name
         }
 
         Column {
@@ -223,7 +208,7 @@ Rectangle {
         ComboBox {
             id : session
             width : parent.width
-            height : 30
+            height : 26
             font.pixelSize : 11
             font.family : basefont.name
             arrowIcon : "comboarrow.svg"
