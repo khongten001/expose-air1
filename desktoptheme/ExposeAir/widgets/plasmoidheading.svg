@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="164.00005"
    height="84.000031"
    viewBox="0 0 164.00005 84.000035"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="plasmoidheading.svg">
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="plasmoidheading.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.594942"
-     inkscape:cx="98.063285"
-     inkscape:cy="50.665608"
+     inkscape:zoom="17.811938"
+     inkscape:cx="122.86704"
+     inkscape:cy="27.200859"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,7 +37,8 @@
      fit-margin-top="20"
      fit-margin-left="20"
      fit-margin-right="20"
-     fit-margin-bottom="20">
+     fit-margin-bottom="20"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        originy="60.000029"
        originx="-4.9999959"
@@ -85,11 +86,11 @@
          height="32"
          width="1.0000006"
          id="rect868"
-         style="opacity:1;fill:#b3cdde;fill-opacity:0.52941179;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.40211695;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          transform="rotate(-90)" />
       <rect
          transform="rotate(-90)"
-         style="opacity:1;fill:#1b393e;fill-opacity:0.83137256;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#040a0e;fill-opacity:0.84744418;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          id="rect870"
          width="1.0000006"
          height="32"
@@ -322,11 +323,11 @@
          height="32"
          width="1.0000006"
          id="rect1563"
-         style="opacity:1;fill:#1b393e;fill-opacity:0.83137256;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#040a0e;fill-opacity:0.84705883;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          transform="rotate(-90)" />
       <rect
          transform="rotate(-90)"
-         style="opacity:1;fill:#b3cdde;fill-opacity:0.52941179;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
+         style="opacity:1;fill:#ffffff;fill-opacity:0.39848161;fill-rule:evenodd;stroke:none;stroke-width:2.149436;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;shape-rendering:crispEdges"
          id="rect1565"
          width="1.0000006"
          height="32"
