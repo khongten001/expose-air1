@@ -2,20 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="12"
    height="11"
    viewBox="0 0 12 11.000001"
    version="1.1"
    id="svg831"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="line.svg">
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="line.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs825" />
   <style
@@ -52,8 +53,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="63.356768"
-     inkscape:cx="1.1530735"
-     inkscape:cy="7.807631"
+     inkscape:cx="4.9323854"
+     inkscape:cy="1.507337"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -63,7 +64,8 @@
      fit-margin-top="5"
      fit-margin-left="5"
      fit-margin-right="5"
-     fit-margin-bottom="5">
+     fit-margin-bottom="5"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid1767"
@@ -87,54 +89,18 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-106.17342,-492.72018)">
-    <g
-       id="vertical-line">
-      <rect
-         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2348"
-         width="1"
-         height="1"
-         x="108.15556"
-         y="496.04608" />
-      <rect
-         y="496.04608"
-         x="109.15556"
-         height="1"
-         width="1"
-         id="rect2350"
-         style="opacity:1;fill:#1b393e;fill-opacity:0.69736844;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2352"
-         width="1"
-         height="1"
-         x="110.15556"
-         y="496.04608" />
-    </g>
-    <g
+    <rect
+       y="493.39459"
+       x="109.47138"
+       height="1"
+       width="1"
+       id="vertical-line"
+       style="fill:#000000;fill-opacity:0.40000001;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#vertical-line"
        id="horizontal-line"
-       transform="rotate(90,111.55288,498.59965)">
-      <rect
-         y="496.04608"
-         x="108.15556"
-         height="1"
-         width="1"
-         id="rect2359"
-         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         style="opacity:1;fill:#1b393e;fill-opacity:0.69736844;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect2361"
-         width="1"
-         height="1"
-         x="109.15556"
-         y="496.04608" />
-      <rect
-         y="496.04608"
-         x="110.15556"
-         height="1"
-         width="1"
-         id="rect2363"
-         style="opacity:0.6;fill:none;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
+       transform="translate(2.319881,0.09467675)" />
   </g>
 </svg>
