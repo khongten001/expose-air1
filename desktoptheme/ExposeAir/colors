@@ -1,12 +1,12 @@
 [Colors:Window]
 BackgroundNormal=93,141,171
-ForegroundNormal=252,252,252
+ForegroundNormal=250,252,255
 #ForegroundNormal=248,252,255
 ForegroundInactive=86,86,88
-ForegroundLink=69,171,240
+ForegroundLink=138,216,255
 
 [Colors:View]
-ForegroundNormal=4,10,14
+ForegroundNormal=250,252,255
 
 [Colors:Selection]
 BackgroundNormal=118,161,187

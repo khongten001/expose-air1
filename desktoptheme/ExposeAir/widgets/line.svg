@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="12"
-   height="11"
-   viewBox="0 0 12 11.000001"
+   width="3.319881"
+   height="1"
+   viewBox="0 0 3.319881 1.0000001"
    version="1.1"
    id="svg831"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
@@ -47,14 +47,14 @@
   </style>
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#d2d2d2"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="63.356768"
-     inkscape:cx="4.9323854"
-     inkscape:cy="1.507337"
+     inkscape:cx="1.6651733"
+     inkscape:cy="0.73393895"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -65,12 +65,13 @@
      fit-margin-left="5"
      fit-margin-right="5"
      fit-margin-bottom="5"
-     inkscape:deskcolor="#d1d1d1">
+     inkscape:deskcolor="#d1d1d1"
+     borderlayer="false">
     <inkscape:grid
        type="xygrid"
        id="grid1767"
-       originx="-11.787894"
-       originy="-12.777334" />
+       originx="-15.085856"
+       originy="-13.546413" />
   </sodipodi:namedview>
   <metadata
      id="metadata828">
@@ -80,7 +81,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -88,19 +88,19 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-106.17342,-492.72018)">
+     transform="translate(-109.47138,-493.48926)">
     <rect
-       y="493.39459"
+       y="493.48926"
        x="109.47138"
        height="1"
        width="1"
        id="vertical-line"
-       style="fill:#000000;fill-opacity:0.40000001;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#b3cdde;fill-opacity:0.643011;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
        y="0"
        xlink:href="#vertical-line"
        id="horizontal-line"
-       transform="translate(2.319881,0.09467675)" />
+       transform="translate(2.319881)" />
   </g>
 </svg>
