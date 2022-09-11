@@ -2,7 +2,7 @@
 BackgroundNormal=93,141,171
 ForegroundNormal=250,252,255
 #ForegroundNormal=248,252,255
-ForegroundInactive=86,86,88
+ForegroundInactive=162,181,201
 ForegroundLink=138,216,255
 
 [Colors:View]
