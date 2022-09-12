@@ -17,7 +17,7 @@ Rectangle {
     }
     FontLoader {
         id : basefont
-        source : "Inter.ttf"
+        source : "weblysleekuisl.ttf"
     }
 
     Connections {
@@ -69,76 +69,50 @@ Rectangle {
         }
 
         Column {
-                        Row {
-                Rectangle {
-                    color : "transparent"
-                    width : 46
-                    height : 8
+            Row {
+                spacing: 4
+
+                Image {
+                        width : 64
+                        height : 36
+                        source: 'assets/system-users.svg'
                 }
-            Text {
-                id : lblLoginName
-                text : textConstants.promptUser
-                font.pointSize : 10
-                verticalAlignment : Text.AlignVCenter
-                color : "#fafafa"
-                font.family : basefont.name
-                bottomPadding : 5
-            }
+
+                TextField {
+                    id : name
+                    font.family : basefont.name
+                    width : 320
+                    height : 32
+                    text : userModel.lastUser
+                    font.pointSize : 12
+                    color : "#323232"
+                    background : Image {
+                        source : "input.svg"
+                    }
+                    KeyNavigation.backtab : rebootButton
+                    KeyNavigation.tab : password
+                    Keys.onPressed : {
+                        if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
+                            sddm.login(name.text, password.text, sessionIndex)
+                            event.accepted = true
                         }
-                        Row {
-                Rectangle {
-                    color : "transparent"
-                    width : 46
-                    height : 8
-                }
-            TextField {
-                id : name
-                font.family : basefont.name
-                width : 320
-                height : 32
-                text : userModel.lastUser
-                font.pointSize : 12
-                color : "#323232"
-                background : Image {
-                    source : "input.svg"
-                }
-                KeyNavigation.backtab : rebootButton
-                KeyNavigation.tab : password
-                Keys.onPressed : {
-                    if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                        sddm.login(name.text, password.text, sessionIndex)
-                        event.accepted = true
                     }
                 }
             }
-                        }
-                        Rectangle {
+
+            Rectangle {
                     height : 12
                     width : 12
-                    color : "transparent"
-                }
-            Row {
-                Rectangle {
-                    color : "transparent"
-                    width : 46
-                    height : 8
-                }
-            Text {
-                id : lblLoginPassword
-                text : textConstants.promptPassword
-                verticalAlignment : Text.AlignVCenter
-                color : "#fafafa"
-                font.pointSize : 10
-                font.family : basefont.name
+                    color : "red"
             }
-            }
+
             Row {
                 spacing : 4
 
-                Rectangle {
-                    color : "transparent"
-                    width : 42
-                    height : 8
+                Image {
+                    width : 64
+                    height : 36
+                    source: 'assets/start-here.svg'
                 }
 
                 TextField {
@@ -164,8 +138,8 @@ Rectangle {
                 }
                 Image {
                     id : loginButton
-                    width : 42
-                    height : 42
+                    width : 38
+                    height : 38
                     source : "buttonup.svg"
                     MouseArea {
                         anchors.fill : parent
