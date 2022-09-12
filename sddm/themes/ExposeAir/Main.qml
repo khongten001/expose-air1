@@ -5,16 +5,17 @@ import QtQuick.Controls.Styles 1.4
 import SddmComponents 2.0
 import QtGraphicalEffects 1.0
 import "."
+
 Rectangle {
     id : container
-    width : 640
-    height : 480
     LayoutMirroring.enabled : Qt.locale().textDirection == Qt.RightToLeft
     LayoutMirroring.childrenInherit : true
     property int sessionIndex : session.index
+
     TextConstants {
         id : textConstants
     }
+
     FontLoader {
         id : basefont
         source : "weblysleekuisl.ttf"
@@ -44,17 +45,6 @@ Rectangle {
         }
     }
 
-    Text {
-        id: greeting
-        anchors.bottom : parent.bottom
-        anchors.horizontalCenter :parent.horizontalCenter
-        font.pointSize : 12
-        anchors.bottomMargin : 41
-        color : "#ffffff"
-        text : textConstants.welcomeText.arg(sddm.hostName)
-    }
-
-
     Column {
         anchors.verticalCenter : parent.verticalCenter
         anchors.horizontalCenter : parent.horizontalCenter
@@ -63,12 +53,14 @@ Rectangle {
         Clock2 {
             id : clock
             anchors.horizontalCenter : parent.horizontalCenter
-            color : "#fafafa"
+            color : "#f8faff"
             timeFont.family : basefont.name
             dateFont.family : basefont.name
         }
 
         Column {
+            spacing: 8
+
             Row {
                 spacing: 4
 
@@ -82,12 +74,12 @@ Rectangle {
                     id : name
                     font.family : basefont.name
                     width : 320
-                    height : 32
+                    height : 30
                     text : userModel.lastUser
-                    font.pointSize : 12
+                    font.pointSize : 10
                     color : "#323232"
                     background : Image {
-                        source : "input.svg"
+                        source : "assets/input.svg"
                     }
                     KeyNavigation.backtab : rebootButton
                     KeyNavigation.tab : password
@@ -98,12 +90,6 @@ Rectangle {
                         }
                     }
                 }
-            }
-
-            Rectangle {
-                    height : 12
-                    width : 12
-                    color : "red"
             }
 
             Row {
@@ -118,14 +104,14 @@ Rectangle {
                 TextField {
                     id : password
                     anchors.verticalCenter : parent.verticalCenter
-                    font.pointSize : 12
+                    font.pointSize : 10
                     echoMode : TextInput.Password
                     font.family : basefont.name
                     color : "#323232"
                     width : 320
-                    height : 32
+                    height : 30
                     background : Image {
-                        source : "input.svg"
+                        source : "assets/input.svg"
                     }
                     KeyNavigation.backtab : name
                     KeyNavigation.tab : loginButton
@@ -138,24 +124,24 @@ Rectangle {
                 }
                 Image {
                     id : loginButton
-                    width : 38
-                    height : 38
-                    source : "buttonup.svg"
+                    width : 32
+                    height : 32
+                    source : "assets/buttonup.svg"
                     MouseArea {
                         anchors.fill : parent
                         hoverEnabled : true
                         onEntered : {
-                            parent.source = "buttonhover.svg"
+                            parent.source = "assets/buttonhover.svg"
                         }
                         onExited : {
-                            parent.source = "buttonup.svg"
+                            parent.source = "assets/buttonup.svg"
                         }
                         onPressed : {
-                            parent.source = "buttondown.svg"
+                            parent.source = "assets/buttondown.svg"
                             sddm.login(name.text, password.text, sessionIndex)
                         }
                         onReleased : {
-                            parent.source = "buttonup.svg"
+                            parent.source = "assets/buttonup.svg"
                         }
                     }
                     KeyNavigation.backtab : password
@@ -170,26 +156,28 @@ Rectangle {
         anchors.topMargin : 12
         anchors.top : parent.top
         width : 144
+        spacing: 4
+
         Text {
             id : lblSession
             width : parent.width
             text : textConstants.session
             font.pointSize : 10
             verticalAlignment : Text.AlignVCenter
-            color : "#fafafa"
+            color : "#0c191c"
         }
 
         ComboBox {
             id : session
             width : parent.width
-            height : 26
-            font.pixelSize : 11
+            height : 24
+            font.pixelSize : 10
             font.family : basefont.name
-            arrowIcon : "comboarrow.svg"
+            arrowIcon : "assets/comboarrow.svg"
             model : sessionModel
             index : sessionModel.lastIndex
-            borderColor : "#3db5f0"
-            color : "#f4f4f8"
+            borderColor : "#0c191c"
+            color : "#eaeaec"
             menuColor : "#f4f4f8"
             textColor : "#323232"
             hoverColor : "#36a1d3"
@@ -198,71 +186,48 @@ Rectangle {
             KeyNavigation.tab : shutdownButton
         }
     }
+
     Row {
         anchors.bottom : parent.bottom
         anchors.right : parent.right
-        anchors.bottomMargin : 18
+//         anchors.bottomMargin : 12
         anchors.rightMargin : 24
         height : 64
         spacing : 24
-        Column {
-            width : 72
-            Text {
-                id : rebootName2
-                anchors.horizontalCenter : parent.horizontalCenter
-                height : 26
-                text : textConstants.shutdown
-                font.family : basefont.name
-                font.pointSize : 10
-                verticalAlignment : Text.AlignVCenter
-                color : "#fafafa"
-            }
-            Q1.Button {
-                id : shutdownButton
-                anchors.horizontalCenter : parent.horizontalCenter
-                height : 44
-                width : 44
-                style : ButtonStyle {
-                    background : Image {
-                        source : control.hovered
-                            ? "shutdownpressed.svg"
-                            : "shutdown.svg"
-                    }
+
+        Q1.Button {
+            id : shutdownButton
+            height : 32
+            width : 32
+            style : ButtonStyle {
+                background : Image {
+                    source : control.hovered
+                        ? "assets/shutdownpressed.svg"
+                        : "assets/shutdown.svg"
                 }
-                onClicked : sddm.powerOff()
-                KeyNavigation.backtab : loginButton
-                KeyNavigation.tab : rebootButton
             }
+            onClicked : sddm.powerOff()
+            KeyNavigation.backtab : loginButton
+            KeyNavigation.tab : rebootButton
         }
-        Column {
-            Text {
-                id : rebootName
-                anchors.horizontalCenter : parent.horizontalCenter
-                height : 26
-                text : textConstants.reboot
-                font.family : basefont.name
-                font.pointSize : 10
-                verticalAlignment : Text.AlignVCenter
-                color : "#fafafa"
-            }
-            Q1.Button {
-                id : rebootButton
-                anchors.horizontalCenter : parent.horizontalCenter
-                height : 44
-                width : 44
-                style : ButtonStyle {
-                    background : Image {
-                        source : control.hovered
-                            ? "rebootpressed.svg"
-                            : "reboot.svg"
-                    }
+
+        Q1.Button {
+            id : rebootButton
+            height : 32
+            width : 32
+            style : ButtonStyle {
+                background : Image {
+                    source : control.hovered
+                        ? "assets/rebootpressed.svg"
+                        : "assets/reboot.svg"
                 }
-                onClicked : sddm.reboot()
-                KeyNavigation.backtab : shutdownButton
-                KeyNavigation.tab : name
             }
+            onClicked : sddm.reboot()
+            KeyNavigation.backtab : shutdownButton
+            KeyNavigation.tab : name
         }
     }
+
     Component.onCompleted : {
         if (name.text == "")
             name.focus = true

@@ -26,7 +26,7 @@ import QtQuick 2.0
 Column {
     id : container
     property date dateTime : new Date()
-    property color color : "#f4f4f2"
+    property color color : "#55ff00"
     property alias timeFont : time.font
     property alias dateFont : date.font
 
@@ -51,7 +51,7 @@ Column {
             anchors.horizontalCenter : parent.horizontalCenter
             color : container.color
             text : Qt.formatDateTime(container.dateTime, "h:mm ap")
-            font.pointSize : 60
+            font.pointSize : 44
             horizontalAlignment: Text.AlignHCenter
         }
     }
