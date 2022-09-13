@@ -26,7 +26,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.953125"
-     inkscape:cx="54.349206"
+     inkscape:cx="54.687831"
      inkscape:cy="57.396825"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -87,7 +87,7 @@
          id="path934"
          cx="221.42859"
          cy="374.3768"
-         r="8"
+         r="9"
          inkscape:transform-center-x="-0.0079772469"
          inkscape:transform-center-y="-49.997591" />
       <circle
@@ -95,7 +95,7 @@
          id="circle2919"
          cx="442.4086"
          cy="132.76562"
-         r="8"
+         r="9"
          inkscape:transform-center-x="-32.143941"
          inkscape:transform-center-y="-38.295255"
          transform="rotate(40)" />
@@ -104,7 +104,7 @@
          id="circle2921"
          cx="456.38446"
          cy="-194.36249"
-         r="8"
+         r="9"
          inkscape:transform-center-x="-49.239406"
          inkscape:transform-center-y="-8.674126"
          transform="rotate(80)" />
@@ -113,7 +113,7 @@
          id="circle2923"
          cx="256.81668"
          cy="-453.94067"
-         r="8"
+         r="9"
          inkscape:transform-center-x="-43.295206"
          inkscape:transform-center-y="25.005719"
          transform="rotate(120)" />
@@ -122,7 +122,7 @@
          id="circle2925"
          cx="-62.914742"
          cy="-524.5094"
-         r="8"
+         r="9"
          inkscape:transform-center-x="-17.092688"
          inkscape:transform-center-y="46.985117"
          transform="rotate(160)" />
@@ -131,7 +131,7 @@
          id="circle2927"
          cx="-353.20392"
          cy="-373.04877"
-         r="8"
+         r="9"
          inkscape:transform-center-x="17.107689"
          inkscape:transform-center-y="46.979642"
          transform="rotate(-160)" />
@@ -140,7 +140,7 @@
          id="circle2929"
          cx="-478.22131"
          cy="-70.428917"
-         r="8"
+         r="9"
          inkscape:transform-center-x="43.303188"
          inkscape:transform-center-y="24.991877"
          transform="rotate(-120)" />
@@ -149,7 +149,7 @@
          id="circle2931"
          cx="-379.46991"
          cy="241.75098"
-         r="8"
+         r="9"
          inkscape:transform-center-x="49.236636"
          inkscape:transform-center-y="-8.6898637"
          transform="rotate(-80)" />
@@ -158,7 +158,7 @@
          id="circle2933"
          cx="-103.15658"
          cy="417.41846"
-         r="8"
+         r="9"
          inkscape:transform-center-x="32.131724"
          inkscape:transform-center-y="-38.305531"
          transform="rotate(-40)" />
