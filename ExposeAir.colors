@@ -2,20 +2,20 @@
 Color=56,56,56
 ColorAmount=1
 ColorEffect=0
-ContrastAmount=0.6000000000000001
+ContrastAmount=0.5
 ContrastEffect=1
-IntensityAmount=0.2
+IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
 Color=112,111,110
-ColorAmount=1
+ColorAmount=0.25
 ColorEffect=1
-ContrastAmount=0.6000000000000001
+ContrastAmount=0.2
 ContrastEffect=1
-Enable=false
-IntensityAmount=0.2
+Enable=true
+IntensityAmount=0.1
 IntensityEffect=2
 
 [Colors:Button]
@@ -81,8 +81,8 @@ ForegroundVisited=188,89,255
 [Colors:View]
 BackgroundAlternate=45,55,86
 BackgroundNormal=255,255,255
-DecorationFocus=255,170,0
-DecorationHover=255,0,255
+DecorationFocus=0,120,215
+DecorationHover=0,136,240
 ForegroundActive=0,0,0
 ForegroundInactive=127,127,127
 ForegroundLink=96,152,255

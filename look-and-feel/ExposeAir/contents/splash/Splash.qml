@@ -22,16 +22,16 @@ import QtQuick.Window 2.2
 import org.kde.plasma.core 2.0 as PlasmaCore
 import QtGraphicalEffects 1.0
 
-Rectangle {
+Image {
     id: root
-    color: "#2e87d8"
-//    source: "images/airlogin2.png"
+    source: "images/newlogin.png"
+    fillMode: Image.PreserveAspectCrop
     property int stage
 
     onStageChanged: {
-        if (stage == 1) {
+        if (stage == 2) {
             introAnimation.running = true;
-        } else if (stage == 6) {
+        } else if (stage == 5) {
             introAnimation.target = busyIndicator;
             introAnimation.from = 1;
             introAnimation.to = 0;
@@ -43,36 +43,57 @@ Rectangle {
         id: content
         anchors.fill: parent
         opacity: 0
+        TextMetrics {
+            id: units
+            text: "M"
+            property int gridUnit: boundingRect.height
+            property int largeSpacing: PlasmaCore.Units.gridUnit
+            property int smallSpacing: Math.max(2, gridUnit/4)
+        }
+
+        Image {
+            id: logo
+            height: parent.height
+            width: parent.width
+            source: "images/exposeair.png"
+            fillMode: Image.PreserveAspectCrop
+        }
 
         Image {
             id: busyIndicator
-            x: parent.width / 2 - 48
-            y: parent.height / 1.4 - 48
-            z: 3
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.verticalCenter: parent.verticalCenter
             source: "images/spinner.svg"
+
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 0
                 to: 360
-                duration: 1000
+                duration: 1500
                 loops: Animation.Infinite
             }
         }
-
-        //Image {
-            //id: busyShadow
-            //z: 2
-            //x: parent.width / 2 - 44
-            //y: parent.height / 1.4 - 44
-            //source: "images/gear2.svg"
-            //RotationAnimator on rotation {
-                //id: rotationAnimator2
-                //from: 0
-                //to: 360
-                //duration: 2600
-                //loops: Animation.Infinite
-            //}
-        //}
+        Row {
+            spacing: PlasmaCore.Units.smallSpacing*2
+            anchors {
+                bottom: parent.bottom
+                right: parent.right
+                margins: PlasmaCore.Units.gridUnit
+            }
+            Text {
+                color: "#eff0f1"
+                // Work around Qt bug where NativeRendering breaks for non-integer scale factors
+                // https://bugreports.qt.io/browse/QTBUG-67007
+                renderType: Screen.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
+                anchors.verticalCenter: parent.verticalCenter
+                text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "This is the first text the user sees while starting in the splash screen, should be translated as something short, is a form that can be seen on a product. Plasma is the project name so shouldn't be translated.", "Plasma made by KDE")
+            }
+            Image {
+                source: "images/plasma.svgz"
+                sourceSize.height: PlasmaCore.Units.gridUnit
+                sourceSize.width: PlasmaCore.Units.gridUnit
+            }
+        }
     }
 
     OpacityAnimator {
@@ -81,7 +102,7 @@ Rectangle {
         target: content
         from: 0
         to: 1
-        duration: 2000
+        duration: 1000
         easing.type: Easing.InOutQuad
     }
 }
