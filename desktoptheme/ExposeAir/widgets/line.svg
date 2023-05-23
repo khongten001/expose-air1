@@ -7,7 +7,7 @@
    viewBox="0 0 3.319881 1.0000001"
    version="1.1"
    id="svg831"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="line.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -53,8 +53,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="63.356768"
-     inkscape:cx="1.6651733"
-     inkscape:cy="0.73393895"
+     inkscape:cx="1.6572815"
+     inkscape:cy="0.72604714"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -95,7 +95,7 @@
        height="1"
        width="1"
        id="vertical-line"
-       style="fill:#b3cdde;fill-opacity:0.643011;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#b3cdde;fill-opacity:0.58431375;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        x="0"
        y="0"

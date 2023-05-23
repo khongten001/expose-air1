@@ -7,7 +7,7 @@
    viewBox="0 0 90.000006 40.000057"
    version="1.1"
    id="svg951"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="viewitem.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8"
-     inkscape:cx="31.5625"
-     inkscape:cy="14.1875"
+     inkscape:zoom="16"
+     inkscape:cx="31"
+     inkscape:cy="16.21875"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -100,13 +100,13 @@
        height="32"
        width="32"
        id="hover-center"
-       style="opacity:1;fill:#76a1bb;fill-opacity:0.55;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:0.33;fill:#040a0e;fill-opacity:0.99000001;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="hover-top"
-       style="opacity:1"
+       style="opacity:0.33;fill:#040a0e;fill-opacity:0.99000001"
        transform="translate(10.000015,-2)">
       <rect
-         style="opacity:1;fill:#76a1bb;fill-opacity:0.55;stroke:none;stroke-width:3.00001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#040a0e;fill-opacity:0.99000001;stroke:none;stroke-width:3.00001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1672"
          width="32.000008"
          height="3.9999979"
@@ -304,81 +304,65 @@
          id="path934"
          inkscape:connector-curvature="0" />
     </g>
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect908"
-       width="2"
-       height="2"
-       x="-342.07144"
-       y="525.01965"
-       transform="scale(-1,1)" />
     <g
        id="hover-topright"
        transform="translate(9.0000241,3.9999781)"
-       style="opacity:1">
-      <rect
-         style="fill:#76a1bb;fill-opacity:0.55;stroke-width:0.749157"
-         id="rect4688"
-         width="4.0000153"
-         height="2.0000186"
-         x="331.07141"
-         y="523.01965" />
+       style="opacity:0.33;fill:#040a0e;fill-opacity:0.99000001">
       <path
-         style="fill:#76a1bb;fill-opacity:0.55;stroke-width:1.66255"
+         style="fill:#040a0e;fill-opacity:0.99;stroke-width:1.66255"
          id="path4628"
          transform="scale(1,-1)"
          sodipodi:type="arc"
-         sodipodi:cx="333.07144"
-         sodipodi:cy="-523.01965"
-         sodipodi:rx="2"
-         sodipodi:ry="2"
+         sodipodi:cx="331.07141"
+         sodipodi:cy="-525.01965"
+         sodipodi:rx="4.0000496"
+         sodipodi:ry="4.0000086"
          sodipodi:start="0"
          sodipodi:end="1.5707963"
          sodipodi:arc-type="slice"
-         d="m 335.07144,-523.01965 a 2,2 0 0 1 -2,2 v -2 z" />
-      <rect
-         style="fill:#76a1bb;fill-opacity:0.55;stroke-width:0.529731"
-         id="rect4690"
-         width="2.0000153"
-         height="1.9999847"
-         x="331.07141"
-         y="521.01965" />
+         d="m 335.07146,-525.01965 a 4.0000496,4.0000086 0 0 1 -4.00005,4.00001 v -4.00001 z" />
     </g>
     <use
        x="0"
        y="0"
        xlink:href="#hover-top"
        id="hover-right"
-       transform="rotate(90,324.07144,545.01966)" />
+       transform="rotate(90,324.07144,545.01966)"
+       style="fill:#040a0e;fill-opacity:0.99000001" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-top"
        id="hover-left"
-       transform="rotate(-90,324.07144,545.01965)" />
+       transform="rotate(-90,324.07144,545.01965)"
+       style="fill:#040a0e;fill-opacity:0.99000001" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-top"
        id="hover-bottom"
-       transform="matrix(1,0,0,-1,9.2559765e-6,1090.0393)" />
+       transform="matrix(1,0,0,-1,9.2559765e-6,1090.0393)"
+       style="fill:#040a0e;fill-opacity:0.99000001" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-topleft"
-       transform="matrix(-1,0,0,1,648.14288,1.5216962e-5)" />
+       transform="matrix(-1,0,0,1,648.14288,1.5216962e-5)"
+       style="fill:#040a0e;fill-opacity:0.99000001" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-bottomright"
-       transform="matrix(1,0,0,-1,-1.5744023e-5,1090.0393)" />
+       transform="matrix(1,0,0,-1,-1.5744023e-5,1090.0393)"
+       style="fill:#040a0e;fill-opacity:0.99000001" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-bottomleft"
-       transform="rotate(180,324.07145,545.01964)" />
+       transform="rotate(180,324.07145,545.01964)"
+       style="fill:#040a0e;fill-opacity:0.99000001" />
   </g>
 </svg>
