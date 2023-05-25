@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="31"
-     inkscape:cy="16.21875"
+     inkscape:zoom="8"
+     inkscape:cx="43.5"
+     inkscape:cy="23.75"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -100,13 +100,13 @@
        height="32"
        width="32"
        id="hover-center"
-       style="opacity:0.33;fill:#040a0e;fill-opacity:0.99000001;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:0.4;fill:#042144;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="hover-top"
-       style="opacity:0.33;fill:#040a0e;fill-opacity:0.99000001"
+       style="opacity:0.4;fill:#042144;fill-opacity:1"
        transform="translate(10.000015,-2)">
       <rect
-         style="opacity:1;fill:#040a0e;fill-opacity:0.99000001;stroke:none;stroke-width:3.00001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#042144;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1672"
          width="32.000008"
          height="3.9999979"
@@ -307,9 +307,9 @@
     <g
        id="hover-topright"
        transform="translate(9.0000241,3.9999781)"
-       style="opacity:0.33;fill:#040a0e;fill-opacity:0.99000001">
+       style="opacity:0.4;fill:#042144;fill-opacity:1">
       <path
-         style="fill:#040a0e;fill-opacity:0.99;stroke-width:1.66255"
+         style="fill:#042144;fill-opacity:1;stroke-width:1.66255"
          id="path4628"
          transform="scale(1,-1)"
          sodipodi:type="arc"
