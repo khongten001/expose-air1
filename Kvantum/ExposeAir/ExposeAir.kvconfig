@@ -80,7 +80,7 @@ x11drag=all
 [GeneralColors]
 window.color=#f1f5fb
 base.color=white
-alt.base.color=#fafafa
+alt.base.color=#f1f5fb
 button.color=#f1f5fb
 light.color=white
 mid.light.color=#ccd9ea
