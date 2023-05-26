@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8"
-     inkscape:cx="43.5"
-     inkscape:cy="23.75"
+     inkscape:zoom="16"
+     inkscape:cx="25.625"
+     inkscape:cy="41.8125"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -100,13 +100,13 @@
        height="32"
        width="32"
        id="hover-center"
-       style="opacity:0.4;fill:#042144;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:0.7;fill:#8eb2c8;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="hover-top"
-       style="opacity:0.4;fill:#042144;fill-opacity:1"
+       style="opacity:0.7;fill:#8eb2c8;fill-opacity:1"
        transform="translate(10.000015,-2)">
       <rect
-         style="opacity:1;fill:#042144;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#8eb2c8;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1672"
          width="32.000008"
          height="3.9999979"
@@ -304,24 +304,6 @@
          id="path934"
          inkscape:connector-curvature="0" />
     </g>
-    <g
-       id="hover-topright"
-       transform="translate(9.0000241,3.9999781)"
-       style="opacity:0.4;fill:#042144;fill-opacity:1">
-      <path
-         style="fill:#042144;fill-opacity:1;stroke-width:1.66255"
-         id="path4628"
-         transform="scale(1,-1)"
-         sodipodi:type="arc"
-         sodipodi:cx="331.07141"
-         sodipodi:cy="-525.01965"
-         sodipodi:rx="4.0000496"
-         sodipodi:ry="4.0000086"
-         sodipodi:start="0"
-         sodipodi:end="1.5707963"
-         sodipodi:arc-type="slice"
-         d="m 335.07146,-525.01965 a 4.0000496,4.0000086 0 0 1 -4.00005,4.00001 v -4.00001 z" />
-    </g>
     <use
        x="0"
        y="0"
@@ -348,21 +330,67 @@
        y="0"
        xlink:href="#hover-topright"
        id="hover-topleft"
-       transform="matrix(-1,0,0,1,648.14288,1.5216962e-5)"
-       style="fill:#040a0e;fill-opacity:0.99000001" />
+       transform="matrix(-1,0,0,1,648.14283,-1.7414016e-5)"
+       style="fill:#040a0e;fill-opacity:0.99" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-bottomright"
-       transform="matrix(1,0,0,-1,-1.5744023e-5,1090.0393)"
-       style="fill:#040a0e;fill-opacity:0.99000001" />
+       transform="matrix(1,0,0,-1,4.7752142e-6,1090.0393)"
+       style="fill:#040a0e;fill-opacity:0.99" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-bottomleft"
-       transform="rotate(180,324.07145,545.01964)"
-       style="fill:#040a0e;fill-opacity:0.99000001" />
+       transform="rotate(180,324.07142,545.01964)"
+       style="fill:#040a0e;fill-opacity:0.99" />
+    <g
+       id="hover-topright"
+       transform="translate(-0.99994939,1.0000053)">
+      <g
+         id="g2508"
+         transform="matrix(0.7499907,0,0,0.74999839,93.770886,133.25574)"
+         style="opacity:1;fill:#042144;fill-opacity:1;stroke-width:1.33335">
+        <path
+           style="opacity:0.7;fill:#8eb2c8;fill-opacity:1;stroke-width:2.21675"
+           id="path4628"
+           transform="scale(1,-1)"
+           sodipodi:type="arc"
+           sodipodi:cx="332.40475"
+           sodipodi:cy="-523.68634"
+           sodipodi:rx="2.6666996"
+           sodipodi:ry="2.6666725"
+           sodipodi:start="0"
+           sodipodi:end="1.5707963"
+           sodipodi:arc-type="slice"
+           d="m 335.07145,-523.68634 a 2.6666996,2.6666725 0 0 1 -2.6667,2.66667 v -2.66667 z" />
+      </g>
+      <g
+         id="g2439"
+         style="opacity:0.7;fill:#8eb2c8;fill-opacity:1;stroke-width:5.65686"
+         transform="matrix(0.03124999,0,0,1,331.75669,-3.0000112)">
+        <rect
+           style="opacity:1;fill:#8eb2c8;fill-opacity:1;stroke:none;stroke-width:16.9706;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2437"
+           width="63.998318"
+           height="4.0000052"
+           x="298.07141"
+           y="527.01965" />
+      </g>
+      <g
+         id="g2443"
+         style="opacity:0.7;fill:#8eb2c8;fill-opacity:1;stroke-width:6.53198"
+         transform="matrix(0.0937499,0,0,0.25000013,314.12725,395.26466)">
+        <rect
+           style="opacity:1;fill:#8eb2c8;fill-opacity:1;stroke:none;stroke-width:19.596;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2441"
+           width="21.333858"
+           height="8.0000248"
+           x="308.73755"
+           y="523.01965" />
+      </g>
+    </g>
   </g>
 </svg>
