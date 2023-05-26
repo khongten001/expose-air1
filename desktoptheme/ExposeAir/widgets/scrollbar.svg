@@ -7,7 +7,7 @@
    viewBox="0 0 92 31.000004"
    version="1.1"
    id="svg967"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="scrollbar.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -19,30 +19,6 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs961">
-    <linearGradient
-       id="linearGradient26561"
-       inkscape:collect="always">
-      <stop
-         id="stop26557"
-         offset="0"
-         style="stop-color:#5f96b0;stop-opacity:1;" />
-      <stop
-         id="stop26559"
-         offset="1"
-         style="stop-color:#5ba0c1;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient10039"
-       inkscape:collect="always">
-      <stop
-         id="stop10031"
-         offset="0"
-         style="stop-color:#5d93af;stop-opacity:1;" />
-      <stop
-         id="stop10037"
-         offset="1"
-         style="stop-color:#5ba0c1;stop-opacity:1" />
-    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient979">
@@ -104,7 +80,7 @@
        y2="327.10767" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient10039"
+       xlink:href="#linearGradient1143"
        id="linearGradient1261"
        gradientUnits="userSpaceOnUse"
        x1="14.026699"
@@ -114,7 +90,7 @@
        gradientTransform="translate(20)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient26561"
+       xlink:href="#linearGradient1143"
        id="linearGradient1263"
        gradientUnits="userSpaceOnUse"
        x1="13.026699"
@@ -123,7 +99,7 @@
        y2="327.10767" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient26561"
+       xlink:href="#linearGradient1143"
        id="linearGradient1265"
        gradientUnits="userSpaceOnUse"
        x1="13.026699"
@@ -182,9 +158,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="46.125"
-     inkscape:cy="6.21875"
+     inkscape:zoom="11.313709"
+     inkscape:cx="62.446368"
+     inkscape:cy="18.208"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -236,7 +212,7 @@
        x="84.026695"
        y="321.10767" />
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="background-vertical-top"
        width="3"
        height="2.9999995"
@@ -248,9 +224,9 @@
        height="2.9999995"
        width="3"
        id="background-vertical-center"
-       style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="background-vertical-bottom"
        width="3"
        height="2.9999995"
@@ -386,7 +362,7 @@
        id="slider-bottom"
        style="opacity:1">
       <rect
-         style="opacity:1;fill:#6daccb;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#5799b8;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect949"
          width="3.000001"
          height="1.0000036"
@@ -412,7 +388,7 @@
        id="slider-bottomleft"
        style="opacity:1">
       <rect
-         style="opacity:1;fill:#b3d0de;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#5799b8;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect951"
          width="1.0000001"
          height="0.99999589"
@@ -565,7 +541,7 @@
          height="0.99999589"
          width="1.0000001"
          id="rect1107"
-         style="opacity:1;fill:#b3d0de;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#5799b8;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          style="opacity:1;fill:#93c0d7;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1109"
@@ -617,7 +593,7 @@
          y="318.10767" />
     </g>
     <rect
-       style="opacity:1;fill:url(#linearGradient1261);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient1261);fill-opacity:1.0;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="mouseover-slider-center"
        width="3.000001"
        height="15.000004"
@@ -715,7 +691,7 @@
        id="mouseover-slider-left"
        style="opacity:1">
       <rect
-         style="opacity:1;fill:url(#linearGradient1263);fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:url(#linearGradient1263);fill-opacity:1.0;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1183"
          width="1.0000001"
          height="15"
@@ -974,9 +950,9 @@
     <g
        id="background-vertical-left"
        transform="translate(21.999994,-16.999992)"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1489"
          width="3"
          height="2.9999995"
@@ -986,33 +962,33 @@
     <g
        transform="matrix(-1,0,0,1,89.053394,-16.999992)"
        id="background-vertical-right"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
          y="341.10767"
          x="29.026699"
          height="2.9999995"
          width="3"
          id="rect1495"
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        transform="translate(21.999994,-19.999992)"
        id="background-vertical-topleft"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
          y="341.10767"
          x="29.026699"
          height="2.9999995"
          width="3"
          id="rect1501"
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="background-vertical-topright"
        transform="matrix(-1,0,0,1,89.053394,-19.999992)"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1507"
          width="3"
          height="2.9999995"
@@ -1022,21 +998,21 @@
     <g
        transform="translate(21.999994,-13.999992)"
        id="background-vertical-bottomleft"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
          y="341.10767"
          x="29.026699"
          height="2.9999995"
          width="3"
          id="rect1513"
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="background-vertical-bottomright"
        transform="matrix(-1,0,0,1,89.053394,-13.999992)"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1519"
          width="3"
          height="2.9999995"
@@ -1044,7 +1020,7 @@
          y="341.10767" />
     </g>
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="background-horizontal-top"
        width="3"
        height="2.9999995"
@@ -1056,9 +1032,9 @@
        height="2.9999995"
        width="3"
        id="background-horizontal-center"
-       style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="background-horizontal-bottom"
        width="3"
        height="2.9999995"
@@ -1067,9 +1043,9 @@
     <g
        id="background-horizontal-left"
        transform="translate(37,-16.999996)"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1531"
          width="3"
          height="2.9999995"
@@ -1079,33 +1055,33 @@
     <g
        transform="matrix(-1,0,0,1,104.0534,-16.999996)"
        id="background-horizontal-right"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
          y="341.10767"
          x="29.026699"
          height="2.9999995"
          width="3"
          id="rect1537"
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        transform="translate(37,-19.999996)"
        id="background-horizontal-topleft"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
          y="341.10767"
          x="29.026699"
          height="2.9999995"
          width="3"
          id="rect1543"
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="background-horizontal-topright"
        transform="matrix(-1,0,0,1,104.0534,-19.999996)"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1549"
          width="3"
          height="2.9999995"
@@ -1115,21 +1091,21 @@
     <g
        transform="translate(37,-13.999996)"
        id="background-horizontal-bottomleft"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
          y="341.10767"
          x="29.026699"
          height="2.9999995"
          width="3"
          id="rect1555"
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="background-horizontal-bottomright"
        transform="matrix(-1,0,0,1,104.0534,-13.999996)"
-       style="fill:#000000;fill-opacity:0.23999999">
+       style="fill:#000000;fill-opacity:0.49872839">
       <rect
-         style="opacity:1;fill:#000000;fill-opacity:0.23999999;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#000000;fill-opacity:0.49872839;stroke:none;stroke-width:1.50000012;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1561"
          width="3"
          height="2.9999995"
@@ -1196,7 +1172,7 @@
        id="background-vertical-hint-right-inset"
        height="1"
        style="opacity:1;fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke-width:0.471403"
-       width="4.0000038"
+       width="3.0000038"
        x="73.026695"
        y="311.10767" />
     <rect
@@ -1210,8 +1186,8 @@
        id="background-vertical-hint-left-inset"
        height="1"
        style="opacity:1;fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke-width:0.471403"
-       width="3.9999962"
-       x="68.026695"
+       width="2.9999924"
+       x="69.026703"
        y="311.10767" />
     <rect
        id="background-vertical-hint-bottom-inset"
