@@ -1,7 +1,7 @@
 var panel = new Panel
 var panelScreen = panel.screen
 
-panel.location = "botom";
+panel.location = "bottom";
 panel.height = 44
 const geo = screenGeometry(panelScreen);
 panel.alignment = "center";
