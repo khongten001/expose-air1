@@ -7,7 +7,7 @@
    viewBox="0 0 104.00003 45.000008"
    version="1.1"
    id="svg8"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    sodipodi:docname="background.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -27,8 +27,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="18.057687"
-     inkscape:cx="54.879675"
-     inkscape:cy="22.705012"
+     inkscape:cx="47.81897"
+     inkscape:cy="7.8636871"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -49,7 +49,11 @@
        originy="-50.000015"
        originx="22.000019"
        id="grid3150"
-       type="xygrid" />
+       type="xygrid"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -123,34 +127,6 @@
        width="3.9999924"
        id="shadow-hint-right-margin"
        style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:1.41422;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="thick-hint-top-margin"
-       width="1"
-       height="6"
-       x="72.736694"
-       y="915.24042" />
-    <rect
-       y="925.24036"
-       x="73.736694"
-       height="6"
-       width="1"
-       id="thick-hint-bottom-margin"
-       style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:1.41422;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       y="921.24042"
-       x="67.736679"
-       height="1"
-       width="6"
-       id="thick-hint-left-margin"
-       style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       style="opacity:1;fill:#2d868b;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="thick-hint-right-margin"
-       width="6"
-       height="1"
-       x="75.736694"
-       y="922.24042" />
     <g
        id="shadow-top"
        transform="matrix(0.49999976,0,0,1,28.368397,-15.000074)"
