@@ -13,9 +13,9 @@ HaloActive=True
 [Layout]
 TitleEdgeTop=0
 TitleEdgeBottom=0
-TitleEdgeLeft=8
-TitleEdgeRight=8
-TitleBorderLeft=24
+TitleEdgeLeft=7
+TitleEdgeRight=7
+TitleBorderLeft=7
 #TitleBorderRight=0
 TitleHeight=36
 ButtonWidth=24
