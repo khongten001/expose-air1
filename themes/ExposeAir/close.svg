@@ -7,7 +7,7 @@
    viewBox="0 0 108 82.000219"
    version="1.1"
    id="svg8"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    sodipodi:docname="close.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -19,18 +19,6 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4455">
-      <stop
-         style="stop-color:#fafafa;stop-opacity:0.4955357"
-         offset="0"
-         id="stop4451" />
-      <stop
-         style="stop-color:#fafafa;stop-opacity:0;"
-         offset="1"
-         id="stop4453" />
-    </linearGradient>
     <linearGradient
        id="linearGradient3327"
        inkscape:collect="always">
@@ -137,17 +125,6 @@
        fx="-29.542427"
        fy="287.02747"
        r="8.5" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4455"
-       id="radialGradient4457"
-       cx="28.718"
-       cy="317.73999"
-       fx="28.718"
-       fy="317.73999"
-       r="20"
-       gradientTransform="matrix(0.59999997,0,0,0.45000029,11.487201,174.75691)"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -156,12 +133,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.1548084"
-     inkscape:cx="28.517064"
-     inkscape:cy="34.43387"
+     inkscape:zoom="29.16"
+     inkscape:cx="66.512346"
+     inkscape:cy="37.671468"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:pagecheckerboard="true"
      inkscape:showpageshadow="false"
@@ -188,7 +165,11 @@
        type="xygrid"
        id="grid1616"
        originx="59.999989"
-       originy="12.000226" />
+       originy="12.000226"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -2155,12 +2136,12 @@
        id="hover-inactive-center"
        transform="translate(-7.0000004,-2.9999886)">
       <rect
-         y="308.73999"
-         x="8.7180004"
-         height="18.000011"
-         width="40"
+         y="308.73978"
+         x="6.7180061"
+         height="18.000191"
+         width="44"
          id="rect4449"
-         style="opacity:1;fill:url(#radialGradient4457);fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#ffffff;fill-opacity:0.0980951;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          transform="rotate(90)"
          y="-53.717999"

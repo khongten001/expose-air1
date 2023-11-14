@@ -7,7 +7,7 @@
    viewBox="0 0 63 82.000008"
    version="1.1"
    id="svg2750"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    sodipodi:docname="minimize.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -79,17 +79,6 @@
          offset="1"
          id="stop8578" />
     </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4455"
-       id="radialGradient4457"
-       cx="26.89983"
-       cy="324.41211"
-       fx="26.89983"
-       fy="324.41211"
-       r="20"
-       gradientTransform="matrix(0.14552108,0,0,0.1055723,6.5875765,262.66714)"
-       gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4455">
@@ -121,9 +110,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0198798"
-     inkscape:cx="-14.570116"
-     inkscape:cy="37.915416"
+     inkscape:zoom="24.159038"
+     inkscape:cx="52.837368"
+     inkscape:cy="38.267252"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -152,7 +141,11 @@
        type="xygrid"
        id="grid834"
        originx="-45"
-       originy="20.000003" />
+       originy="20.000003"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata2747">
@@ -351,7 +344,7 @@
          height="4.7625031"
          width="7.4083328"
          id="rect4449"
-         style="opacity:1;fill:url(#radialGradient4457);fill-opacity:1;stroke:none;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#ffffff;fill-opacity:0.1;stroke:none;stroke-width:0.132292;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          transform="scale(-1)"
          y="-298.50369"
