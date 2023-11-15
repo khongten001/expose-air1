@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="10.191358"
-     inkscape:cx="33.018171"
-     inkscape:cy="7.4082375"
+     inkscape:zoom="14.412757"
+     inkscape:cx="25.220713"
+     inkscape:cy="10.580904"
      inkscape:current-layer="layer1"
      showgrid="true">
     <inkscape:grid
@@ -68,7 +68,7 @@
          y="4.278441" />
       <path
          id="path2"
-         style="opacity:0.8;fill:#d9d9d9;fill-opacity:1;stroke:#151c1c;stroke-width:3.11237;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="opacity:0.7;fill:#d9d9d9;fill-opacity:1;stroke:#151c1c;stroke-width:3.11237;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          inkscape:transform-center-y="1.3331065"
          d="m 3.6583376,59.539499 3.1959609,5.535252 v 3.211354 l -1.9336906,2.063852 -5.46312372,5.826255 H 9.0498431 l 0.6736584,7.828192 0.8347995,9.685658 0.834799,-9.685658 0.673659,-7.828192 h 9.24322 l -5.463124,-5.826255 -1.584552,-1.688231 v -3.586975 l 3.195961,-5.535252 -6.899963,0.0021 z"
          transform="matrix(0.43634177,0.43634177,-0.47317462,0.47317462,71.476685,-24.075502)" />
@@ -92,7 +92,7 @@
          y="4.278441" />
       <path
          id="path3"
-         style="opacity:0.8;fill:#d9d9d9;fill-opacity:1;stroke:#151c1c;stroke-width:2.13975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="opacity:0.7;fill:#d9d9d9;fill-opacity:1;stroke:#151c1c;stroke-width:2.13975;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          inkscape:transform-center-y="1.3331065"
          d="m 3.6583376,59.539499 3.1959609,5.535252 v 3.211354 l -1.9336906,2.063852 -5.46312372,5.826255 H 9.0498431 l 0.6736584,7.828192 0.8347995,9.685658 0.834799,-9.685658 0.673659,-7.828192 h 9.24322 l -5.463124,-5.826255 -1.584552,-1.688231 v -3.586975 l 3.195961,-5.535252 -6.899963,0.0021 z"
          transform="matrix(0.43634177,0.43634177,-0.47317462,0.47317462,71.476685,-24.075502)" />

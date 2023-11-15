@@ -18,9 +18,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.9291734"
-     inkscape:cx="51.379683"
-     inkscape:cy="-5.4622919"
+     inkscape:zoom="16.569907"
+     inkscape:cx="19.221593"
+     inkscape:cy="17.592133"
      inkscape:current-layer="svg1"
      showgrid="true">
     <inkscape:grid
@@ -57,7 +57,7 @@
        x="-9.5857544"
        y="-34.585773" />
     <circle
-       style="fill:#2298bc;fill-opacity:1;stroke:#f0f0ff;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#4a92bc;fill-opacity:1;stroke:#fafcff;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        id="path25"
        cx="6.4142299"
        cy="-18.585791"
@@ -70,7 +70,7 @@
        d="m -1.3639629,-10.807608 2.4748776,-5.303305 2.4748777,-5.303305 0.942809,0.942809 -1.8351133,3.720731 -1.83511318,3.720732 3.72073128,-1.835114 3.7207313,-1.835113 0.942809,0.942809 -5.3033047,2.474878 z" />
     <path
        sodipodi:type="star"
-       style="fill:#f0f0ff;fill-opacity:1;stroke:none;stroke-width:3.02375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+       style="fill:#fafcff;fill-opacity:1;stroke:none;stroke-width:3.02375;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
        id="path27"
        inkscape:flatsided="false"
        sodipodi:sides="3"
@@ -88,7 +88,7 @@
        inkscape:transform-center-x="-8.2627278e-06" />
     <path
        id="path1"
-       style="fill:#f0f0ff;fill-opacity:1;stroke:none;stroke-width:1.99999;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
+       style="fill:#fafcff;fill-opacity:1;stroke:none;stroke-width:1.99999;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none"
        inkscape:transform-center-x="-8.3434473e-06"
        inkscape:transform-center-y="1.1666645"
        d="m -1.3639629,-10.807608 2.4748776,-5.303305 2.4748777,-5.303305 0.942809,0.942809 -1.8351133,3.720731 -1.83511318,3.720732 3.72073128,-1.835114 3.7207313,-1.835113 0.942809,0.942809 -5.3033047,2.474878 z" />
