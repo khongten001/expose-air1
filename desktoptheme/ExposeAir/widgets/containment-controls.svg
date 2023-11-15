@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="6.6318838"
-     inkscape:cx="11.987544"
-     inkscape:cy="33.474652"
+     inkscape:zoom="9.3789"
+     inkscape:cx="-11.248654"
+     inkscape:cy="7.7301176"
      inkscape:current-layer="layer1"
      showgrid="true">
     <inkscape:grid
@@ -54,21 +54,21 @@
      id="layer1"
      transform="translate(-5,-5)">
     <rect
-       style="opacity:1;fill:#3b3b3b;fill-opacity:1;stroke:none;stroke-width:0.499997;paint-order:stroke fill markers"
+       style="opacity:1;fill:#1c4575;fill-opacity:1;stroke:none;stroke-width:0.499997;paint-order:stroke fill markers"
        id="south-center"
        width="1"
        height="30"
        x="15"
        y="6" />
     <rect
-       style="opacity:1;fill:#211f2b;fill-opacity:1;stroke:none;stroke-width:0.499998;paint-order:stroke fill markers"
+       style="opacity:1;fill:#1c4575;fill-opacity:1;stroke:none;stroke-width:0.499998;paint-order:stroke fill markers"
        id="south-top"
        width="1"
        height="1"
        x="15"
        y="5" />
     <rect
-       style="opacity:1;fill:#3b3b3b;fill-opacity:1;stroke:none;stroke-width:0.499998;paint-order:stroke fill markers"
+       style="opacity:1;fill:#1c4575;fill-opacity:1;stroke:none;stroke-width:0.499998;paint-order:stroke fill markers"
        id="south-bottom"
        width="1"
        height="1"
