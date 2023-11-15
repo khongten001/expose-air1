@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="35.999889"
-   height="35.999889"
-   viewBox="0 0 35.999889 35.99989"
+   width="71.403053"
+   height="32.000088"
+   viewBox="0 0 71.403053 32.000088"
    version="1.1"
    id="svg8"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="19.239197"
-     inkscape:cx="32.199889"
-     inkscape:cy="12.396567"
+     inkscape:zoom="6.8020833"
+     inkscape:cx="35.062787"
+     inkscape:cy="-1.1026034"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -54,13 +54,13 @@
        type="xygrid"
        id="grid834"
        originx="73.999946"
-       originy="64.999829"
+       originy="60.999832"
        spacingy="1"
        spacingx="1"
        units="px"
        visible="true" />
     <sodipodi:guide
-       position="90.999945,10.000068"
+       position="90.999945,14.000068"
        orientation="1,0"
        id="guide2015"
        inkscape:locked="false" />
@@ -334,11 +334,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(73.999947,-1143.5198)"
+     transform="translate(73.999947,-1147.5198)"
      style="display:inline">
     <g
        id="start-here-kde"
-       transform="matrix(1.5000001,0,0,1,36.000008,0)"
+       transform="matrix(1.5000001,0,0,1,34.000072,2.0001467)"
        style="stroke-width:0.816497">
       <rect
          style="fill:none;fill-opacity:0.236607;stroke:none;stroke-width:0.816494;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.628099"
@@ -415,7 +415,7 @@
     </g>
     <g
        id="22-22-start-here-kde"
-       transform="translate(-27.99998,-4.9999977)">
+       transform="translate(-2.5968898,40.859532)">
       <rect
          transform="scale(1,-1)"
          style="fill:none;fill-opacity:1;stroke:none;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
