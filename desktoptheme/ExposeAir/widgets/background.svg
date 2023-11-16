@@ -27,7 +27,7 @@
          offset="0"
          id="stop8" />
       <stop
-         style="stop-color:#fafcff;stop-opacity:0.24;"
+         style="stop-color:#f1f3f6;stop-opacity:0.24;"
          offset="1"
          id="stop9" />
     </linearGradient>
@@ -231,7 +231,7 @@
     <rect
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755929"
        id="hint-right-inset"
-       width="4"
+       width="5"
        height="1.0000052"
        x="95.91526"
        y="989.8476" />
@@ -239,20 +239,20 @@
        y="989.8476"
        x="90.91526"
        height="1.0000052"
-       width="4"
+       width="5"
        id="hint-left-inset"
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755929" />
     <rect
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755933"
        id="hint-top-inset"
        width="0.99999768"
-       height="4"
+       height="5"
        x="94.91526"
        y="985.8476" />
     <rect
        y="990.8476"
        x="94.91526"
-       height="4"
+       height="5"
        width="0.99999768"
        id="hint-bottom-inset"
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755933" />
