@@ -7,7 +7,7 @@
    viewBox="0 0 154.00003 60.000008"
    version="1.1"
    id="svg894"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    sodipodi:docname="tabbar.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568545"
-     inkscape:cx="96.520071"
-     inkscape:cy="44.194172"
+     inkscape:zoom="16.000001"
+     inkscape:cx="123.28124"
+     inkscape:cy="57.156248"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -49,7 +49,11 @@
        originy="-109.00001"
        originx="36.000009"
        type="xygrid"
-       id="grid2723" />
+       id="grid2723"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
     <sodipodi:guide
        position="15.000009,27.000016"
        orientation="0,-1"
@@ -89,7 +93,7 @@
     <rect
        style="opacity:1;fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        id="north-active-tab-hint-right-margin"
-       width="10.000012"
+       width="6"
        height="1"
        x="273.28519"
        y="550.61481" />
@@ -97,7 +101,7 @@
        y="550.61481"
        x="262.28519"
        height="1"
-       width="9.9999876"
+       width="6"
        id="north-active-tab-hint-left-margin"
        style="opacity:1;fill:#008080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.199999;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
     <rect
@@ -145,13 +149,13 @@
     <g
        id="south-active-tab-bottom"
        transform="matrix(1,0,0,-1,-3.0263673e-6,1119.2296)"
-       style="opacity:0.7">
+       style="opacity:1">
       <rect
-         style="fill:#4c87a9;fill-opacity:1;stroke-width:1.73205"
+         style="fill:#638fa9;fill-opacity:1;stroke-width:1.73205"
          height="32"
-         width="2"
-         y="-235.2852"
-         x="534.61481"
+         width="3.0000055"
+         y="-235.28519"
+         x="532.61481"
          transform="rotate(90)"
          id="rect22988" />
       <rect
@@ -174,7 +178,7 @@
     <g
        id="south-active-tab-bottomleft"
        transform="matrix(0.31249996,0,0,-1,129.75858,1119.2296)"
-       style="opacity:0.7">
+       style="opacity:1">
       <rect
          style="fill:none;fill-opacity:0.298039;stroke-width:3.16228"
          height="31.999994"
@@ -184,18 +188,18 @@
          transform="rotate(90)"
          id="rect7589" />
       <rect
-         style="fill:#4c87a9;fill-opacity:1;stroke-width:1.44914"
-         height="22.399994"
-         width="2"
+         style="fill:#638fa9;fill-opacity:1;stroke-width:1.44914"
+         height="22.399998"
+         width="3.0000055"
          y="-235.2852"
-         x="534.61481"
+         x="532.61481"
          transform="rotate(90)"
          id="rect7587" />
     </g>
     <g
        id="south-active-tab-bottomright"
        transform="matrix(-0.31249996,0,0,-1,308.81182,1119.2296)"
-       style="opacity:0.7">
+       style="opacity:1">
       <rect
          style="fill:none;fill-opacity:0.298039;stroke-width:3.16228"
          height="31.999994"
@@ -205,11 +209,11 @@
          transform="rotate(90)"
          id="rect7698" />
       <rect
-         style="fill:#4c87a9;fill-opacity:1;stroke-width:1.44914"
-         height="22.399994"
-         width="2"
-         y="-235.2852"
-         x="534.61481"
+         style="fill:#638fa9;fill-opacity:1;stroke-width:1.44914"
+         height="22.399998"
+         width="3.0000055"
+         y="-235.28522"
+         x="532.61481"
          transform="rotate(90)"
          id="rect7700" />
     </g>
@@ -258,13 +262,13 @@
     <g
        id="north-active-tab-bottom"
        transform="matrix(1,0,0,-1,95,1119.2296)"
-       style="opacity:0.7">
+       style="opacity:1">
       <rect
-         style="fill:#4c87a9;fill-opacity:1;stroke-width:1.73205"
-         height="32"
-         width="2"
-         y="-235.2852"
-         x="534.61481"
+         style="fill:#638fa9;fill-opacity:1;stroke-width:1.73205"
+         height="31.999996"
+         width="3.0000055"
+         y="-235.28519"
+         x="532.61481"
          transform="rotate(90)"
          id="rect7836" />
       <rect
@@ -287,7 +291,7 @@
     <g
        id="north-active-tab-bottomleft"
        transform="matrix(0.31249996,0,0,-1,224.75858,1119.2296)"
-       style="opacity:0.7">
+       style="opacity:1">
       <rect
          style="fill:none;fill-opacity:0.298039;stroke-width:3.16228"
          height="31.999994"
@@ -297,18 +301,18 @@
          transform="rotate(90)"
          id="rect7844" />
       <rect
-         style="fill:#4c87a9;fill-opacity:1;stroke-width:1.44914"
-         height="22.399994"
-         width="2"
+         style="fill:#638fa9;fill-opacity:1;stroke-width:1.44914"
+         height="22.400024"
+         width="3"
          y="-235.2852"
-         x="534.61481"
+         x="532.61481"
          transform="rotate(90)"
          id="rect7846" />
     </g>
     <g
        id="north-active-tab-bottomright"
        transform="matrix(-0.31249996,0,0,-1,403.81182,1119.2296)"
-       style="opacity:0.7">
+       style="opacity:1">
       <rect
          style="fill:none;fill-opacity:0.298039;stroke-width:3.16228"
          height="31.999994"
@@ -318,11 +322,11 @@
          transform="rotate(90)"
          id="rect7850" />
       <rect
-         style="fill:#4c87a9;fill-opacity:1;stroke-width:1.44914"
-         height="22.399994"
-         width="2"
-         y="-235.2852"
-         x="534.61481"
+         style="fill:#638fa9;fill-opacity:1;stroke-width:1.44914"
+         height="22.400002"
+         width="3"
+         y="-235.28526"
+         x="532.61481"
          transform="rotate(90)"
          id="rect7852" />
     </g>

@@ -7,7 +7,7 @@
    viewBox="0 0 90.000006 40.000057"
    version="1.1"
    id="svg951"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    sodipodi:docname="viewitem.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -21,30 +21,7 @@
      id="defs945" />
   <style
      id="current-color-scheme"
-     type="text/css">
-      .ColorScheme-Text {
-      }
-      .ColorScheme-Background{
-      }
-      .ColorScheme-Highlight{
-      }
-      .ColorScheme-ViewText {
-      }
-      .ColorScheme-ViewBackground{
-      }
-      .ColorScheme-ViewHover {
-      }
-      .ColorScheme-ViewFocus{
-      }
-      .ColorScheme-ButtonText {
-      }
-      .ColorScheme-ButtonBackground{
-      }
-      .ColorScheme-ButtonHover {
-      }
-      .ColorScheme-ButtonFocus{
-      }
-  </style>
+     type="text/css">&#10;      .ColorScheme-Text {&#10;      }&#10;      .ColorScheme-Background{&#10;      }&#10;      .ColorScheme-Highlight{&#10;      }&#10;      .ColorScheme-ViewText {&#10;      }&#10;      .ColorScheme-ViewBackground{&#10;      }&#10;      .ColorScheme-ViewHover {&#10;      }&#10;      .ColorScheme-ViewFocus{&#10;      }&#10;      .ColorScheme-ButtonText {&#10;      }&#10;      .ColorScheme-ButtonBackground{&#10;      }&#10;      .ColorScheme-ButtonHover {&#10;      }&#10;      .ColorScheme-ButtonFocus{&#10;      }&#10;  </style>
   <sodipodi:namedview
      id="base"
      pagecolor="#d2d2d2"
@@ -52,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="25.625"
-     inkscape:cy="11.8125"
+     inkscape:zoom="8"
+     inkscape:cx="10.0625"
+     inkscape:cy="44.3125"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -76,7 +53,11 @@
        id="grid2978"
        type="xygrid"
        originx="-30.999994"
-       originy="-93.99999" />
+       originy="-93.99999"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata948">
@@ -100,19 +81,7 @@
        height="32"
        width="32"
        id="hover-center"
-       style="opacity:0.7;fill:#40728f;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <g
-       id="hover-top"
-       style="opacity:0.7;fill:#8eb2c8;fill-opacity:1"
-       transform="translate(10.000015,-2)">
-      <rect
-         style="opacity:1;fill:#40728f;fill-opacity:1;stroke:none;stroke-width:3.00001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1672"
-         width="32.000008"
-         height="3.9999979"
-         x="298.07141"
-         y="527.01965" />
-    </g>
+       style="opacity:1;fill:#638fa9;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        y="529.01965"
        x="358.07141"
@@ -309,88 +278,53 @@
        y="0"
        xlink:href="#hover-top"
        id="hover-right"
-       transform="rotate(90,324.07144,545.01966)"
-       style="fill:#040a0e;fill-opacity:0.99000001" />
+       transform="rotate(90,324.07142,545.01965)"
+       style="opacity:1;fill:#99bace;fill-opacity:1" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-top"
        id="hover-left"
-       transform="rotate(-90,324.07144,545.01965)"
-       style="fill:#040a0e;fill-opacity:0.99000001" />
+       transform="rotate(-90,324.07141,545.01964)"
+       style="opacity:1;fill:#99bace;fill-opacity:1" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-top"
        id="hover-bottom"
-       transform="matrix(1,0,0,-1,9.2559765e-6,1090.0393)"
-       style="fill:#040a0e;fill-opacity:0.99000001" />
+       transform="matrix(1,0,0,-1,4.661651e-6,1090.0393)"
+       style="opacity:1;fill:#99bace;fill-opacity:1" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-topleft"
-       transform="matrix(-1,0,0,1,648.14283,-1.7414016e-5)"
-       style="fill:#040a0e;fill-opacity:0.99" />
+       transform="matrix(-1,0,0,1,648.14284,-1.1328125e-6)"
+       style="opacity:1;fill:#99bace;fill-opacity:1" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-bottomright"
-       transform="matrix(1,0,0,-1,4.7752142e-6,1090.0393)"
-       style="fill:#040a0e;fill-opacity:0.99" />
+       transform="matrix(1,0,0,-1,-3.5356743e-6,1090.0393)"
+       style="opacity:1;fill:#99bace;fill-opacity:1" />
     <use
        x="0"
        y="0"
        xlink:href="#hover-topright"
        id="hover-bottomleft"
        transform="rotate(180,324.07142,545.01964)"
-       style="fill:#040a0e;fill-opacity:0.99" />
-    <g
+       style="opacity:1;fill:#99bace;fill-opacity:1" />
+    <path
        id="hover-topright"
-       transform="translate(-0.99994939,1.0000053)">
-      <g
-         id="g2508"
-         transform="matrix(0.7499907,0,0,0.74999839,93.770886,133.25574)"
-         style="opacity:1;fill:#042144;fill-opacity:1;stroke-width:1.33335">
-        <path
-           style="opacity:0.7;fill:#40728f;fill-opacity:1;stroke-width:2.21675"
-           id="path4628"
-           transform="scale(1,-1)"
-           sodipodi:type="arc"
-           sodipodi:cx="332.40475"
-           sodipodi:cy="-523.68634"
-           sodipodi:rx="2.6666996"
-           sodipodi:ry="2.6666725"
-           sodipodi:start="0"
-           sodipodi:end="1.5707963"
-           sodipodi:arc-type="slice"
-           d="m 335.07145,-523.68634 a 2.6666996,2.6666725 0 0 1 -2.6667,2.66667 v -2.66667 z" />
-      </g>
-      <g
-         id="g2439"
-         style="opacity:0.7;fill:#8eb2c8;fill-opacity:1;stroke-width:5.65686"
-         transform="matrix(0.03124999,0,0,1,331.75669,-3.0000112)">
-        <rect
-           style="opacity:1;fill:#40728f;fill-opacity:1;stroke:none;stroke-width:16.9706;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect2437"
-           width="63.998318"
-           height="4.0000052"
-           x="298.07141"
-           y="527.01965" />
-      </g>
-      <g
-         id="g2443"
-         style="opacity:0.7;fill:#8eb2c8;fill-opacity:1;stroke-width:6.53198"
-         transform="matrix(0.0937499,0,0,0.25000013,314.12725,395.26466)">
-        <rect
-           style="opacity:1;fill:#40728f;fill-opacity:1;stroke:none;stroke-width:19.596;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect2441"
-           width="21.333858"
-           height="8.0000248"
-           x="308.73755"
-           y="523.01965" />
-      </g>
-    </g>
+       style="opacity:1;fill:#638fa9;fill-opacity:1;stroke:none;stroke-width:0.700002;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 340.07142,524.01964 v 5 h 5 v -4 h -1 v -1 z" />
+    <rect
+       y="524.01965"
+       x="308.07141"
+       height="5"
+       width="32"
+       id="hover-top"
+       style="opacity:1;fill:#638fa9;fill-opacity:1;stroke:none;stroke-width:0.700002;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
