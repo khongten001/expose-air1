@@ -1,6 +1,9 @@
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
+[kdeglobals][Icons]
+Theme=DamaDamas-icon-theme
+
 [kdeglobals][General]
 ColorScheme=ExposeAir
 

@@ -24,85 +24,54 @@ import QtGraphicalEffects 1.0
 
 Image {
     id: root
-    source: "images/newlogin.png"
-    fillMode: Image.PreserveAspectCrop
+    source: "images/loginwall.svg"
+    fillMode: Image.Stretch
+    anchors.fill: parent
     property int stage
 
-    onStageChanged: {
-        if (stage == 2) {
-            introAnimation.running = true;
-        } else if (stage == 5) {
-            introAnimation.target = busyIndicator;
-            introAnimation.from = 1;
-            introAnimation.to = 0;
-            introAnimation.running = true;
-        }
-    }
+    property variant images : [
+        "images/spinner1.svg",
+        "images/spinner2.svg",
+        "images/spinner3.svg",
+        "images/spinner4.svg",
+        "images/spinner5.svg",
+        "images/spinner6.svg",
+        "images/spinner7.svg",
+        "images/spinner8.svg",
+        "images/spinner9.svg",
+        "images/spinnera.svg",
+        "images/spinnerb.svg",
+        "images/spinnerc.svg",
+    ];
+    property int currentImage : 0;
 
-    Item {
-        id: content
-        anchors.fill: parent
-        opacity: 0
-        TextMetrics {
-            id: units
-            text: "M"
-            property int gridUnit: boundingRect.height
-            property int largeSpacing: PlasmaCore.Units.gridUnit
-            property int smallSpacing: Math.max(2, gridUnit/4)
-        }
-
-        Image {
-            id: logo
-            height: parent.height
-            width: parent.width
-            source: "images/exposeair.png"
-            fillMode: Image.PreserveAspectCrop
-        }
-
-        Image {
-            id: busyIndicator
+    Repeater {
+        id: repeaterImg;
+        model: images;
+        delegate: Image {
+            id: spinner
+            source: modelData;
+            asynchronous: true;
+            height: 72
+            width: 72
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
-            source: "images/spinner.svg"
-
-            RotationAnimator on rotation {
-                id: rotationAnimator
-                from: 0
-                to: 360
-                duration: 1500
-                loops: Animation.Infinite
-            }
-        }
-        Row {
-            spacing: PlasmaCore.Units.smallSpacing*2
-            anchors {
-                bottom: parent.bottom
-                right: parent.right
-                margins: PlasmaCore.Units.gridUnit
-            }
-            Text {
-                color: "#eff0f1"
-                // Work around Qt bug where NativeRendering breaks for non-integer scale factors
-                // https://bugreports.qt.io/browse/QTBUG-67007
-                renderType: Screen.devicePixelRatio % 1 !== 0 ? Text.QtRendering : Text.NativeRendering
-                anchors.verticalCenter: parent.verticalCenter
-                text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "This is the first text the user sees while starting in the splash screen, should be translated as something short, is a form that can be seen on a product. Plasma is the project name so shouldn't be translated.", "Plasma made by KDE")
-            }
-            Image {
-                source: "images/plasma.svgz"
-                sourceSize.height: PlasmaCore.Units.gridUnit
-                sourceSize.width: PlasmaCore.Units.gridUnit
-            }
+            visible: (model.index === currentImage);
         }
     }
 
-    OpacityAnimator {
-        id: introAnimation
-        running: false
-        target: content
-        from: 0
-        to: 1
-        duration: 1000
-        easing.type: Easing.InOutQuad
+    Timer {
+        id: timerAnimImg;
+        interval: 125; // here is the delay between 2 images in msecs
+        running: true; // stopped by default, use start() or running=true to launch
+        repeat: true;
+        onTriggered: {
+            if (currentImage < images.length -1) {
+                currentImage++; // show next image
+            }
+            else {
+                currentImage = 0; // go back to the first image at the end
+            }
+        }
     }
 }
