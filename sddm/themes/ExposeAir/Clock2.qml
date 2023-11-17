@@ -28,7 +28,7 @@ Column {
     property date dateTime : new Date()
     property color color : "#55ff00"
     property alias timeFont : time.font
-    property alias dateFont : date.font
+    // property alias dateFont : date.font
 
     Timer {
         interval : 1000
@@ -37,22 +37,22 @@ Column {
         onTriggered : container.dateTime = new Date()
     }
 
-    Column {
-        Text {
-            id : date
-            anchors.horizontalCenter : parent.horizontalCenter
-            color : container.color
-            text : Qt.formatDate(container.dateTime, Qt.DefaultLocaleLongDate)
-            font.pointSize : 14
-            horizontalAlignment: Text.AlignHCenter
-        }
+    // Column {
+    //     Text {
+    //         id : date
+    //         anchors.horizontalCenter : parent.horizontalCenter
+    //         color : container.color
+    //         text : Qt.formatDate(container.dateTime, Qt.DefaultLocaleLongDate)
+    //         font.pointSize : 14
+    //         horizontalAlignment: Text.AlignHCenter
+    //     }
         Text {
             id : time
             anchors.horizontalCenter : parent.horizontalCenter
             color : container.color
-            text : Qt.formatDateTime(container.dateTime, "h:mm ap")
-            font.pointSize : 44
-            horizontalAlignment: Text.AlignHCenter
+            text : Qt.formatDateTime(container.dateTime, "dddd MMMM d, h:mm ap")
+            font.pixelSize : 24
+            // horizontalAlignment: Text.AlignHCenter
         }
-    }
+    // }
 }

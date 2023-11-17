@@ -23,21 +23,25 @@ Rectangle {
 
     Connections {
         target : sddm
-        onLoginSucceeded : {
+
+        function onLoginSucceeded() {
             errorMessage.color = "#33ff99"
             errorMessage.text = textConstants.loginSucceeded
         }
-        onLoginFailed : {
+
+        function onLoginFailed() {
             password.text = ""
             errorMessage.color = "#ff99cc"
             errorMessage.text = textConstants.loginFailed
             errorMessage.bold = true
         }
     }
+
     Background {
         anchors.fill : parent
         source : config.background
         fillMode : Image.Stretch
+
         onStatusChanged : {
             if (status == Image.Error && source != config.defaultBackground) {
                 source = config.defaultBackground
@@ -45,188 +49,312 @@ Rectangle {
         }
     }
 
-    Column {
-        anchors.verticalCenter : parent.verticalCenter
-        anchors.horizontalCenter : parent.horizontalCenter
-        spacing: 36
-
-        Clock2 {
+    Clock2 {
             id : clock
             anchors.horizontalCenter : parent.horizontalCenter
-            color : "#f8faff"
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 12
+            color : "#fafcff"
             timeFont.family : basefont.name
-            dateFont.family : basefont.name
         }
 
-        Column {
-            spacing: 8
-
-            Row {
-                spacing: 4
-
-                Image {
-                        width : 64
-                        height : 36
-                        source: 'assets/system-users.svg'
-                }
-
-                TextField {
-                    id : name
-                    font.family : basefont.name
-                    width : 320
-                    height : 30
-                    text : userModel.lastUser
-                    font.pointSize : 10
-                    color : "#323232"
-                    background : Image {
-                        source : "assets/input.svg"
-                    }
-                    KeyNavigation.backtab : rebootButton
-                    KeyNavigation.tab : password
-                    Keys.onPressed : {
-                        if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                            sddm.login(name.text, password.text, sessionIndex)
-                            event.accepted = true
-                        }
-                    }
-                }
-            }
-
-            Row {
-                spacing : 4
-
-                Image {
-                    width : 64
-                    height : 36
-                    source: 'assets/start-here.svg'
-                }
-
-                TextField {
-                    id : password
-                    anchors.verticalCenter : parent.verticalCenter
-                    font.pointSize : 10
-                    echoMode : TextInput.Password
-                    font.family : basefont.name
-                    color : "#323232"
-                    width : 320
-                    height : 30
-                    background : Image {
-                        source : "assets/input.svg"
-                    }
-                    KeyNavigation.backtab : name
-                    KeyNavigation.tab : loginButton
-                    Keys.onPressed : {
-                        if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
-                            sddm.login(name.text, password.text, sessionIndex)
-                            event.accepted = true
-                        }
-                    }
-                }
-                Image {
-                    id : loginButton
-                    width : 32
-                    height : 32
-                    source : "assets/buttonup.svg"
-                    MouseArea {
-                        anchors.fill : parent
-                        hoverEnabled : true
-                        onEntered : {
-                            parent.source = "assets/buttonhover.svg"
-                        }
-                        onExited : {
-                            parent.source = "assets/buttonup.svg"
-                        }
-                        onPressed : {
-                            parent.source = "assets/buttondown.svg"
-                            sddm.login(name.text, password.text, sessionIndex)
-                        }
-                        onReleased : {
-                            parent.source = "assets/buttonup.svg"
-                        }
-                    }
-                    KeyNavigation.backtab : password
-                    KeyNavigation.tab : shutdownButton
-                }
-            }
-        }
+    Text {
+        id: greeting
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.topMargin: 12
+        anchors.leftMargin: 12
+        text: "Welcome to Plasma-Desktop"
+        // text: textConstants.welcomeText.arg(sddm.hostName)
+        font.family: basefont.name
+        font.pixelSize: 24
+        color : "#fafcff"
     }
-    Column {
-        anchors.right : parent.right
-        anchors.rightMargin : 24
-        anchors.topMargin : 12
-        anchors.top : parent.top
-        width : 144
-        spacing: 4
+
+    Rectangle {
+        id : sessionbehind
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.rightMargin: 11
+        anchors.topMargin: 19
+        width : 174
+        height : 26
+        color: "#88ffffff"
+        radius: 2
+    }
+
+    ComboBox {
+        id : session
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.rightMargin: 12
+        anchors.topMargin: 20
+        width : 172
+        height : 24
+        font.pixelSize : 12
+        font.family : basefont.name
+        arrowIcon : "assets/comboarrow.svg"
+        model : sessionModel
+        index : sessionModel.lastIndex
+        borderColor : "#0c191c"
+        color : "#ededed"
+        menuColor : "#f2f2f4"
+        textColor : "#323232"
+        hoverColor : "#c8dde9"
+        focusColor : "#36a1d3"
+        arrowColor: "#0c191c"
+        KeyNavigation.backtab : nameinput
+        KeyNavigation.tab : password
+    }
+
+    Text {
+        id : lblSession
+        anchors.right: session.left
+        anchors.top: parent.top
+        anchors.topMargin: 20
+        anchors.rightMargin: 12
+        text : textConstants.session
+        font.pointSize : 12
+        font.family: basefont.name
+        // verticalAlignment : Text.AlignVCenter
+        color : "#dadada"
+    }
+
+    Q1.Button {
+        id : shutdownButton
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 12
+        anchors.rightMargin: 12
+        height : 32
+        width : 32
+        style : ButtonStyle {
+            background : Image {
+                source : control.hovered
+                    ? "assets/shutdownpressed.svg"
+                    : "assets/shutdown.svg"
+            }
+        }
+        onClicked : sddm.powerOff()
+        KeyNavigation.backtab : loginButton
+        KeyNavigation.tab : rebootButton
+    }
+
+    Q1.Button {
+        id : rebootButton
+        anchors.right: shutdownButton.left
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 12
+        anchors.rightMargin: 12
+        height : 32
+        width : 32
+        style : ButtonStyle {
+            background : Image {
+                source : control.hovered
+                    ? "assets/rebootpressed.svg"
+                    : "assets/reboot.svg"
+            }
+        }
+        onClicked : sddm.reboot()
+        KeyNavigation.backtab : shutdownButton
+        KeyNavigation.tab : name
+    }
+
+    Rectangle {
+        id: centerlayout
+        width: parent.width
+        height: 84
+        anchors.centerIn: parent
+        color: "transparent"
+
+        Image {
+            id: imageinput
+            source: "assets/input.svg"
+            anchors.top: parent.top
+            anchors.horizontalCenter: parent.horizontalCenter
+            width: 264
+            height :28
+
+            TextField {
+                id: nameinput
+                focus: true
+                font.family: basefont.name
+                anchors.fill: parent
+                text: userModel.lastUser
+                font.pixelSize: 12
+                color: "#0c191c"
+                background: Image {
+                    id: textback
+                    source: "assets/inputhi.svg"
+
+                    states: [
+                        State {
+                            name: "yay"
+                            PropertyChanges {target: textback; opacity: 1}
+                        },
+                        State {
+                            name: "nay"
+                            PropertyChanges {target: textback; opacity: 0}
+                        }
+                    ]
+
+                    transitions: [
+                        Transition {
+                            to: "yay"
+                            NumberAnimation { target: textback; property: "opacity"; from: 0; to: 1; duration: 200; }
+                        },
+
+                        Transition {
+                            to: "nay"
+                            NumberAnimation { target: textback; property: "opacity"; from: 1; to: 0; duration: 200; }
+                        }
+                    ]
+                }
+
+                KeyNavigation.tab: password
+                KeyNavigation.backtab: session
+
+                Keys.onPressed: {
+                    if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
+                        password.focus = true
+                    }
+                }
+
+                onActiveFocusChanged: {
+                    if (activeFocus) {
+                        textback.state = "yay"
+                    } else {
+                        textback.state = "nay"
+                    }
+                }
+            }
+        }
 
         Text {
-            id : lblSession
-            width : parent.width
-            text : textConstants.session
-            font.pointSize : 10
-            verticalAlignment : Text.AlignVCenter
-            color : "#0c191c"
+            id: userlabel
+            anchors.right: imageinput.left
+            anchors.bottom: imageinput.bottom
+            font.family: basefont.name
+            font.pixelSize: 12
+            horizontalAlignment: Text.AlignRight
+            verticalAlignment: Text.AlignVCenter
+            rightPadding: 12
+            height: 28
+            text: textConstants.userName
+            color: "#fafcff"
         }
 
-        ComboBox {
-            id : session
-            width : parent.width
-            height : 24
-            font.pixelSize : 10
-            font.family : basefont.name
-            arrowIcon : "assets/comboarrow.svg"
-            model : sessionModel
-            index : sessionModel.lastIndex
-            borderColor : "#0c191c"
-            color : "#eaeaec"
-            menuColor : "#f4f4f8"
-            textColor : "#323232"
-            hoverColor : "#36a1d3"
-            focusColor : "#36a1d3"
+        Image {
+            id: imagepassword
+            source: "assets/input.svg"
+            anchors.bottom: parent.bottom
+            anchors.horizontalCenter: parent.horizontalCenter
+            width: 264
+            height :28
+
+            TextField {
+                id: password
+                font.family: basefont.name
+                anchors.fill: parent
+                font.pixelSize: 12
+                echoMode: TextInput.Password
+                color: "#0c191c"
+
+                background: Image {
+                    id: textback1
+                    source: "assets/inputhi.svg"
+
+                    states: [
+                        State {
+                            name: "yay1"
+                            PropertyChanges {target: textback1; opacity: 1}
+                        },
+                        State {
+                            name: "nay1"
+                            PropertyChanges {target: textback1; opacity: 0}
+                        }
+                    ]
+
+                    transitions: [
+                        Transition {
+                            to: "yay1"
+                            NumberAnimation { target: textback1; property: "opacity"; from: 0; to: 1; duration: 200; }
+                        },
+
+                        Transition {
+                            to: "nay1"
+                            NumberAnimation { target: textback1; property: "opacity"; from: 1; to: 0; duration: 200; }
+                        }
+                    ]
+                }
+
+                KeyNavigation.tab: session
+                KeyNavigation.backtab: nameinput
+
+                Keys.onPressed: {
+                    if (event.key === Qt.Key_Return || event.key === Qt.Key_Enter) {
+                        sddm.login(nameinput.text, password.text, sessionIndex)
+                        event.accepted = true
+                    }
+                }
+
+                onActiveFocusChanged: {
+                    if (activeFocus) {
+                        textback1.state = "yay1"
+                    } else {
+                        textback1.state = "nay1"
+                    }
+                }
+            }
+        }
+
+        Text {
+            id: passwordlabel
+            anchors.right: imagepassword.left
+            anchors.bottom: imagepassword.bottom
+            font.family: basefont.name
+            font.pixelSize: 12
+            horizontalAlignment: Text.AlignRight
+            verticalAlignment: Text.AlignVCenter
+            rightPadding: 12
+            height: 28
+            text: textConstants.password
+            color: "#fafcff"
+        }
+
+        Image {
+            id : loginButton
+            anchors.left: imagepassword.right
+            anchors.bottom: imagepassword.bottom
+            anchors.leftMargin: 12
+            width : 28
+            height : 28
+            source : "assets/buttonup.svg"
+            MouseArea {
+                anchors.fill : parent
+                hoverEnabled : true
+                onEntered : {
+                    parent.source = "assets/buttonhover.svg"
+                }
+                onExited : {
+                    parent.source = "assets/buttonup.svg"
+                }
+                onPressed : {
+                    parent.source = "assets/buttondown.svg"
+                    sddm.login(name.text, password.text, sessionIndex)
+                }
+                onReleased : {
+                    parent.source = "assets/buttonup.svg"
+                }
+            }
             KeyNavigation.backtab : password
             KeyNavigation.tab : shutdownButton
         }
     }
 
-    Row {
-        anchors.bottom : parent.bottom
-        anchors.right : parent.right
-//         anchors.bottomMargin : 12
-        anchors.rightMargin : 24
-        height : 64
-        spacing : 24
 
-        Q1.Button {
-            id : shutdownButton
-            height : 32
-            width : 32
-            style : ButtonStyle {
-                background : Image {
-                    source : control.hovered
-                        ? "assets/shutdownpressed.svg"
-                        : "assets/shutdown.svg"
-                }
-            }
-            onClicked : sddm.powerOff()
-            KeyNavigation.backtab : loginButton
-            KeyNavigation.tab : rebootButton
-        }
 
-        Q1.Button {
-            id : rebootButton
-            height : 32
-            width : 32
-            style : ButtonStyle {
-                background : Image {
-                    source : control.hovered
-                        ? "assets/rebootpressed.svg"
-                        : "assets/reboot.svg"
-                }
-            }
-            onClicked : sddm.reboot()
-            KeyNavigation.backtab : shutdownButton
-            KeyNavigation.tab : name
-        }
-    }
+
 
     Component.onCompleted : {
         if (name.text == "")
