@@ -13,20 +13,13 @@ kickoff.currentConfigGroup = ["Shortcuts"]
 kickoff.writeConfig("global", "Alt+F1")
 kickoff.currentConfigGroup = ["General"]
 kickoff.writeConfig("favorites", ["preferred://browser", "org.kde.dolphin.desktop", "org.kde.konsole.desktop", "systemsettings.desktop"])
-
-//panel.addWidget("org.kde.plasma.showActivityManager")
+panel.addWidget("org.kde.plasma.marginsseparator")
+panel.addWidget("org.kde.plasma.pager")
 let taskBar = panel.addWidget("org.kde.plasma.icontasks")
 taskBar.currentConfigGroup = ["General"]
 taskBar.writeConfig("launchers",["preferred://browser", "preferred://filemanager","applications:org.kde.konsole.desktop"])
-panel.addWidget("org.kde.plasma.marginsseparator")
-panel.addWidget("org.kde.plasma.pager")
 
-/* Next up is determining whether to add the Input Method Panel
- * widget to the panel or not. This is done based on whether
- * the system locale's language id is a member of the following
- * white list of languages which are known to pull in one of
- * our supported IME backends when chosen during installation
- * of common distributions. */
+
 
 var langIds = ["as",    // Assamese
                "bn",    // Bengali
