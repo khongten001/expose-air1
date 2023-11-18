@@ -26,8 +26,8 @@ inline_spin_indicators=true
 intensity=1.00
 joined_inactive_tabs=true
 large_icon_size=32
-layout_margin=3
-layout_spacing=3
+layout_margin=6
+layout_spacing=6
 left_tabs=true
 menubar_mouse_tracking=true
 menu_shadow_depth=4
@@ -58,14 +58,15 @@ small_icon_size=16
 spin_button_width=16
 splitter_width=3
 spread_header=false
+spread_menuitems=false
 spread_progressbar=false
 square_combo_button=false
 submenu_delay=250
 submenu_overlap=6
 tab_button_extra_margin=0
 toolbar_icon_size=16
-toolbar_interior_spacing=2
-toolbar_item_spacing=2
+toolbar_interior_spacing=0
+toolbar_item_spacing=3
 toolbutton_style=0
 tooltip_delay=-1
 tooltip_shadow_depth=4
@@ -79,7 +80,7 @@ x11drag=all
 
 [GeneralColors]
 window.color=#f1f5fb
-base.color=white
+base.color=#fcfcfc
 alt.base.color=#f1f5fb
 button.color=#f1f5fb
 light.color=white
@@ -209,7 +210,7 @@ text.margin.left=4
 text.margin.right=4
 
 [Tab]
-frame.top=3
+frame.top=5
 frame.bottom=3
 frame.left=3
 frame.right=3
@@ -256,6 +257,10 @@ frame=true
 frame.element=tbframe
 interior=true
 interior.element=tbframe
+frame.left=3
+frame.right=3
+frame.top=3
+frame.bottom=3
 
 [SizeGrip]
 inherits=PanelButtonCommand
@@ -265,10 +270,10 @@ indicator.element=resize-grip
 indicator.size=15
 
 [Toolbar]
-frame.left=2
-frame.right=2
-frame.top=2
-frame.bottom=2
+frame.left=3
+frame.right=3
+frame.top=3
+frame.bottom=3
 indicator.size=3
 frame.expansion=0
 interior.element=tlbar
@@ -374,9 +379,13 @@ text.press.color=white
 [MenuBar]
 interior=true
 frame=true
-interior.element=tlbar
-frame.element=tlbar
+interior.element=mmbar
+frame.element=mmbar
 frame.expansion=0
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
 
 [TitleBar]
 inherits=PanelButtonCommand
