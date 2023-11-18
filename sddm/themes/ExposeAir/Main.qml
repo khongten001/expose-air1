@@ -18,7 +18,7 @@ Rectangle {
 
     FontLoader {
         id : basefont
-        source : "weblysleekuisl.ttf"
+        source : "assets/weblysleekuisl.ttf"
     }
 
     Connections {
@@ -64,8 +64,8 @@ Rectangle {
         anchors.left: parent.left
         anchors.topMargin: 12
         anchors.leftMargin: 12
-        text: "Welcome to Plasma-Desktop"
-        // text: textConstants.welcomeText.arg(sddm.hostName)
+        // text: "Welcome to Plasma-Desktop"
+        text: textConstants.welcomeText.arg(sddm.hostName)
         font.family: basefont.name
         font.pixelSize: 24
         color : "#fafcff"
@@ -103,8 +103,8 @@ Rectangle {
         hoverColor : "#c8dde9"
         focusColor : "#36a1d3"
         arrowColor: "#0c191c"
-        KeyNavigation.backtab : nameinput
-        KeyNavigation.tab : password
+        KeyNavigation.backtab : password
+        KeyNavigation.tab : nameinput
     }
 
     Text {
@@ -116,7 +116,6 @@ Rectangle {
         text : textConstants.session
         font.pointSize : 12
         font.family: basefont.name
-        // verticalAlignment : Text.AlignVCenter
         color : "#dadada"
     }
 
@@ -135,9 +134,8 @@ Rectangle {
                     : "assets/shutdown.svg"
             }
         }
+
         onClicked : sddm.powerOff()
-        KeyNavigation.backtab : loginButton
-        KeyNavigation.tab : rebootButton
     }
 
     Q1.Button {
@@ -148,6 +146,7 @@ Rectangle {
         anchors.rightMargin: 12
         height : 32
         width : 32
+
         style : ButtonStyle {
             background : Image {
                 source : control.hovered
@@ -155,9 +154,8 @@ Rectangle {
                     : "assets/reboot.svg"
             }
         }
+
         onClicked : sddm.reboot()
-        KeyNavigation.backtab : shutdownButton
-        KeyNavigation.tab : name
     }
 
     Rectangle {
@@ -341,26 +339,27 @@ Rectangle {
                 }
                 onPressed : {
                     parent.source = "assets/buttondown.svg"
-                    sddm.login(name.text, password.text, sessionIndex)
+                    sddm.login(nameinput.text, password.text, sessionIndex)
                 }
                 onReleased : {
                     parent.source = "assets/buttonup.svg"
                 }
             }
-            KeyNavigation.backtab : password
-            KeyNavigation.tab : shutdownButton
         }
     }
 
-
-
-
+    Text{
+        id: errorMessage
+        anchors.horizontalCenter: parent.horizontalCenter
+        y: parent.height / 3
+        text: textConstants.prompt
+        font.family: basefont.name
+        font.pixelSize: 12
+        color: "#dadada"
+    }
 
     Component.onCompleted : {
-        if (name.text == "")
-            name.focus = true
-         else
-            password.focus = true
-
+        nameinput.focus = true
+        textback1.state = "nay1"  //dunno why both inputs get focused
     }
 }
