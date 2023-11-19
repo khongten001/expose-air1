@@ -32,7 +32,7 @@ left_tabs=true
 menubar_mouse_tracking=true
 menu_shadow_depth=4
 merge_menubar_with_toolbar=false
-min_height=32
+min_height=24
 mirror_doc_tabs=true
 no_active_tab_separator=true
 no_inactiveness=false
@@ -97,7 +97,7 @@ disabled.text.color=#00000070
 tooltip.text.color=black
 highlight.text.color=white
 inactive.highlight.text.color=black
-highlight.color=#0078d7
+highlight.color=#3091f2
 link.color=#7294e8
 link.visited.color=#ff00ff
 progress.indicator.text.color=white
@@ -346,7 +346,7 @@ text.margin=6
 focusFrame=false
 
 [Menu]
-frame.top=3
+frame.top=1
 frame.bottom=3
 frame.left=3
 frame.right=3
@@ -364,7 +364,6 @@ interior.element=menuitem
 frame.expansion=0
 indicator.element=arrow
 indicator.size=8
-text.margin=3
 
 [MenuBarItem]
 interior=true
