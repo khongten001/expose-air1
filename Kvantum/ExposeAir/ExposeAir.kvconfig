@@ -319,6 +319,10 @@ interior.element=pbgutter
 frame.element=pbgutter
 frame=true
 interior=true
+frame.left=3
+frame.right=3
+frame.top=3
+frame.bottom=3
 
 [ProgressbarContents]
 frame=false
