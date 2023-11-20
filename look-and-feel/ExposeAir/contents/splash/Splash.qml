@@ -40,8 +40,6 @@ Image {
         "images/spinner8.svg",
         "images/spinner9.svg",
         "images/spinnera.svg",
-        "images/spinnerb.svg",
-        "images/spinnerc.svg",
     ];
     property int currentImage : 0;
 
