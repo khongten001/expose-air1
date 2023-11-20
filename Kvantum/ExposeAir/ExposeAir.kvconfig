@@ -30,9 +30,10 @@ layout_margin=6
 layout_spacing=6
 left_tabs=true
 menubar_mouse_tracking=true
+menu_separator_height=7
 menu_shadow_depth=4
 merge_menubar_with_toolbar=false
-min_height=24
+min_height=16
 mirror_doc_tabs=true
 no_active_tab_separator=true
 no_inactiveness=false
@@ -81,7 +82,7 @@ x11drag=all
 [GeneralColors]
 window.color=#f1f5fb
 base.color=#fcfcfc
-alt.base.color=#f1f5fb
+alt.base.color=#fcfcfc
 button.color=#f1f5fb
 light.color=white
 mid.light.color=#ccd9ea
@@ -95,9 +96,9 @@ inactive.window.text.color=black
 button.text.color=black
 disabled.text.color=#00000070
 tooltip.text.color=black
-highlight.text.color=white
+highlight.text.color=black
 inactive.highlight.text.color=black
-highlight.color=#3091f2
+highlight.color=#ced5df
 link.color=#7294e8
 link.visited.color=#ff00ff
 progress.indicator.text.color=white
@@ -336,21 +337,26 @@ frame.left=3
 frame.right=3
 
 [ItemView]
-text.toggle.color=white
-text.press.color=white
-#text.normal.color=black
-#text.focus.color=yellow
-text.toggle.inactive.color=black
+text.toggle.color=green
+text.press.color=black
+text.normal.color=black
+text.focus.color=white
+text.focus.inactive.color=yellow
+text.toggle.inactive.color=white
 frame.expansion=0
 interior=true
 interior.element=iview
 frame.element=iview
 frame=true
-text.margin=6
+#text.margin=6
 focusFrame=false
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 [Menu]
-frame.top=1
+frame.top=3
 frame.bottom=3
 frame.left=3
 frame.right=3
@@ -366,8 +372,8 @@ frame.element=menuitem
 interior=true
 interior.element=menuitem
 frame.expansion=0
-indicator.element=arrow
-indicator.size=8
+indicator.element=marrow
+indicator.size=3
 
 [MenuBarItem]
 interior=true
