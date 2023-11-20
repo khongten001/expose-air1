@@ -96,9 +96,10 @@ inactive.window.text.color=black
 button.text.color=black
 disabled.text.color=#00000070
 tooltip.text.color=black
-highlight.text.color=black
-inactive.highlight.text.color=black
-highlight.color=#ced5df
+highlight.text.color=white
+inactive.highlight.text.color=#4a5362
+highlight.color=#7184a0
+inactive.highlight.color=#afbdd3
 link.color=#7294e8
 link.visited.color=#ff00ff
 progress.indicator.text.color=white
@@ -337,12 +338,12 @@ frame.left=3
 frame.right=3
 
 [ItemView]
-text.toggle.color=green
-text.press.color=black
+text.toggle.color=white
+text.press.color=white
 text.normal.color=black
-text.focus.color=white
-text.focus.inactive.color=yellow
-text.toggle.inactive.color=white
+text.focus.color=black
+text.focus.inactive.color=#4a5362
+text.toggle.inactive.color=#4a5362
 frame.expansion=0
 interior=true
 interior.element=iview
@@ -450,8 +451,8 @@ frame.patternsize=6
 [ToolTip]
 interior=true
 frame=true
-interior.element=ttip
-frame.element=ttip
+interior.element=mnu
+frame.element=mnu
 text.normal.color=black
 
 [RadioButton]
