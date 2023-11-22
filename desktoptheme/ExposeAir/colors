@@ -18,7 +18,7 @@ ForegroundNormal=255,255,255
 BackgroundNormal=255,255,0
 
 [Colors:Button]
-ForegroundNormal=60,66,72
+ForegroundNormal=250,252,255
 DecorationHover=0,136,240
 
 [Colors:Tooltip]
