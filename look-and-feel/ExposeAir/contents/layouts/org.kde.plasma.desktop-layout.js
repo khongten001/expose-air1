@@ -14,11 +14,11 @@ kickoff.writeConfig("global", "Alt+F1")
 kickoff.currentConfigGroup = ["General"]
 kickoff.writeConfig("favorites", ["preferred://browser", "org.kde.dolphin.desktop", "org.kde.konsole.desktop", "systemsettings.desktop"])
 // panel.addWidget("org.kde.plasma.marginsseparator")
-// panel.addWidget("org.kde.plasma.pager")
+
 let taskBar = panel.addWidget("org.kde.plasma.icontasks")
 taskBar.currentConfigGroup = ["General"]
 taskBar.writeConfig("launchers",["preferred://browser", "preferred://filemanager","applications:org.kde.konsole.desktop"])
-
+panel.addWidget("org.kde.plasma.pager")
 
 
 var langIds = ["as",    // Assamese
@@ -59,4 +59,5 @@ if (langIds.indexOf(languageId) != -1) {
 
 panel.addWidget("org.kde.plasma.systemtray")
 panel.addWidget("org.kde.plasma.digitalclock")
+panel.addWidget("org.kde.plasma.lock_logout")
 
