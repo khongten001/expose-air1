@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="21.907683"
-     inkscape:cy="26.769042"
+     inkscape:zoom="31.678384"
+     inkscape:cx="62.313785"
+     inkscape:cy="30.935921"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -111,31 +111,31 @@
     <rect
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755929"
        id="hint-right-inset"
-       width="3"
+       width="4"
        height="1.0000052"
        x="95.41526"
        y="989.8476" />
     <rect
        y="989.8476"
-       x="91.41526"
+       x="90.41526"
        height="1.0000052"
-       width="3.0000002"
+       width="4.0000005"
        id="hint-left-inset"
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755929" />
     <rect
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755933"
        id="hint-top-inset"
        width="0.99999768"
-       height="3.0000045"
+       height="4.0000091"
        x="94.41526"
-       y="986.8476" />
+       y="985.84766" />
     <rect
-       y="990.8476"
+       y="990.84766"
        x="94.41526"
-       height="2.9999955"
+       height="3.9999897"
        width="0.99999768"
        id="hint-bottom-inset"
-       style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755933" />
+       style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.755934" />
     <g
        transform="matrix(0,0.49999988,-1,0,1014.6557,933.47918)"
        id="right"

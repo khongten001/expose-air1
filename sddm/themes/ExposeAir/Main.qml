@@ -25,15 +25,16 @@ Rectangle {
         target : sddm
 
         function onLoginSucceeded() {
-            errorMessage.color = "#33ff99"
+            errorMessage.color = "#33ffaa"
             errorMessage.text = textConstants.loginSucceeded
         }
 
         function onLoginFailed() {
             password.text = ""
-            errorMessage.color = "#ff99cc"
+            errorMessage.color = "#f22222"
             errorMessage.text = textConstants.loginFailed
             errorMessage.bold = true
+            font.family = boldfont.name
         }
     }
 

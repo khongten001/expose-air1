@@ -2,11 +2,11 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="128"
-   height="128"
-   viewBox="0 0 128 128.00001"
-   version="1.1"
-   id="svg847"
+   id="svg2"
+   height="139.48671"
+   viewBox="0 0 297.52185 139.48671"
+   version="1.0"
+   width="297.52185"
    inkscape:version="1.3.1 (5ab75fa947, 2023-11-03)"
    sodipodi:docname="busywidget.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -16,46 +16,113 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs36" />
+  <style
+     type="text/css"
+     id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+        stop-color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+        stop-color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+        stop-color:#3daee9;
+      }
+      </style>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#d0d0d0"
+     pagecolor="#d1d1d1"
      bordercolor="#666666"
-     borderopacity="1.0"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.1763494"
-     inkscape:cx="39.149023"
-     inkscape:cy="69.318912"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     units="px"
-     inkscape:showpageshadow="false"
+     inkscape:window-width="1620"
+     inkscape:window-height="1020"
+     id="namedview34"
+     showgrid="false"
      inkscape:pagecheckerboard="true"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     fit-margin-top="30"
-     fit-margin-left="30"
-     fit-margin-right="30"
-     fit-margin-bottom="30"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
-     inkscape:deskcolor="#d1d1d1">
+     inkscape:zoom="2.8284271"
+     inkscape:cx="68.766134"
+     inkscape:cy="73.539105"
+     inkscape:current-layer="svg2"
+     inkscape:window-x="123"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:showpageshadow="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true">
+    <sodipodi:guide
+       position="12.076711,69.874918"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
     <inkscape:grid
-       type="xygrid"
-       id="grid822"
-       originx="-29.999999"
-       originy="-27.000003"
-       spacingy="1"
-       spacingx="1"
+       id="grid2"
        units="px"
-       visible="true" />
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14902"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+    <sodipodi:guide
+       position="76.582031,133.87141"
+       orientation="1,0"
+       id="guide3"
+       inkscape:locked="false" />
   </sodipodi:namedview>
-  <defs
-     id="defs841" />
   <metadata
-     id="metadata844">
+     id="metadata7">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -66,115 +133,77 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-157.42859,-360.3768)">
-    <rect
-       style="opacity:0.5;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5"
-       id="hint-rotation-angle"
-       width="5"
-       height="5"
-       x="221.42859"
-       y="423.3768" />
+     id="paused"
+     transform="translate(3.7464957,3.4803772)">
+    <circle
+       class="ColorScheme-Text"
+       style="color:#31363b;fill:none;fill-opacity:1;stroke:#f9f9f9;stroke-width:7.72024107;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path818"
+       cx="224.77534"
+       cy="65.519623"
+       r="53.914711" />
     <g
-       id="busywidget">
-      <circle
-         style="opacity:1;fill:none;stroke:#5c95ba;stroke-width:18;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="path1"
-         cx="221.42859"
-         cy="424.3768"
-         r="50" />
+       style="stroke-width:6.54099989"
+       transform="translate(162.76554,6.6461229)"
+       id="g824">
+      <rect
+         style="fill:none"
+         y="-5.1265001"
+         width="128"
+         height="128"
+         x="-1.9902"
+         id="rect820" />
       <g
-         id="g2">
-        <rect
-           y="360.3768"
-           x="157.42859"
-           height="128"
-           width="128"
-           id="rect1411"
-           style="opacity:0.5;fill:none;fill-opacity:0.612403;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="path934"
-           cx="221.42859"
-           cy="374.3768"
-           r="9"
-           inkscape:transform-center-x="-0.0079772469"
-           inkscape:transform-center-y="-49.997591" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2919"
-           cx="442.4086"
-           cy="132.76562"
-           r="9"
-           inkscape:transform-center-x="-32.143941"
-           inkscape:transform-center-y="-38.295255"
-           transform="rotate(40)" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2921"
-           cx="456.38446"
-           cy="-194.36249"
-           r="9"
-           inkscape:transform-center-x="-49.239406"
-           inkscape:transform-center-y="-8.674126"
-           transform="rotate(80)" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2923"
-           cx="256.81668"
-           cy="-453.94067"
-           r="9"
-           inkscape:transform-center-x="-43.295206"
-           inkscape:transform-center-y="25.005719"
-           transform="rotate(120)" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2925"
-           cx="-62.914742"
-           cy="-524.5094"
-           r="9"
-           inkscape:transform-center-x="-17.092688"
-           inkscape:transform-center-y="46.985117"
-           transform="rotate(160)" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2927"
-           cx="-353.20392"
-           cy="-373.04877"
-           r="9"
-           inkscape:transform-center-x="17.107689"
-           inkscape:transform-center-y="46.979642"
-           transform="rotate(-160)" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2929"
-           cx="-478.22131"
-           cy="-70.428917"
-           r="9"
-           inkscape:transform-center-x="43.303188"
-           inkscape:transform-center-y="24.991877"
-           transform="rotate(-120)" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2931"
-           cx="-379.46991"
-           cy="241.75098"
-           r="9"
-           inkscape:transform-center-x="49.236636"
-           inkscape:transform-center-y="-8.6898637"
-           transform="rotate(-80)" />
-        <circle
-           style="fill:#7eceff;fill-opacity:1;stroke-width:0.388714"
-           id="circle2933"
-           cx="-103.15658"
-           cy="417.41846"
-           r="9"
-           inkscape:transform-center-x="32.131724"
-           inkscape:transform-center-y="-38.305531"
-           transform="rotate(-40)" />
-      </g>
+         style="stroke-width:82.18199921"
+         transform="matrix(0.079592,0,0,0.079592,9.2139,28.078)"
+         id="g822" />
     </g>
+    <circle
+       id="circle826"
+       style="color:#31363b;fill:none;fill-opacity:1;stroke:#f9f9f9;stroke-width:3.59730315;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       class="ColorScheme-Text"
+       cx="224.77534"
+       cy="65.519623"
+       r="61.678532" />
+  </g>
+  <g
+     id="busywidget">
+    <rect
+       y="5.6153002"
+       x="12.585437"
+       height="128"
+       width="128"
+       id="rect1496"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <circle
+       id="circle1488"
+       style="color:#31363b;opacity:0.5;fill:none;fill-opacity:1;stroke:#d9d9d9;stroke-width:16;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       class="ColorScheme-Text"
+       cx="76.585434"
+       cy="69.615303"
+       r="56.5" />
+    <path
+       id="circle2"
+       style="color:#31363b;opacity:1;fill:none;stroke:#fafcff;stroke-width:15;stroke-linecap:round;stop-color:#31363b"
+       class="ColorScheme-Text"
+       inkscape:transform-center-x="-14.136722"
+       inkscape:transform-center-y="52.718752"
+       d="M 104.83543,118.54574 A 56.5,56.5 0 0 1 76.585434,126.1153" />
+    <path
+       id="path3"
+       style="color:#31363b;opacity:1;fill:none;stroke:#fafcff;stroke-width:15;stroke-linecap:round;stop-color:#31363b"
+       class="ColorScheme-Text"
+       inkscape:transform-center-x="-38.587419"
+       inkscape:transform-center-y="-38.602138"
+       d="M -70.310694,80.442867 A 56.5,56.5 0 0 1 -98.560692,88.01243"
+       transform="rotate(-120)" />
+    <path
+       id="path4"
+       style="color:#31363b;opacity:1;fill:none;stroke:#fafcff;stroke-width:15;stroke-linecap:round;stop-color:#31363b"
+       class="ColorScheme-Text"
+       inkscape:transform-center-x="52.724142"
+       inkscape:transform-center-y="-14.116618"
+       d="m 50.260425,-52.18669 a 56.5,56.5 0 0 1 -28.249998,7.569564"
+       transform="rotate(120)" />
   </g>
 </svg>
