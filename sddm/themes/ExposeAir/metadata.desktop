@@ -1,11 +1,11 @@
 [SddmGreeterTheme]
 Name=Expose Air
-Description=Aero for the Expose series
+Description=Aero for my Expose series
 Author=Phobian347
 Copyright=
 License=GPL3
 Type=sddm-theme
-Version=2.0
+Version=3.0
 Website=https://www.pling.com/u/phob1an
 Screenshot=preview.png
 MainScript=Main.qml
